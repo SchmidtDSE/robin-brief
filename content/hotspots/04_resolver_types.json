@@ -1,0 +1,31 @@
+{
+  "hint": "Hover or tap a row.",
+  "parts": [
+    {
+      "title": "Platform API · soundhub-robin",
+      "body": "A custom adapter, shipped in the soundhub-robin repo. It asks the SoundHub API for a project's recordings using the user's own SoundHub credentials, and identifies each one by SoundHub's recording ID.",
+      "boxes": [[31, 91, 1457, 208]]
+    },
+    {
+      "title": "Nested folders · folder-layout",
+      "body": "Built in. Reads recordings straight off recorder cards or disks; the recorder and start time come from the file names, following a layout set in YAML.",
+      "boxes": [[31, 317, 1457, 208]]
+    },
+    {
+      "title": "Bucket prefix · bucket-prefix",
+      "body": "Built in. Lists everything under a prefix in an S3 bucket. The object key is the recording's identity, so files must never be renamed.",
+      "boxes": [[31, 543, 1457, 208]]
+    },
+    {
+      "title": "Spreadsheet · csv-list",
+      "body": "Built in. Takes the rows of a CSV, with the ID and audio columns named in YAML. The simplest way to hand ROBIN an exact list.",
+      "boxes": [[31, 769, 1457, 208]]
+    },
+    {
+      "title": "ROBIN core",
+      "color": null,
+      "body": "Every adapter produces the same kind of list: a namespace, an ID and an audio location. The run keeps that list, so it never asks the source again.",
+      "boxes": [[1560, 91, 349, 886]]
+    }
+  ]
+}

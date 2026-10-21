@@ -1,0 +1,106 @@
+{
+  "hint": "Hover or tap a part of the diagram.",
+  "parts": [
+    {
+      "title": "Who drives ROBIN",
+      "body": "People submit runs from the CLI today; the API will give web apps like SoundHub the same operations.",
+      "boxes": [
+        [345, 25, 245, 180]
+      ]
+    },
+    {
+      "title": "The record",
+      "body": "The run manager keeps every run, task and outcome in PostgreSQL: on a laptop in Docker, or on Amazon RDS.",
+      "boxes": [
+        [700, 95, 250, 160]
+      ]
+    },
+    {
+      "title": "Run manager",
+      "body": "Keeps the record of all work: what was requested, on which recordings, with which settings, and what came out. It makes every result traceable and prevents duplicate work.",
+      "boxes": [
+        [53, 354, 916, 104]
+      ]
+    },
+    {
+      "title": "Inference engine",
+      "body": "Runs any model the same way: reads audio, splits it into windows, runs the model, checks the output, and writes scores, detections and embeddings.",
+      "boxes": [
+        [53, 522, 244, 410]
+      ]
+    },
+    {
+      "title": "Comparison module",
+      "body": "Measures how well models perform against expert labels, compares models against one another, and picks the clips experts should label next.",
+      "boxes": [
+        [389, 522, 244, 410]
+      ]
+    },
+    {
+      "title": "Fine-tuning engine",
+      "body": "Trains a small classifier head on a backbone model (BirdNET, Perch) using a program's own labels. The new head runs like any other model.",
+      "boxes": [
+        [725, 522, 244, 410]
+      ]
+    },
+    {
+      "title": "Shared contracts",
+      "body": "The files and formats every part of ROBIN agrees on: what a model reports about itself, what a run request contains, and what a result contains.",
+      "boxes": [
+        [53, 996, 916, 104]
+      ]
+    },
+    {
+      "title": "ROBIN core",
+      "body": "The same core runs everywhere. It only talks to the outside world through its five ports, so a result means the same thing on a laptop as on AWS.",
+      "boxes": [
+        [1417, 482, 316, 316]
+      ]
+    },
+    {
+      "title": "Catalog port",
+      "body": "Resolves which recordings to process: from a folder layout, an S3 bucket prefix, a sheet, or the SoundHub API (via the small soundhub-robin adapter).",
+      "boxes": [
+        [1378, 30, 403, 164],
+        [1500, 194, 150, 180],
+        [1450, 354, 250, 131]
+      ]
+    },
+    {
+      "title": "Storage port",
+      "body": "Reads and writes audio, work files and results, on local disk, S3, or other cloud storage.",
+      "boxes": [
+        [1085, 30, 274, 164],
+        [1160, 194, 190, 432],
+        [1298, 449, 154, 237]
+      ]
+    },
+    {
+      "title": "Governance port",
+      "body": "Checks whether a proposed use is permitted and records what each recording is used for, following the rules of the deployment: fully open, CDFW, or an Indigenous partner's agreement.",
+      "boxes": [
+        [1805, 30, 309, 164],
+        [1800, 194, 190, 440],
+        [1697, 449, 148, 237]
+      ]
+    },
+    {
+      "title": "Compute port",
+      "body": "Launches jobs, stops them and checks their status: on a local machine, AWS SageMaker, a Slurm cluster, or Kubernetes.",
+      "boxes": [
+        [1145, 1050, 360, 164],
+        [1280, 810, 200, 240],
+        [1336, 717, 215, 186]
+      ]
+    },
+    {
+      "title": "Inference models port",
+      "body": "Connects the inference engine to model-specific code: BirdNET, Perch, the PNW Spotted Owl model, or a custom classifier head.",
+      "boxes": [
+        [1645, 1050, 360, 164],
+        [1670, 810, 210, 240],
+        [1600, 717, 215, 186]
+      ]
+    }
+  ]
+}

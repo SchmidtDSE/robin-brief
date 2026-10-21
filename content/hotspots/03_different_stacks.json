@@ -1,0 +1,55 @@
+{
+  "hint": "Hover or tap a row or a profile.",
+  "parts": [
+    {
+      "title": "Models",
+      "body": "Chosen for each run, in any deployment. Every model plugs into the same inference models port, so the same model can run under any profile.",
+      "boxes": [[25, 40, 1885, 95], [345, 135, 340, 90]]
+    },
+    {
+      "title": "ROBIN core",
+      "body": "The same run manager, inference engine and shared contracts in every deployment. Only the adapters change.",
+      "boxes": [[55, 185, 450, 100]]
+    },
+    {
+      "title": "Catalog row",
+      "body": "Each deployment finds its recordings its own way: the SoundHub API through soundhub-robin, a CSV list, or recorder-card folders.",
+      "boxes": [[55, 309, 1830, 106]]
+    },
+    {
+      "title": "Storage row",
+      "body": "The same storage port reads from an S3 bucket, a mounted lab server, or a partner's own disks.",
+      "boxes": [[55, 421, 1830, 106]]
+    },
+    {
+      "title": "Compute row",
+      "body": "Work runs as SageMaker jobs, on a campus Slurm cluster, or on a partner's own computers.",
+      "boxes": [[55, 533, 1830, 106]]
+    },
+    {
+      "title": "Governance row",
+      "body": "A shared provenance service, simple stamps beside the outputs, or a registry that applies the partner's own terms.",
+      "boxes": [[55, 645, 1830, 106]]
+    },
+    {
+      "title": "Database row",
+      "body": "Always PostgreSQL. Only where it lives changes: Amazon RDS, or Docker on a lab server or partner computer.",
+      "boxes": [[55, 757, 1830, 106]]
+    },
+    {
+      "title": "CDFW with SoundHub",
+      "body": "The profile in use today. People work in the SoundHub web app, which calls ROBIN's API; operators also use the CLI. Everything runs on AWS.",
+      "boxes": [[695, 190, 340, 100]]
+    },
+    {
+      "title": "University lab",
+      "body": "A lab that keeps recordings on its own server and runs work on the campus cluster, driven from the CLI.",
+      "boxes": [[1127, 190, 340, 100]]
+    },
+    {
+      "title": "Indigenous partner",
+      "body": "Everything stays on the partner's own disks and computers, and their registry decides what each use may do.",
+      "boxes": [[1559, 190, 340, 100]]
+    }
+  ]
+}

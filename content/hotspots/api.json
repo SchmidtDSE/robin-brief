@@ -1,0 +1,20 @@
+{
+  "hint": "Hover or tap a group of routes.",
+  "parts": [
+    {
+      "title": "runs",
+      "body": "The same operations as robin runs. Submitting returns 202 right away with the run in preparing; the controller loop on the server does the rest.",
+      "boxes": [[70, 145, 1060, 335]]
+    },
+    {
+      "title": "presets",
+      "body": "Read and create named configurations.",
+      "boxes": [[70, 530, 1060, 90]]
+    },
+    {
+      "title": "models",
+      "body": "Read and register models.",
+      "boxes": [[70, 660, 1060, 90]]
+    }
+  ]
+}

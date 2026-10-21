@@ -1,0 +1,55 @@
+{
+  "hint": "Hover or tap a step.",
+  "parts": [
+    {
+      "title": "1 · Resolve the recordings",
+      "body": "The catalog adapter turns the user's selection (a SoundHub project, a folder, a bucket prefix, a sheet) into an explicit list of recordings.",
+      "boxes": [[15, 120, 1045, 70]]
+    },
+    {
+      "title": "2 · Submit the list",
+      "body": "The run manager freezes that list. From here on the run never asks the source again, so the run always means the same recordings.",
+      "boxes": [[15, 210, 400, 60]]
+    },
+    {
+      "title": "3 · Check the terms",
+      "body": "The governance adapter asks whether this use of these recordings is allowed before any work starts.",
+      "boxes": [[15, 285, 1045, 60]]
+    },
+    {
+      "title": "4 · Record the run",
+      "body": "The run, its recording list and its tasks go into PostgreSQL. Recordings that already have a current result for the same settings are skipped.",
+      "boxes": [[15, 360, 420, 60]]
+    },
+    {
+      "title": "5 · Write the work files",
+      "body": "One work.json per task goes to storage: which model, which settings, which recordings, and where to write outputs.",
+      "boxes": [[15, 436, 1045, 60]]
+    },
+    {
+      "title": "6 · Launch the workers",
+      "body": "The compute adapter starts one job per task, passing the worker image's digest and the path to its work file.",
+      "boxes": [[15, 500, 765, 98]]
+    },
+    {
+      "title": "7 · Each worker runs its task",
+      "body": "Outside the core, with files only and no database. A worker reads its work file, runs the inference engine through the model's adapter, and writes outputs plus one outcome for every recording.",
+      "boxes": [[15, 615, 770, 70], [784, 517, 618, 311], [1110, 440, 300, 70]]
+    },
+    {
+      "title": "8 · Read the result files",
+      "body": "The run manager reads each task's result.json from storage and checks it against the work file it wrote.",
+      "boxes": [[15, 825, 1045, 60]]
+    },
+    {
+      "title": "9 · Record the outcomes",
+      "body": "In one transaction: the task's outcome, each recording's outcome, and its output files. Valid results become current.",
+      "boxes": [[15, 900, 420, 60]]
+    },
+    {
+      "title": "10 · Stamp outputs",
+      "body": "The governance adapter puts a provenance stamp on every result, with the terms that apply to it.",
+      "boxes": [[15, 976, 1045, 60]]
+    }
+  ]
+}

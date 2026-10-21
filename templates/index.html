@@ -1,0 +1,363 @@
+<!doctype html>
+<!-- GENERATED from content/brief.md by `make site` — edit the Markdown, not this file. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$title$ — $subtitle$</title>
+<meta name="description" content="$lede$">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito+Sans:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=$css-version$">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner"><div class="hero-col">
+    <div class="wordmark">
+      <h1>$title$</h1>
+      <p class="acronym">$acronym$</p>
+    </div>
+    <hr>
+    <p class="subtitle">$subtitle$</p>
+    <p class="lede">$lede$</p>
+    <div class="hero-actions">
+    <a class="button button-primary" href="#why">Explore the brief <span aria-hidden="true">↓</span></a>
+    <a class="button" href="robin-brief.pdf" download>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.5 6.5M8 10l3.5-3.5M3 13h10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Download PDF
+    </a>
+    </div>
+    <nav class="hero-routes" aria-label="Start reading">
+      <a href="#why">Why ROBIN <span aria-hidden="true">↗</span></a>
+      <a href="#design">How it works <span aria-hidden="true">↗</span></a>
+      <a href="#app-tech">Technical design <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+  </div>
+</header>
+
+<div class="layout">
+
+<nav class="toc" aria-label="Contents">
+  <p class="eyebrow">Contents</p>
+$toc-rendered$
+<button class="toc-comments" data-hypothesis-trigger>Comments <span class="count" data-hypothesis-annotation-count></span></button>
+<a class="to-top" href="#top"><span>Back to top</span></a>
+</nav>
+
+<main>
+<aside class="callout">
+  <div class="callout-title">What this document is</div>
+  <p>$intro$</p>
+</aside>
+
+$body$
+</main>
+</div>
+
+<footer>
+  <p><span class="mark">ROBIN</span> · Reusable Open Bioacoustic Infrastructure</p>
+  <p><a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a></p>
+</footer>
+
+<dialog id="lightbox" aria-label="Figure viewer">
+  <button class="close" aria-label="Close">×</button>
+  <div class="lb-body"></div>
+  <p class="lb-caption"></p>
+</dialog>
+
+<button class="comments-btn" data-hypothesis-trigger aria-label="Open comments">
+  <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4h12a1.5 1.5 0 0 1 1.5 1.5v7A1.5 1.5 0 0 1 16 14H9l-4 3v-3H4a1.5 1.5 0 0 1-1.5-1.5v-7A1.5 1.5 0 0 1 4 4z"/></svg>
+  Comments <span class="count" data-hypothesis-annotation-count></span>
+</button>
+
+<!-- Comments: Hypothesis (hypothes.is). Select any text to annotate; the button opens the threads. -->
+<script>
+window.hypothesisConfig = function () {
+  return {
+    theme: 'clean',
+    openSidebar: false,
+    showHighlights: 'always',
+    branding: {
+      accentColor: '#3f7466',
+      appBackgroundColor: '#f6f8f7',
+      ctaBackgroundColor: '#3f7466',
+      ctaTextColor: '#ffffff',
+      selectionFontFamily: 'Lora, Georgia, serif',
+      annotationFontFamily: '"Source Sans 3", system-ui, sans-serif'
+    }
+  };
+};
+</script>
+<script>
+// Hide the button while the sidebar is open, and hide a zero count.
+document.body.addEventListener('hypothesis:layoutchange', function (e) {
+  document.body.classList.toggle('h-open', e.detail.sidebarLayout.expanded);
+});
+new MutationObserver(function () {
+  document.querySelectorAll('[data-hypothesis-annotation-count]').forEach(function (c) {
+    c.toggleAttribute('data-zero', c.textContent.trim() === '0');
+  });
+}).observe(document.querySelector('.layout'), { childList: true, characterData: true, subtree: true });
+</script>
+<script src="https://hypothes.is/embed.js" async></script>
+
+<!-- No JavaScript template literals below: pandoc reads dollar signs as template variables. -->
+<script>
+// Heading anchors (pandoc puts the id on the enclosing <section>)
+document.querySelectorAll('main section > :is(h2, h3, h4):first-child').forEach(h => {
+  const a = document.createElement('a');
+  a.className = 'anchor'; a.href = '#' + h.parentElement.id; a.setAttribute('aria-label', 'Link to this section'); a.textContent = '#';
+  h.appendChild(a);
+});
+
+// Scrollspy: highlight the current entry and expand only the current section's sub-entries
+const links = [...document.querySelectorAll('.toc ol a')];
+const targets = links.map(a => document.getElementById(a.hash.slice(1))).filter(Boolean);
+const spy = () => {
+  const y = window.scrollY + 140;
+  let current = targets[0];
+  for (const t of targets) if (t.getBoundingClientRect().top + window.scrollY <= y) current = t;
+  const active = links.find(a => a.hash === '#' + current.id);
+  links.forEach(a => a.classList.toggle('active', a === active));
+  const top = active?.closest('.toc > ol > li');
+  document.querySelectorAll('.toc > ol > li').forEach(li => li.classList.toggle('open', li === top));
+};
+document.addEventListener('scroll', spy, { passive: true }); spy();
+
+// Back to top appears once the reader is past the opening screen.
+const scrolled = () => document.body.classList.toggle('scrolled', window.scrollY > window.innerHeight * 0.8);
+document.addEventListener('scroll', scrolled, { passive: true }); scrolled();
+
+// Interactive figures (inline SVG). Each hotspot is a set of boxes in the figure's own
+// coordinates; the shapes in those boxes belong to that part, so hovering or tapping a part
+// fades the rest of the diagram and shows its description.
+const NS = 'http://www.w3.org/2000/svg';
+const SHAPES = 'rect, circle, ellipse, path, polygon, polyline, line, text, image';
+async function wire(svg, container) {
+  const data = JSON.parse(svg.querySelector('metadata.hotspots')?.textContent || '{"parts":[]}');
+  await document.fonts.ready;
+  const vb = svg.viewBox.baseVal;
+  const inv = svg.getScreenCTM().inverse();
+  const bounds = el => {
+    const b = el.getBoundingClientRect();
+    const p = new DOMPoint(b.x, b.y).matrixTransform(inv), q = new DOMPoint(b.right, b.bottom).matrixTransform(inv);
+    return { x: (p.x + q.x) / 2, y: (p.y + q.y) / 2, w: q.x - p.x, h: q.y - p.y };
+  };
+  // A shape belongs to a box when its centre is in the box and it is no bigger than the box,
+  // so large backgrounds (like the core panel) never get claimed by a part inside them.
+  const inside = (s, [x, y, w, h]) =>
+    s.x >= x && s.x <= x + w && s.y >= y && s.y <= y + h && s.w <= w + 24 && s.h <= h + 24;
+  // A backdrop (a filled shape like the dark core panel) wholly contains some part's box.
+  const contains = (s, [x, y, w, h]) =>
+    s.x - s.w / 2 <= x && s.y - s.h / 2 <= y && s.x + s.w / 2 >= x + w && s.y + s.h / 2 >= y + h;
+  const allBoxes = data.parts.flatMap(p => p.boxes);
+  const boxes = new Map(), backdrops = new Map();
+  const shapes = [...svg.querySelectorAll(SHAPES)].filter(el => {
+    if (el.closest('defs, marker, metadata, clipPath, mask')) return false;
+    if (el.tagName === 'rect' && +el.getAttribute('width') >= vb.width * 0.95) { el.classList.add('bg'); return false; }
+    const b = bounds(el);
+    const filled = !['none', 'transparent', 'rgba(0, 0, 0, 0)'].includes(getComputedStyle(el).fill);
+    if (filled && allBoxes.some(box => contains(b, box))) { backdrops.set(el, b); return false; }
+    boxes.set(el, b);
+    return true;
+  });
+  shapes.forEach(el => el.classList.add('leaf'));
+
+  // Two ways to highlight a part:
+  // - Inside a backdrop: the backdrop stays solid and the other shapes on it fade into it.
+  // - Elsewhere: one white veil covers the whole figure and copies of the part's shapes are drawn
+  //   on top, so everything else (dark panel included) fades evenly as a single layer.
+  const veil = document.createElementNS(NS, 'rect');
+  Object.entries({ class: 'veil', x: vb.x, y: vb.y, width: vb.width, height: vb.height }).forEach(([k, v]) => veil.setAttribute(k, v));
+  const lift = document.createElementNS(NS, 'g');
+  lift.setAttribute('class', 'lift');
+  const hits = document.createElementNS(NS, 'g');
+  hits.setAttribute('class', 'hits');
+  svg.append(veil, lift, hits);
+  // Both matrices are read at the same moment: the figure's screen position changes on scroll.
+  const copyOf = el => {
+    const m = svg.getScreenCTM().inverse().multiply(el.getScreenCTM());
+    const c = el.cloneNode(true);
+    c.removeAttribute('id'); c.removeAttribute('class');
+    c.setAttribute('transform', 'matrix(' + [m.a, m.b, m.c, m.d, m.e, m.f].join(' ') + ')');
+    return c;
+  };
+
+  const tip = document.createElement('div');
+  tip.className = 'ftip'; tip.setAttribute('role', 'tooltip'); tip.hidden = true;
+  container.appendChild(tip);
+
+  // A part's colour, so the tooltip matches what lights up. Shapes vote for a hue (fills by area,
+  // strokes by length), so a pale tint and its darker outline count together. The figures' slate
+  // greys, near-whites and dark ink don't vote; a part with nothing else keeps the neutral tooltip.
+  // The winning hue is drawn as the figure's own strong colour of that hue, not as the pale tint.
+  // "color" in the hotspot JSON overrides all of this.
+  const hsl = v => {
+    const m = v.match(/^rgba?\((\d+), (\d+), (\d+)(?:, ([\d.]+))?\)/);
+    if (!m || (m[4] !== undefined && +m[4] < 0.2)) return null;
+    const [r, g, b] = [m[1], m[2], m[3]].map(n => n / 255);
+    const mx = Math.max(r, g, b), mn = Math.min(r, g, b), c = mx - mn, l = (mx + mn) / 2;
+    if (!c) return { v, h: 0, s: 0, l, c };
+    const h = mx === r ? ((g - b) / c + 6) % 6 : mx === g ? (b - r) / c + 2 : (r - g) / c + 4;
+    return { v, h: h * 60, s: c / (1 - Math.abs(2 * l - 1)), l, c };
+  };
+  const tinted = k => k && k.c >= 0.025 && k.l >= 0.25 && !(k.h >= 190 && k.h <= 210 && k.c < 0.22);
+  const hueGap = (a, b) => Math.min(Math.abs(a - b), 360 - Math.abs(a - b));
+  const strong = [];
+  shapes.forEach(el => {
+    const cs = getComputedStyle(el);
+    [cs.fill, cs.stroke].map(hsl).forEach(k => {
+      if (tinted(k) && k.c >= 0.1 && k.l <= 0.6 && !strong.some(q => q.v === k.v)) strong.push(k);
+    });
+  });
+  const colorOf = part => {
+    const bins = new Map();
+    part.members.forEach(el => {
+      const cs = getComputedStyle(el), b = boxes.get(el), text = el.tagName === 'text';
+      const vote = (v, weight) => {
+        const k = hsl(v);
+        if (!tinted(k)) return;
+        const bin = Math.round(k.h / 20) % 18;
+        const e = bins.get(bin) || { weight: 0, hue: 0, n: 0 };
+        e.weight += weight; e.hue += k.h * weight; e.n += weight;
+        bins.set(bin, e);
+      };
+      vote(cs.fill, b.w * b.h * (text ? 0.5 : 1));
+      vote(cs.stroke, (b.w + b.h) * 2 * Math.max(parseFloat(cs.strokeWidth) || 0, 1) * 4);
+    });
+    let top = null;
+    bins.forEach(e => { if (!top || e.weight > top.weight) top = e; });
+    if (!top) return null;
+    const hue = top.hue / top.n;
+    const k = strong.filter(q => hueGap(q.h, hue) <= 20).sort((p, q) => hueGap(p.h, hue) - hueGap(q.h, hue))[0]
+      || { v: 'hsl(' + hue.toFixed(0) + ' 38% 46%)', h: hue, s: 0.38, l: 0.46 };
+    // Titles need contrast on white, so they use a darker version of the same hue.
+    return { base: k.v, ink: 'hsl(' + k.h.toFixed(0) + ' ' + Math.round(Math.min(Math.max(k.s, 0.3), 0.6) * 100) + '% ' + Math.round(Math.min(k.l, 0.34) * 100) + '%)' };
+  };
+
+  let current = null;
+  const show = part => {
+    if (current !== part) {
+      hide();
+      if (part.onBackdrop) {
+        shapes.forEach(el => el.classList.toggle('on', part.members.has(el)));
+        svg.classList.add('focus');
+      } else {
+        part.copies ??= [...part.members].map(copyOf);
+        lift.replaceChildren(...part.copies);
+        svg.classList.add('veiled');
+      }
+      tip.innerHTML = '<strong>' + part.title + '</strong><span>' + part.body + '</span>';
+      if (part.color === undefined) part.color = colorOf(part);
+      else if (typeof part.color === 'string') part.color = { base: part.color, ink: part.color };
+      tip.style.setProperty('--tip', part.color ? part.color.base : '');
+      tip.style.setProperty('--tip-ink', part.color ? part.color.ink : '');
+      current = part;
+      tip.hidden = false;
+      place(part);
+    }
+  };
+  // Put the tooltip beside the highlighted part, never on it: try right, left, below, then above,
+  // and take the first side with room inside the figure (else the side with the most room).
+  const place = part => {
+    const r = container.getBoundingClientRect();
+    const rects = [...part.hit.querySelectorAll('rect')].map(el => el.getBoundingClientRect());
+    const a = {
+      l: Math.min(...rects.map(q => q.left)) - r.left, t: Math.min(...rects.map(q => q.top)) - r.top,
+      r: Math.max(...rects.map(q => q.right)) - r.left, b: Math.max(...rects.map(q => q.bottom)) - r.top,
+    };
+    const w = tip.offsetWidth, h = tip.offsetHeight, gap = 12, W = r.width, H = r.height;
+    const clampX = x => Math.min(Math.max(x, 8), W - w - 8);
+    const clampY = y => Math.min(Math.max(y, 8), Math.max(H - h - 8, 8));
+    const midY = (a.t + a.b) / 2 - h / 2, midX = (a.l + a.r) / 2 - w / 2;
+    const sides = [
+      { room: W - a.r - gap, need: w, x: a.r + gap, y: clampY(midY) },
+      { room: a.l - gap, need: w, x: a.l - gap - w, y: clampY(midY) },
+      { room: H - a.b - gap, need: h, x: clampX(midX), y: a.b + gap },
+      { room: a.t - gap, need: h, x: clampX(midX), y: a.t - gap - h },
+    ];
+    const side = sides.find(s => s.room >= s.need) || sides.reduce((m, s) => (s.room - s.need > m.room - m.need ? s : m));
+    tip.style.left = side.x + 'px'; tip.style.top = side.y + 'px';
+  };
+  function hide() {
+    svg.classList.remove('focus', 'veiled');
+    shapes.forEach(el => el.classList.remove('on'));
+    tip.hidden = true; current = null;
+  }
+
+  data.parts.forEach(part => {
+    part.members = new Set(shapes.filter(el => part.boxes.some(b => inside(boxes.get(el), b))));
+    part.onBackdrop = part.boxes.every(box => [...backdrops.values()].some(b => contains(b, box)));
+    const g = document.createElementNS(NS, 'g');
+    g.setAttribute('class', 'hit'); g.setAttribute('tabindex', '0');
+    g.setAttribute('role', 'button'); g.setAttribute('aria-label', part.title + ': ' + part.body);
+    part.boxes.forEach(([x, y, w, h]) => {
+      const r = document.createElementNS(NS, 'rect');
+      Object.entries({ x, y, width: w, height: h }).forEach(([k, v]) => r.setAttribute(k, v));
+      g.appendChild(r);
+    });
+    g.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') show(part); });
+    g.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') hide(); });
+    // Touch and pen: a tap selects the part.
+    g.addEventListener('pointerdown', e => { if (e.pointerType !== 'mouse') show(part); });
+    g.addEventListener('focus', () => show(part));
+    g.addEventListener('blur', hide);
+    part.hit = g;
+    hits.appendChild(g);
+  });
+  svg.addEventListener('pointerdown', e => { if (!e.target.closest('.hit')) hide(); });
+  return data;
+}
+
+// Lightbox: click a figure to see it full size. Interactive figures stay interactive in it.
+const lb = document.getElementById('lightbox');
+const lbBody = lb.querySelector('.lb-body');
+const openLightbox = (content, figure) => {
+  lbBody.replaceChildren(content);
+  lb.querySelector('.lb-caption').innerHTML = figure.querySelector('figcaption').innerHTML;
+  lb.showModal();
+  if (content.matches('svg.ifig')) wire(content, lbBody);
+};
+lb.addEventListener('click', e => { if (e.target === lb || e.target.classList.contains('close')) lb.close(); });
+lb.addEventListener('close', () => lbBody.replaceChildren());
+
+document.querySelectorAll('main figure img').forEach(img => {
+  img.addEventListener('click', () => {
+    const big = new Image(); big.src = img.src; big.alt = img.alt;
+    openLightbox(big, img.closest('figure'));
+  });
+});
+
+document.querySelectorAll('figure.is-interactive').forEach(async fig => {
+  const svg = fig.querySelector('svg.ifig');
+  const pristine = svg.cloneNode(true);
+  let pointer = 'mouse';
+  svg.addEventListener('pointerdown', e => { pointer = e.pointerType; });
+  // Mouse clicks zoom; taps on touch screens select a part instead (pinch-zoom still works there).
+  svg.addEventListener('click', () => { if (pointer === 'mouse') openLightbox(pristine.cloneNode(true), fig); });
+  const data = await wire(svg, fig.querySelector('.ifig-wrap'));
+  if (data.hint) {
+    const hint = document.createElement('em');
+    hint.className = 'fhint'; hint.textContent = data.hint;
+    fig.querySelector('figcaption').append(' ', hint);
+  }
+});
+
+// Copy buttons on code blocks
+document.querySelectorAll('main pre').forEach(pre => {
+  const b = document.createElement('button');
+  b.className = 'copy'; b.textContent = 'Copy';
+  const text = pre.innerText.trim();
+  b.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(text); b.textContent = 'Copied'; }
+    catch { b.textContent = 'Press ⌘C'; }
+    setTimeout(() => b.textContent = 'Copy', 1400);
+  });
+  pre.appendChild(b);
+});
+</script>
+</body>
+</html>

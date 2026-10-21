@@ -1,0 +1,55 @@
+{
+  "hint": "Hover or tap a table.",
+  "parts": [
+    {
+      "title": "runs",
+      "body": "One row per request: what kind of run, its state, who submitted it, and when it was cancelled or withdrawn and by whom. Nothing is ever deleted.",
+      "boxes": [[74, 163, 338, 291]]
+    },
+    {
+      "title": "tasks",
+      "body": "One row per task: its run, the task it retries, its state, the work file and its digest, the result file, the launcher's job ID, instance type, release and timings.",
+      "boxes": [[74, 523, 338, 391]]
+    },
+    {
+      "title": "inference_runs",
+      "body": "What an inference run asked for: the configuration digest, current output versions, the frozen recording list, and how the selection was made.",
+      "boxes": [[484, 163, 388, 191]]
+    },
+    {
+      "title": "recording_outcomes",
+      "body": "One row per recording in a run: its state, why it was skipped, which task handled it, and any failure. A recording can hold only one active claim per configuration, which is how duplicate work is avoided.",
+      "boxes": [[484, 403, 388, 316]]
+    },
+    {
+      "title": "output_files",
+      "body": "Every output file a worker wrote, by run and recording: its kind, contract, URI and checksum.",
+      "boxes": [[484, 783, 388, 266]]
+    },
+    {
+      "title": "configurations",
+      "body": "A model plus its settings, identified by a digest. Two runs with the same digest asked for the same thing.",
+      "boxes": [[944, 163, 288, 141]]
+    },
+    {
+      "title": "presets",
+      "body": "Named configurations people can reuse, like a saved recipe.",
+      "boxes": [[944, 343, 288, 141]]
+    },
+    {
+      "title": "models",
+      "body": "Each registered model: its card, its pinned files, and the current version of its outputs.",
+      "boxes": [[1294, 163, 288, 166]]
+    },
+    {
+      "title": "current_files · view",
+      "body": "For every recording and configuration, the output files that are current, and whether they are up to date. This is what tools like api-dock read.",
+      "boxes": [[944, 603, 288, 291]]
+    },
+    {
+      "title": "current_datasets · view",
+      "body": "One dataset per configuration that gathers its current results.",
+      "boxes": [[1294, 603, 288, 116]]
+    }
+  ]
+}

@@ -1,0 +1,2484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1599.7004"
+   height="1023.07"
+   viewBox="0 109.06 1599.7 1023.07"
+   role="img"
+   version="1.1"
+   id="svg222"
+   sodipodi:docname="control_plane_database.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   inkscape:export-filename="control_plane_database.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview222"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.91211293"
+     inkscape:cx="670.42137"
+     inkscape:cy="667.1323"
+     inkscape:window-width="3008"
+     inkscape:window-height="1634"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg222" />
+  <title
+     id="title1">The record.</title>
+  <rect
+     width="1599.7004"
+     height="1132.1249"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.91964" />
+  <defs
+     id="defs14">
+    <marker
+       id="a0"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#22313a"
+         id="path1" />
+    </marker>
+    <marker
+       id="a1"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#5d6b73"
+         id="path2" />
+    </marker>
+    <marker
+       id="a2"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#86674a"
+         id="path3" />
+    </marker>
+    <marker
+       id="a3"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f8592"
+         id="path4" />
+    </marker>
+    <marker
+       id="a4"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#3f7466"
+         id="path5" />
+    </marker>
+    <marker
+       id="a5"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f4a55"
+         id="path6" />
+    </marker>
+    <marker
+       id="a6"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#ffffff"
+         id="path7" />
+    </marker>
+    <marker
+       id="a7"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#8a979e"
+         id="path8" />
+    </marker>
+    <marker
+       id="a8"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#a8742a"
+         id="path9" />
+    </marker>
+    <marker
+       id="a9"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#67557c"
+         id="path10" />
+    </marker>
+    <marker
+       id="a10"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#688d9b"
+         id="path11" />
+    </marker>
+    <marker
+       id="a11"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#b5473a"
+         id="path12" />
+    </marker>
+    <marker
+       id="a12"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#765d78"
+         id="path13" />
+    </marker>
+    <marker
+       id="a13"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#4a5fa8"
+         id="path14" />
+    </marker>
+  </defs>
+  <path
+     d="m 77.94009,643.34373 h -62 v -410 h 62"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="path15" />
+  <line
+     x1="64.940094"
+     y1="643.34375"
+     x2="77.940094"
+     y2="650.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line15" />
+  <line
+     x1="64.940094"
+     y1="643.34375"
+     x2="77.940094"
+     y2="636.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line16" />
+  <circle
+     cx="52.94009"
+     cy="643.34375"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle16" />
+  <line
+     x1="68.940094"
+     y1="240.34373"
+     x2="68.940094"
+     y2="226.34373"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line17" />
+  <path
+     d="m 77.94009,618.34373 h -34 v -25 h 34"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="path17" />
+  <circle
+     cx="60.94009"
+     cy="618.34375"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle17" />
+  <line
+     x1="68.940094"
+     y1="600.34375"
+     x2="68.940094"
+     y2="586.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line18" />
+  <path
+     d="m 487.94009,233.34373 h -80"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="path18" />
+  <circle
+     cx="470.94009"
+     cy="233.34373"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle18" />
+  <line
+     x1="416.94009"
+     y1="226.34373"
+     x2="416.94009"
+     y2="240.34373"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line19" />
+  <path
+     d="m 867.94009,258.34373 h 40 v -25 h 40"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="path19" />
+  <line
+     x1="880.94006"
+     y1="258.34375"
+     x2="867.94006"
+     y2="251.34373"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line20" />
+  <line
+     x1="880.94006"
+     y1="258.34375"
+     x2="867.94006"
+     y2="265.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line21" />
+  <circle
+     cx="892.94006"
+     cy="258.34375"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle21" />
+  <line
+     x1="938.94006"
+     y1="240.34373"
+     x2="938.94006"
+     y2="226.34373"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line22" />
+  <path
+     d="m 947.94009,438.34373 h -40 v -205 h 40"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="path22" />
+  <line
+     x1="934.94006"
+     y1="438.34375"
+     x2="947.94006"
+     y2="445.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line23" />
+  <line
+     x1="934.94006"
+     y1="438.34375"
+     x2="947.94006"
+     y2="431.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line24" />
+  <circle
+     cx="922.94006"
+     cy="438.34375"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle24" />
+  <line
+     x1="938.94006"
+     y1="240.34373"
+     x2="938.94006"
+     y2="226.34373"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line25" />
+  <path
+     d="m 1227.9401,258.34373 h 35 v -25 h 35"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="path25" />
+  <line
+     x1="1240.9401"
+     y1="258.34375"
+     x2="1227.9401"
+     y2="251.34373"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line26" />
+  <line
+     x1="1240.9401"
+     y1="258.34375"
+     x2="1227.9401"
+     y2="265.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line27" />
+  <circle
+     cx="1252.9401"
+     cy="258.34375"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle27" />
+  <line
+     x1="1288.9401"
+     y1="240.34373"
+     x2="1288.9401"
+     y2="226.34373"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line28" />
+  <path
+     d="m 607.94009,349.84373 v 57"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="path28" />
+  <line
+     x1="614.94006"
+     y1="358.84375"
+     x2="600.94006"
+     y2="358.84375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line29" />
+  <line
+     x1="607.94006"
+     y1="393.84375"
+     x2="600.94006"
+     y2="406.84375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line30" />
+  <line
+     x1="607.94006"
+     y1="393.84375"
+     x2="614.94006"
+     y2="406.84375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line31" />
+  <line
+     x1="600.94006"
+     y1="389.84375"
+     x2="614.94006"
+     y2="389.84375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line32" />
+  <path
+     d="m 607.94009,714.84373 v 72"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="path32" />
+  <line
+     x1="614.94006"
+     y1="723.84375"
+     x2="600.94006"
+     y2="723.84375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line33" />
+  <line
+     x1="607.94006"
+     y1="773.84375"
+     x2="600.94006"
+     y2="786.84375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line34" />
+  <line
+     x1="607.94006"
+     y1="773.84375"
+     x2="614.94006"
+     y2="786.84375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line35" />
+  <circle
+     cx="607.94006"
+     cy="761.84375"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle35" />
+  <path
+     d="m 487.94009,648.34373 h -45 v -55 h -35"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="path35" />
+  <line
+     x1="474.94009"
+     y1="648.34375"
+     x2="487.94009"
+     y2="655.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line36" />
+  <line
+     x1="474.94009"
+     y1="648.34375"
+     x2="487.94009"
+     y2="641.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line37" />
+  <circle
+     cx="462.94009"
+     cy="648.34375"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle37" />
+  <circle
+     cx="424.94009"
+     cy="593.34375"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle38" />
+  <path
+     d="m 867.94009,698.34373 h 50 v 155 h -50"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="path38" />
+  <line
+     x1="880.94006"
+     y1="698.34375"
+     x2="867.94006"
+     y2="691.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line38" />
+  <line
+     x1="880.94006"
+     y1="698.34375"
+     x2="867.94006"
+     y2="705.34375"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="line39" />
+  <circle
+     cx="892.94006"
+     cy="698.34375"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle39" />
+  <circle
+     cx="884.94006"
+     cy="853.34375"
+     r="4.5"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.6"
+     id="circle40" />
+  <rect
+     x="77.940094"
+     y="166.84373"
+     width="330"
+     height="283"
+     rx="0"
+     fill="#eff3f4"
+     stroke="#2f4a55"
+     stroke-width="1.6"
+     id="rect40" />
+  <rect
+     x="77.940094"
+     y="166.84373"
+     width="330"
+     height="42"
+     rx="0"
+     fill="#2f4a55"
+     stroke="#2f4a55"
+     stroke-width="1.6"
+     id="rect41" />
+  <text
+     x="91.940094"
+     y="194.84373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="17px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text41">runs</text>
+  <text
+     x="89.940094"
+     y="237.84373"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#2f4a55"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text42">PK</text>
+  <text
+     x="135.94009"
+     y="238.34373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text43">run_id</text>
+  <text
+     x="395.94009"
+     y="238.34373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text44">uuid</text>
+  <text
+     x="135.94009"
+     y="263.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text45">kind</text>
+  <text
+     x="395.94009"
+     y="263.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text46">text</text>
+  <text
+     x="135.94009"
+     y="288.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text47">state</text>
+  <text
+     x="395.94009"
+     y="288.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text48">text</text>
+  <text
+     x="135.94009"
+     y="313.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text49">submitted_by</text>
+  <text
+     x="395.94009"
+     y="313.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text50">text</text>
+  <text
+     x="135.94009"
+     y="338.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text51">created_at</text>
+  <text
+     x="395.94009"
+     y="338.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text52">timestamptz</text>
+  <text
+     x="135.94009"
+     y="363.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text53">cancelled_at</text>
+  <text
+     x="395.94009"
+     y="363.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text54">timestamptz</text>
+  <text
+     x="135.94009"
+     y="388.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text55">cancelled_by</text>
+  <text
+     x="395.94009"
+     y="388.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text56">text</text>
+  <text
+     x="135.94009"
+     y="413.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text57">withdrawn_at</text>
+  <text
+     x="395.94009"
+     y="413.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text58">timestamptz</text>
+  <text
+     x="135.94009"
+     y="438.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text59">withdrawn_by</text>
+  <text
+     x="395.94009"
+     y="438.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text60">text</text>
+  <rect
+     x="77.940094"
+     y="526.84375"
+     width="330"
+     height="383"
+     rx="0"
+     fill="#eff3f4"
+     stroke="#2f4a55"
+     stroke-width="1.6"
+     id="rect60" />
+  <rect
+     x="77.940094"
+     y="526.84375"
+     width="330"
+     height="42"
+     rx="0"
+     fill="#2f4a55"
+     stroke="#2f4a55"
+     stroke-width="1.6"
+     id="rect61" />
+  <text
+     x="91.940094"
+     y="554.84375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="17px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text61">tasks</text>
+  <text
+     x="89.940094"
+     y="597.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#2f4a55"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text62">PK</text>
+  <text
+     x="135.94009"
+     y="598.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text63">task_id</text>
+  <text
+     x="395.94009"
+     y="598.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text64">uuid</text>
+  <text
+     x="89.940094"
+     y="622.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#2f4a55"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text65">FK</text>
+  <text
+     x="135.94009"
+     y="623.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text66">retry_of</text>
+  <text
+     x="395.94009"
+     y="623.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text67">uuid</text>
+  <text
+     x="89.940094"
+     y="647.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#2f4a55"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text68">FK</text>
+  <text
+     x="135.94009"
+     y="648.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text69">run_id</text>
+  <text
+     x="395.94009"
+     y="648.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text70">uuid</text>
+  <text
+     x="135.94009"
+     y="673.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text71">state</text>
+  <text
+     x="395.94009"
+     y="673.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text72">text</text>
+  <text
+     x="135.94009"
+     y="698.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text73">work_uri</text>
+  <text
+     x="395.94009"
+     y="698.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text74">text</text>
+  <text
+     x="135.94009"
+     y="723.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text75">work_digest</text>
+  <text
+     x="395.94009"
+     y="723.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text76">sha256</text>
+  <text
+     x="135.94009"
+     y="748.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text77">result_uri</text>
+  <text
+     x="395.94009"
+     y="748.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text78">text</text>
+  <text
+     x="135.94009"
+     y="773.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text79">launcher_ref</text>
+  <text
+     x="395.94009"
+     y="773.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text80">text</text>
+  <text
+     x="135.94009"
+     y="798.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text81">instance_type</text>
+  <text
+     x="395.94009"
+     y="798.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text82">text</text>
+  <text
+     x="135.94009"
+     y="823.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text83">robin_release</text>
+  <text
+     x="395.94009"
+     y="823.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text84">text</text>
+  <text
+     x="135.94009"
+     y="848.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text85">created_by</text>
+  <text
+     x="395.94009"
+     y="848.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text86">text</text>
+  <text
+     x="135.94009"
+     y="873.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text87">started_at</text>
+  <text
+     x="395.94009"
+     y="873.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text88">timestamptz</text>
+  <text
+     x="135.94009"
+     y="898.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text89">finished_at</text>
+  <text
+     x="395.94009"
+     y="898.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text90">timestamptz</text>
+  <rect
+     x="487.94009"
+     y="166.84373"
+     width="380"
+     height="183"
+     rx="0"
+     fill="#eceff8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect90" />
+  <rect
+     x="487.94009"
+     y="166.84373"
+     width="380"
+     height="42"
+     rx="0"
+     fill="#4a5fa8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect91" />
+  <text
+     x="501.94009"
+     y="194.84373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="17px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text91">inference_runs</text>
+  <text
+     x="499.94009"
+     y="237.84373"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text92">PK FK</text>
+  <text
+     x="545.94006"
+     y="238.34373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text93">run_id</text>
+  <text
+     x="855.94006"
+     y="238.34373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text94">uuid</text>
+  <text
+     x="499.94009"
+     y="262.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text95">FK</text>
+  <text
+     x="545.94006"
+     y="263.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text96">configuration_digest</text>
+  <text
+     x="855.94006"
+     y="263.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text97">text</text>
+  <text
+     x="545.94006"
+     y="288.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text98">output_versions</text>
+  <text
+     x="855.94006"
+     y="288.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text99">jsonb</text>
+  <text
+     x="545.94006"
+     y="313.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text100">recordings</text>
+  <text
+     x="855.94006"
+     y="313.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text101">jsonb</text>
+  <text
+     x="545.94006"
+     y="338.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text102">selection_provenance</text>
+  <text
+     x="855.94006"
+     y="338.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text103">jsonb</text>
+  <rect
+     x="487.94009"
+     y="406.84375"
+     width="380"
+     height="308"
+     rx="0"
+     fill="#eceff8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect103" />
+  <rect
+     x="487.94009"
+     y="406.84375"
+     width="380"
+     height="42"
+     rx="0"
+     fill="#4a5fa8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect104" />
+  <text
+     x="501.94009"
+     y="434.84375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="17px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text104">recording_outcomes</text>
+  <text
+     x="499.94009"
+     y="477.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text105">PK FK</text>
+  <text
+     x="545.94006"
+     y="478.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text106">run_id</text>
+  <text
+     x="855.94006"
+     y="478.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text107">uuid</text>
+  <text
+     x="499.94009"
+     y="502.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text108">PK</text>
+  <text
+     x="545.94006"
+     y="503.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text109">namespace</text>
+  <text
+     x="855.94006"
+     y="503.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text110">text</text>
+  <text
+     x="499.94009"
+     y="527.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text111">PK</text>
+  <text
+     x="545.94006"
+     y="528.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text112">value</text>
+  <text
+     x="855.94006"
+     y="528.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text113">text</text>
+  <text
+     x="499.94009"
+     y="552.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text114">UQ</text>
+  <text
+     x="545.94006"
+     y="553.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text115">configuration_digest</text>
+  <text
+     x="855.94006"
+     y="553.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text116">text</text>
+  <text
+     x="499.94009"
+     y="577.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text117">UQ</text>
+  <text
+     x="545.94006"
+     y="578.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text118">output_versions</text>
+  <text
+     x="855.94006"
+     y="578.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text119">jsonb</text>
+  <text
+     x="545.94006"
+     y="603.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text120">state</text>
+  <text
+     x="855.94006"
+     y="603.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text121">text</text>
+  <text
+     x="545.94006"
+     y="628.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text122">skip_reason</text>
+  <text
+     x="855.94006"
+     y="628.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text123">text</text>
+  <text
+     x="499.94009"
+     y="652.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text124">FK</text>
+  <text
+     x="545.94006"
+     y="653.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text125">task_id</text>
+  <text
+     x="855.94006"
+     y="653.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text126">uuid</text>
+  <text
+     x="545.94006"
+     y="678.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text127">failure</text>
+  <text
+     x="855.94006"
+     y="678.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text128">jsonb</text>
+  <text
+     x="499.94009"
+     y="702.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text129">FK</text>
+  <text
+     x="545.94006"
+     y="703.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text130">input_file_id</text>
+  <text
+     x="855.94006"
+     y="703.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text131">bigint</text>
+  <rect
+     x="487.94009"
+     y="786.84375"
+     width="380"
+     height="258"
+     rx="0"
+     fill="#eceff8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect131" />
+  <rect
+     x="487.94009"
+     y="786.84375"
+     width="380"
+     height="42"
+     rx="0"
+     fill="#4a5fa8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect132" />
+  <text
+     x="501.94009"
+     y="814.84375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="17px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text132">output_files</text>
+  <text
+     x="499.94009"
+     y="857.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text133">PK</text>
+  <text
+     x="545.94006"
+     y="858.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text134">file_id</text>
+  <text
+     x="855.94006"
+     y="858.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text135">bigint</text>
+  <text
+     x="499.94009"
+     y="882.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text136">FK</text>
+  <text
+     x="545.94006"
+     y="883.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text137">run_id</text>
+  <text
+     x="855.94006"
+     y="883.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text138">uuid</text>
+  <text
+     x="499.94009"
+     y="907.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text139">FK</text>
+  <text
+     x="545.94006"
+     y="908.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text140">namespace</text>
+  <text
+     x="855.94006"
+     y="908.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text141">text</text>
+  <text
+     x="499.94009"
+     y="932.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text142">FK</text>
+  <text
+     x="545.94006"
+     y="933.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text143">value</text>
+  <text
+     x="855.94006"
+     y="933.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text144">text</text>
+  <text
+     x="545.94006"
+     y="958.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text145">kind</text>
+  <text
+     x="855.94006"
+     y="958.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text146">text</text>
+  <text
+     x="545.94006"
+     y="983.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text147">contract_id</text>
+  <text
+     x="855.94006"
+     y="983.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text148">text</text>
+  <text
+     x="545.94006"
+     y="1008.3438"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text149">uri</text>
+  <text
+     x="855.94006"
+     y="1008.3438"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text150">text</text>
+  <text
+     x="545.94006"
+     y="1033.3438"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text151">checksum</text>
+  <text
+     x="855.94006"
+     y="1033.3438"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text152">sha256</text>
+  <rect
+     x="947.94006"
+     y="166.84373"
+     width="280"
+     height="133"
+     rx="0"
+     fill="#eceff8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect152" />
+  <rect
+     x="947.94006"
+     y="166.84373"
+     width="280"
+     height="42"
+     rx="0"
+     fill="#4a5fa8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect153" />
+  <text
+     x="961.94006"
+     y="194.84373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="17px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text153">configurations</text>
+  <text
+     x="959.94006"
+     y="237.84373"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text154">PK</text>
+  <text
+     x="1005.9401"
+     y="238.34373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text155">digest</text>
+  <text
+     x="1215.9401"
+     y="238.34373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text156">text</text>
+  <text
+     x="959.94006"
+     y="262.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text157">FK</text>
+  <text
+     x="1005.9401"
+     y="263.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text158">model_id</text>
+  <text
+     x="1215.9401"
+     y="263.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text159">text</text>
+  <text
+     x="1005.9401"
+     y="288.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text160">spec</text>
+  <text
+     x="1215.9401"
+     y="288.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text161">jsonb</text>
+  <rect
+     x="947.94006"
+     y="346.84375"
+     width="280"
+     height="133"
+     rx="0"
+     fill="#eceff8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect161" />
+  <rect
+     x="947.94006"
+     y="346.84375"
+     width="280"
+     height="42"
+     rx="0"
+     fill="#4a5fa8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect162" />
+  <text
+     x="961.94006"
+     y="374.84375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="17px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text162">presets</text>
+  <text
+     x="959.94006"
+     y="417.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text163">PK</text>
+  <text
+     x="1005.9401"
+     y="418.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text164">name</text>
+  <text
+     x="1215.9401"
+     y="418.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text165">text</text>
+  <text
+     x="959.94006"
+     y="442.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text166">FK</text>
+  <text
+     x="1005.9401"
+     y="443.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text167">configuration_digest</text>
+  <text
+     x="1215.9401"
+     y="443.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text168">text</text>
+  <text
+     x="1005.9401"
+     y="468.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text169">created_at</text>
+  <text
+     x="1215.9401"
+     y="468.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text170">timestamptz</text>
+  <rect
+     x="1297.9401"
+     y="166.84373"
+     width="280"
+     height="158"
+     rx="0"
+     fill="#eceff8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect170" />
+  <rect
+     x="1297.9401"
+     y="166.84373"
+     width="280"
+     height="42"
+     rx="0"
+     fill="#4a5fa8"
+     stroke="#4a5fa8"
+     stroke-width="1.6"
+     id="rect171" />
+  <text
+     x="1311.9401"
+     y="194.84373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="17px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text171">models</text>
+  <text
+     x="1309.9401"
+     y="237.84373"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text172">PK</text>
+  <text
+     x="1355.9401"
+     y="238.34373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text173">model_id</text>
+  <text
+     x="1565.9401"
+     y="238.34373"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text174">text</text>
+  <text
+     x="1355.9401"
+     y="263.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text175">card</text>
+  <text
+     x="1565.9401"
+     y="263.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text176">jsonb</text>
+  <text
+     x="1355.9401"
+     y="288.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text177">pinned_files</text>
+  <text
+     x="1565.9401"
+     y="288.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text178">jsonb</text>
+  <text
+     x="1355.9401"
+     y="313.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text179">output_version</text>
+  <text
+     x="1565.9401"
+     y="313.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text180">integer</text>
+  <rect
+     x="947.94006"
+     y="606.84375"
+     width="280"
+     height="283"
+     rx="0"
+     fill="#e5f3f5"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     stroke-dasharray="6, 4"
+     id="rect180" />
+  <line
+     x1="947.94006"
+     y1="648.84375"
+     x2="1227.9401"
+     y2="648.84375"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     stroke-dasharray="6, 4"
+     id="line180" />
+  <text
+     x="961.94006"
+     y="634.84375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="17px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="start"
+     id="text181">current_files</text>
+  <text
+     x="1215.9401"
+     y="633.84375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#2f8592"
+     text-anchor="end"
+     id="text182">view</text>
+  <text
+     x="1005.9401"
+     y="678.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text183">namespace, value</text>
+  <text
+     x="1005.9401"
+     y="703.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text184">configuration_digest</text>
+  <text
+     x="1005.9401"
+     y="728.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text185">output_versions</text>
+  <text
+     x="1005.9401"
+     y="753.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text186">up_to_date</text>
+  <text
+     x="1215.9401"
+     y="753.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="end"
+     id="text187">bool</text>
+  <text
+     x="1005.9401"
+     y="778.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text188">kind</text>
+  <text
+     x="1005.9401"
+     y="803.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text189">contract_id</text>
+  <text
+     x="1005.9401"
+     y="828.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text190">uri</text>
+  <text
+     x="1005.9401"
+     y="853.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text191">checksum</text>
+  <text
+     x="1005.9401"
+     y="878.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text192">run_id</text>
+  <rect
+     x="1297.9401"
+     y="606.84375"
+     width="280"
+     height="108"
+     rx="0"
+     fill="#e5f3f5"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     stroke-dasharray="6, 4"
+     id="rect192" />
+  <line
+     x1="1297.9401"
+     y1="648.84375"
+     x2="1577.9401"
+     y2="648.84375"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     stroke-dasharray="6, 4"
+     id="line192" />
+  <text
+     x="1311.9401"
+     y="634.84375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="17px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="start"
+     id="text193">current_datasets</text>
+  <text
+     x="1565.9401"
+     y="633.84375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#2f8592"
+     text-anchor="end"
+     id="text194">view</text>
+  <text
+     x="1355.9401"
+     y="678.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text195">configuration_digest</text>
+  <text
+     x="1355.9401"
+     y="703.34375"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text196">dataset_uri</text>
+  <text
+     x="77.940094"
+     y="148.84373"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f4a55"
+     text-anchor="start"
+     id="text197">Every kind of work</text>
+  <text
+     x="487.94009"
+     y="148.84373"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="600"
+     fill="#4a5fa8"
+     text-anchor="start"
+     id="text198">Inference</text>
+  <text
+     x="947.94006"
+     y="148.84373"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="600"
+     fill="#4a5fa8"
+     text-anchor="start"
+     id="text199">What a run computes</text>
+  <text
+     x="947.94006"
+     y="588.84375"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="start"
+     id="text200">Published views, for readers such as api-dock</text>
+  <line
+     x1="77.940094"
+     y1="1099.8323"
+     x2="122.10092"
+     y2="1099.8323"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="line203" />
+  <line
+     x1="110.41129"
+     y1="1108.9242"
+     x2="110.41129"
+     y2="1090.7402"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="line204" />
+  <line
+     x1="122.10092"
+     y1="1086.8438"
+     x2="122.10092"
+     y2="1112.8207"
+     stroke="#c9d2d6"
+     stroke-width="2.5977"
+     id="line205" />
+  <text
+     x="135.0894"
+     y="1106.3264"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="18.1839px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text205"
+     style="stroke-width:1.29885">exactly one</text>
+  <line
+     x1="284.97641"
+     y1="1099.8323"
+     x2="329.13724"
+     y2="1099.8323"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="line206" />
+  <circle
+     cx="307.05682"
+     cy="1099.8323"
+     r="5.8448148"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="circle206" />
+  <line
+     x1="329.13724"
+     y1="1086.8438"
+     x2="329.13724"
+     y2="1112.8207"
+     stroke="#c9d2d6"
+     stroke-width="2.5977"
+     id="line207" />
+  <text
+     x="342.12573"
+     y="1106.3264"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="18.1839px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text207"
+     style="stroke-width:1.29885">zero or one</text>
+  <line
+     x1="492.01276"
+     y1="1099.8323"
+     x2="536.17352"
+     y2="1099.8323"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="line208" />
+  <line
+     x1="519.28851"
+     y1="1099.8323"
+     x2="536.17352"
+     y2="1108.9242"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="line209" />
+  <line
+     x1="519.28851"
+     y1="1099.8323"
+     x2="536.17352"
+     y2="1090.7402"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="line210" />
+  <line
+     x1="514.09314"
+     y1="1108.9242"
+     x2="514.09314"
+     y2="1090.7402"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="line211" />
+  <line
+     x1="536.17352"
+     y1="1086.8438"
+     x2="536.17352"
+     y2="1112.8207"
+     stroke="#c9d2d6"
+     stroke-width="2.5977"
+     id="line212" />
+  <text
+     x="549.16205"
+     y="1106.3264"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="18.1839px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text212"
+     style="stroke-width:1.29885">one or more</text>
+  <line
+     x1="699.04907"
+     y1="1099.8323"
+     x2="743.2099"
+     y2="1099.8323"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="line213" />
+  <line
+     x1="726.32489"
+     y1="1099.8323"
+     x2="743.2099"
+     y2="1108.9242"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="line214" />
+  <line
+     x1="726.32489"
+     y1="1099.8323"
+     x2="743.2099"
+     y2="1090.7402"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="line215" />
+  <circle
+     cx="710.73871"
+     cy="1099.8323"
+     r="5.8448148"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="2.07816"
+     id="circle215" />
+  <line
+     x1="743.2099"
+     y1="1086.8438"
+     x2="743.2099"
+     y2="1112.8207"
+     stroke="#c9d2d6"
+     stroke-width="2.5977"
+     id="line216" />
+  <text
+     x="756.19836"
+     y="1106.3264"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="18.1839px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text216"
+     style="stroke-width:1.29885">zero or more</text>
+  <text
+     x="941.67383"
+     y="1105.677"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.2873px"
+     font-weight="700"
+     fill="#22313a"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text217"
+     style="stroke-width:1.29885">PK</text>
+  <text
+     x="972.84619"
+     y="1106.3264"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="18.1839px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text218"
+     style="stroke-width:1.29885">primary key</text>
+  <text
+     x="1120.1355"
+     y="1105.677"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.2873px"
+     font-weight="700"
+     fill="#22313a"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text219"
+     style="stroke-width:1.29885">FK</text>
+  <text
+     x="1151.3079"
+     y="1106.3264"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="18.1839px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text220"
+     style="stroke-width:1.29885">foreign key</text>
+  <text
+     x="1298.5973"
+     y="1105.677"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.2873px"
+     font-weight="700"
+     fill="#22313a"
+     text-anchor="start"
+     letter-spacing="0.3"
+     id="text221"
+     style="stroke-width:1.29885">UQ</text>
+  <text
+     x="1329.7697"
+     y="1106.3264"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="18.1839px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text222"
+     style="stroke-width:1.29885">unique while active</text>
+  <metadata
+     id="metadata222">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>The record.</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

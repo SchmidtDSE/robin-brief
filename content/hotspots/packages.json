@@ -1,0 +1,80 @@
+{
+  "hint": "Hover or tap a package or an image family.",
+  "parts": [
+    {
+      "title": "robin_api",
+      "body": "The web API, planned. A standalone FastAPI server that gives web apps like SoundHub the same operations as the CLI.",
+      "boxes": [[48, 133, 268, 140]]
+    },
+    {
+      "title": "robin_cli",
+      "body": "The robin command operators use today. It calls the run manager's operations and loads deployment packages like soundhub-robin by name.",
+      "boxes": [[348, 133, 268, 140]]
+    },
+    {
+      "title": "soundhub-robin",
+      "body": "Lives outside ROBIN, in its own repo: SoundHub's deployment profile and its catalog adapter. The CLI finds it by name; nothing in ROBIN imports it.",
+      "boxes": [[748, 133, 368, 100]]
+    },
+    {
+      "title": "robin_run_manager",
+      "body": "The record, the rules and the operations: submit, prepare, launch, record, cancel, withdraw, retry. The only package that touches the database.",
+      "boxes": [[48, 293, 568, 100]]
+    },
+    {
+      "title": "robin_worker",
+      "body": "What runs inside a worker image: one work file in, one result file out, for any kind of work its image holds. Never touches the database.",
+      "boxes": [[748, 293, 1128, 100]]
+    },
+    {
+      "title": "robin_adapters",
+      "body": "The built-in storage, compute and catalog adapters. The run manager only composes them; it never reaches past their interfaces.",
+      "boxes": [[348, 473, 288, 100]]
+    },
+    {
+      "title": "robin_inference_engine",
+      "body": "Runs one model the same way for every model: windows the audio, calls the model adapter, checks the output, writes Parquet.",
+      "boxes": [[698, 473, 278, 100]]
+    },
+    {
+      "title": "robin_models",
+      "body": "The model adapters (BirdNET, Perch, the Spotted Owl model, classifier heads) and the version table the worker reads.",
+      "boxes": [[1068, 473, 238, 100]]
+    },
+    {
+      "title": "robin_comparison",
+      "body": "Planned. Scores models against expert labels and picks the clips worth labelling next.",
+      "boxes": [[1378, 473, 238, 100]]
+    },
+    {
+      "title": "robin_fine_tuning",
+      "body": "Planned. Trains classifier heads on a program's own labels.",
+      "boxes": [[1648, 473, 228, 100]]
+    },
+    {
+      "title": "robin_contracts",
+      "body": "File formats, port interfaces and shared types. Every package depends on it, and it imports nothing from ROBIN.",
+      "boxes": [[48, 653, 1828, 100]]
+    },
+    {
+      "title": "TensorFlow family",
+      "body": "The worker image every base model shares today: TensorFlow 2.21 with BirdNET, Perch and OWL.",
+      "boxes": [[48, 905, 433, 276]]
+    },
+    {
+      "title": "ONNX family",
+      "body": "A light image for classifier heads, which read stored embeddings instead of raw audio.",
+      "boxes": [[513, 905, 433, 276]]
+    },
+    {
+      "title": "Comparison family",
+      "body": "Planned. Its own image with its own libraries, so comparison never shares dependencies with models.",
+      "boxes": [[978, 905, 433, 238]]
+    },
+    {
+      "title": "Training family",
+      "body": "Planned, likely PyTorch, for fine-tuning heads.",
+      "boxes": [[1443, 905, 433, 238]]
+    }
+  ]
+}

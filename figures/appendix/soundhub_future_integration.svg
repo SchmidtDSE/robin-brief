@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1168" viewBox="0 0 1680 1168" role="img"><title>Two ways to bring ROBIN into SoundHub</title><defs><marker id="ar4a5fa8" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="6" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M0,0 L10,4 L0,8 Z" fill="#4a5fa8"/></marker><marker id="ar2f8592" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="6" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M0,0 L10,4 L0,8 Z" fill="#2f8592"/></marker><marker id="ar2f4a55" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="6" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M0,0 L10,4 L0,8 Z" fill="#2f4a55"/></marker><marker id="ar765d78" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="6" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M0,0 L10,4 L0,8 Z" fill="#765d78"/></marker><marker id="arc2603a" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="6" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M0,0 L10,4 L0,8 Z" fill="#c2603a"/></marker></defs><rect width="1680" height="1168" fill="#ffffff"/><text x="56" y="76" font-family="'Avenir Next', Avenir, sans-serif" font-size="34" font-weight="600" fill="#22313a" text-anchor="start">Two ways to bring ROBIN into SoundHub</text>
+<text x="56" y="110" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="400" fill="#5d6b73" text-anchor="start">Both keep the same run record and duplicate checks. They differ in who runs what, and where.</text>
+<rect x="56" y="160" width="752" height="960" rx="20" fill="#ffffff" stroke="#d6e1e4" stroke-width="1.5" />
+<text x="96" y="212" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="600" fill="#2f4a55" text-anchor="start" letter-spacing="1.6">OPTION 1 · MICROSERVICE</text>
+<text x="96" y="252" font-family="'Avenir Next', Avenir, sans-serif" font-size="28" font-weight="600" fill="#22313a" text-anchor="start">A separate ROBIN service</text>
+<text x="96" y="284" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="400" fill="#5d6b73" text-anchor="start">SoundHub's backend calls ROBIN's API over HTTP.</text>
+<line x1="96" y1="856" x2="768" y2="856" stroke="#d6e1e4" stroke-width="1.5"/>
+<circle cx="108" cy="891" r="11" fill="#3f7466" stroke="none" stroke-width="2"/>
+<text x="108" y="896.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+<text x="132" y="896" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">SoundHub installs no ROBIN code and no ROBIN dependencies.</text>
+<circle cx="108" cy="925" r="11" fill="#3f7466" stroke="none" stroke-width="2"/>
+<text x="108" y="930.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+<text x="132" y="930" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">ROBIN releases on its own; other programs can share the service.</text>
+<circle cx="108" cy="959" r="11" fill="#3f7466" stroke="none" stroke-width="2"/>
+<text x="108" y="964.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+<text x="132" y="964" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">Credentials stay with people and roles, as designed.</text>
+<circle cx="108" cy="999" r="11" fill="#c2603a" stroke="none" stroke-width="2"/>
+<text x="108" y="1004.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">−</text>
+<text x="132" y="1004" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">One more service and one more database for our team to run.</text>
+<circle cx="108" cy="1033" r="11" fill="#c2603a" stroke="none" stroke-width="2"/>
+<text x="108" y="1038.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">−</text>
+<text x="132" y="1038" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">Open: how the API trusts SoundHub's backend and names the user.</text>
+<circle cx="108" cy="1067" r="11" fill="#c2603a" stroke="none" stroke-width="2"/>
+<text x="108" y="1072.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">−</text>
+<text x="132" y="1072" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">Jobs still need their own access to SoundHub's audio in S3.</text>
+<clipPath id="cp96_328_280"><rect x="96" y="328" width="280" height="304" rx="14"/></clipPath>
+<g clip-path="url(#cp96_328_280)"><rect x="96" y="328" width="280" height="304" fill="#f7f4f7"/><rect x="96" y="328" width="280" height="40" fill="#765d78"/></g>
+<rect x="96" y="328" width="280" height="304" rx="14" fill="none" stroke="#765d78" stroke-width="2" />
+<text x="116" y="352.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="1.6">SOUNDHUB</text>
+<rect x="116" y="384" width="240" height="56" rx="9" fill="#ffffff" stroke="#765d78" stroke-width="2" />
+<text x="134" y="417.325" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">Web app</text>
+<rect x="116" y="456" width="240" height="56" rx="9" fill="#ffffff" stroke="#765d78" stroke-width="2" />
+<text x="134" y="481.0" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">Backend</text>
+<text x="134" y="500.0" font-family="'Avenir Next', Avenir, sans-serif" font-size="12.5" font-weight="400" fill="#5d6b73" text-anchor="start">checks the user, builds the list</text>
+<rect x="116" y="528" width="240" height="56" rx="9" fill="#ffffff" stroke="#765d78" stroke-width="2" />
+<path d="M132,547.0 L132,565.0 A12.0,6 0 0 0 156,565.0 L156,547.0" fill="#ffffff" stroke="#765d78" stroke-width="2"/>
+<ellipse cx="144.0" cy="547.0" rx="12.0" ry="6" fill="#ffffff" stroke="#765d78" stroke-width="2"/>
+<text x="172" y="561.325" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">SoundHub DB</text>
+<clipPath id="cp488_328_280"><rect x="488" y="328" width="280" height="304" rx="14"/></clipPath>
+<g clip-path="url(#cp488_328_280)"><rect x="488" y="328" width="280" height="304" fill="#2f4a55"/><rect x="488" y="328" width="280" height="40" fill="#22313a"/></g>
+<rect x="488" y="328" width="280" height="304" rx="14" fill="none" stroke="#22313a" stroke-width="2" />
+<text x="508" y="352.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="600" fill="#bfd9dd" text-anchor="start" letter-spacing="1.6">ROBIN SERVICE · OUR TEAM</text>
+<rect x="508" y="384" width="240" height="44" rx="9" fill="#eceff8" stroke="#4a5fa8" stroke-width="2" />
+<text x="526" y="411.325" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">API server</text>
+<rect x="508" y="440" width="240" height="44" rx="9" fill="#ffffff" stroke="#2f4a55" stroke-width="2" />
+<text x="526" y="467.325" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">Run manager</text>
+<rect x="508" y="496" width="240" height="52" rx="9" fill="#ffffff" stroke="#2f4a55" stroke-width="2" />
+<path d="M524,514.0 L524,530.0 A12.0,6 0 0 0 548,530.0 L548,514.0" fill="#ffffff" stroke="#2f4a55" stroke-width="2"/>
+<ellipse cx="536.0" cy="514.0" rx="12.0" ry="6" fill="#ffffff" stroke="#2f4a55" stroke-width="2"/>
+<text x="564" y="519.0" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">ROBIN DB</text>
+<text x="564" y="538.0" font-family="'Avenir Next', Avenir, sans-serif" font-size="12.5" font-weight="400" fill="#5d6b73" text-anchor="start">published views</text>
+<rect x="508" y="560" width="240" height="44" rx="9" fill="#ffffff" stroke="#2f4a55" stroke-width="2" />
+<text x="526" y="587.325" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">Controller</text>
+<path d="M358,484 L424.0,484.0 Q432,484 432.0,476.0 L432.0,414.0 Q432,406 440.0,406.0 L504,406" fill="none" stroke="#4a5fa8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ar4a5fa8)"/>
+<text x="432" y="366" font-family="Menlo, 'SF Mono', monospace" font-size="12" font-weight="400" fill="#4a5fa8" text-anchor="middle">POST /v1/runs</text>
+<text x="432" y="382" font-family="'Avenir Next', Avenir, sans-serif" font-size="11" font-weight="700" fill="#4a5fa8" text-anchor="middle" letter-spacing="1.2">HTTP</text>
+<rect x="252" y="672" width="200" height="48" rx="9" fill="#ffffff" stroke="#2f8592" stroke-width="2" />
+<text x="270" y="701.325" font-family="Menlo, 'SF Mono', monospace" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">api-dock</text>
+<rect x="352" y="686" width="70.8" height="20" rx="10" fill="#ffffff" stroke="#2f8592" stroke-width="1.3" />
+<text x="387.4" y="700" font-family="'Avenir Next', Avenir, sans-serif" font-size="11" font-weight="600" fill="#2f8592" text-anchor="middle">our team</text>
+<path d="M506,522 L472.0,522.0 Q464,522 464.0,530.0 L464.0,688.0 Q464,696 456.0,696.0 L456,696" fill="none" stroke="#2f8592" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ar2f8592)"/>
+<path d="M250,696 L88.0,696.0 Q80,696 80.0,688.0 L80.0,420.0 Q80,412 88.0,412.0 L112,412" fill="none" stroke="#2f8592" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ar2f8592)"/>
+<text x="88" y="652" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="500" fill="#2f8592" text-anchor="start">detections</text>
+<rect x="80" y="752" width="704" height="80" rx="14" fill="#eef7f8" stroke="none" stroke-width="2" />
+<text x="100" y="797" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="600" fill="#2f8592" text-anchor="start" letter-spacing="1.6">AWS</text>
+<rect x="480" y="768" width="144" height="48" rx="9" fill="#ffffff" stroke="#2f8592" stroke-width="2" />
+<path d="M494,786.4 L506.6,781.0 L519.2,786.4 L506.6,791.8 Z" fill="#2f8592" fill-opacity="1.0"/>
+<path d="M494,792.6999999999999 L506.6,787.3 L519.2,792.6999999999999 L506.6,798.0999999999999 Z" fill="#2f8592" fill-opacity="0.75"/>
+<path d="M494,799.0 L506.6,793.6 L519.2,799.0 L506.6,804.4 Z" fill="#2f8592" fill-opacity="0.5"/>
+<text x="532" y="797" font-family="'Avenir Next', Avenir, sans-serif" font-size="14" font-weight="600" fill="#22313a" text-anchor="start">SageMaker</text>
+<rect x="636" y="768" width="140" height="48" rx="9" fill="#ffffff" stroke="#3f7466" stroke-width="2" />
+<path d="M650,779 L663,779 L670,786 L670,805 L650,805 Z" fill="#ffffff" stroke="#3f7466" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="655" y1="791" x2="665" y2="791" stroke="#3f7466" stroke-width="1.2"/>
+<line x1="655" y1="796" x2="665" y2="796" stroke="#3f7466" stroke-width="1.2"/>
+<line x1="655" y1="801" x2="665" y2="801" stroke="#3f7466" stroke-width="1.2"/>
+<text x="688" y="797" font-family="'Avenir Next', Avenir, sans-serif" font-size="14" font-weight="600" fill="#22313a" text-anchor="start">Amazon S3</text>
+<path d="M556,606 L556,764" fill="none" stroke="#2f8592" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ar2f8592)"/>
+<text x="564" y="690" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="500" fill="#2f8592" text-anchor="start">launches jobs</text>
+<rect x="872" y="160" width="752" height="960" rx="20" fill="#ffffff" stroke="#d6e1e4" stroke-width="1.5" />
+<text x="912" y="212" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="600" fill="#2f4a55" text-anchor="start" letter-spacing="1.6">OPTION 2 · ONE CODEBASE</text>
+<text x="912" y="252" font-family="'Avenir Next', Avenir, sans-serif" font-size="28" font-weight="600" fill="#22313a" text-anchor="start">ROBIN inside SoundHub</text>
+<text x="912" y="284" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="400" fill="#5d6b73" text-anchor="start">SoundHub's backend installs ROBIN and calls it directly.</text>
+<line x1="912" y1="856" x2="1584" y2="856" stroke="#d6e1e4" stroke-width="1.5"/>
+<circle cx="924" cy="891" r="11" fill="#3f7466" stroke="none" stroke-width="2"/>
+<text x="924" y="896.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+<text x="948" y="896" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">One deployment and one database for SoundHub to run.</text>
+<circle cx="924" cy="925" r="11" fill="#3f7466" stroke="none" stroke-width="2"/>
+<text x="924" y="930.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+<text x="948" y="930" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">No API to secure: the backend checks its users and calls ROBIN.</text>
+<circle cx="924" cy="959" r="11" fill="#3f7466" stroke="none" stroke-width="2"/>
+<text x="924" y="964.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+<text x="948" y="964" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">ROBIN's code is unchanged; SoundHub installs it as a library.</text>
+<circle cx="924" cy="999" r="11" fill="#c2603a" stroke="none" stroke-width="2"/>
+<text x="924" y="1004.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">−</text>
+<text x="948" y="1004" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">SoundHub takes on ROBIN's dependencies and its migrations.</text>
+<circle cx="924" cy="1033" r="11" fill="#c2603a" stroke="none" stroke-width="2"/>
+<text x="924" y="1038.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">−</text>
+<text x="948" y="1038" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">The controller needs SoundHub's own AWS role to launch jobs.</text>
+<circle cx="924" cy="1067" r="11" fill="#c2603a" stroke="none" stroke-width="2"/>
+<text x="924" y="1072.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">−</text>
+<text x="948" y="1072" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="400" fill="#22313a" text-anchor="start">SoundHub's releases are tied to ROBIN's releases.</text>
+<clipPath id="cp912_328_672"><rect x="912" y="328" width="672" height="392" rx="14"/></clipPath>
+<g clip-path="url(#cp912_328_672)"><rect x="912" y="328" width="672" height="392" fill="#f7f4f7"/><rect x="912" y="328" width="672" height="40" fill="#765d78"/></g>
+<rect x="912" y="328" width="672" height="392" rx="14" fill="none" stroke="#765d78" stroke-width="2" />
+<text x="932" y="352.5" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="1.6">SOUNDHUB · ONE CODEBASE, ONE DEPLOYMENT</text>
+<rect x="932" y="384" width="220" height="56" rx="9" fill="#ffffff" stroke="#765d78" stroke-width="2" />
+<text x="950" y="417.325" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">Web app</text>
+<rect x="932" y="456" width="220" height="56" rx="9" fill="#ffffff" stroke="#765d78" stroke-width="2" />
+<text x="950" y="481.0" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">Backend</text>
+<text x="950" y="500.0" font-family="'Avenir Next', Avenir, sans-serif" font-size="12.5" font-weight="400" fill="#5d6b73" text-anchor="start">checks the user</text>
+<rect x="1192" y="384" width="372" height="184" rx="12" fill="#2f4a55" stroke="none" stroke-width="2" />
+<text x="1212" y="412" font-family="'Avenir Next', Avenir, sans-serif" font-size="11.5" font-weight="600" fill="#bfd9dd" text-anchor="start" letter-spacing="1.6">ROBIN, AS A PYTHON LIBRARY</text>
+<rect x="1212" y="428" width="332" height="52" rx="9" fill="#ffffff" stroke="#2f4a55" stroke-width="2" />
+<text x="1230" y="451.0" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">Run manager</text>
+<text x="1230" y="470.0" font-family="'Avenir Next', Avenir, sans-serif" font-size="12.5" font-weight="400" fill="#5d6b73" text-anchor="start">called in the same process</text>
+<rect x="1212" y="496" width="332" height="52" rx="9" fill="#ffffff" stroke="#2f4a55" stroke-width="2" />
+<text x="1230" y="519.0" font-family="'Avenir Next', Avenir, sans-serif" font-size="15" font-weight="600" fill="#22313a" text-anchor="start">Controller</text>
+<text x="1230" y="538.0" font-family="'Avenir Next', Avenir, sans-serif" font-size="12.5" font-weight="400" fill="#5d6b73" text-anchor="start">a background worker</text>
+<path d="M1154,484 L1168.0,484.0 Q1176,484 1176.0,476.0 L1176.0,462.0 Q1176,454 1184.0,454.0 L1208,454" fill="none" stroke="#2f4a55" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ar2f4a55)"/>
+<text x="1152" y="540" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="500" fill="#2f4a55" text-anchor="end">Python call</text>
+<rect x="932" y="600" width="632" height="96" rx="10" fill="#ffffff" stroke="#765d78" stroke-width="2" />
+<path d="M952,634 L952,662 A16.0,6 0 0 0 984,662 L984,634" fill="#ffffff" stroke="#765d78" stroke-width="2"/>
+<ellipse cx="968.0" cy="634" rx="16.0" ry="6" fill="#ffffff" stroke="#765d78" stroke-width="2"/>
+<text x="1004" y="644" font-family="'Avenir Next', Avenir, sans-serif" font-size="16" font-weight="600" fill="#22313a" text-anchor="start">One PostgreSQL</text>
+<text x="1004" y="666" font-family="'Avenir Next', Avenir, sans-serif" font-size="12.5" font-weight="400" fill="#5d6b73" text-anchor="start">ROBIN's tables in their own schema</text>
+<rect x="1342" y="636" width="70.8" height="20" rx="10" fill="#f1ecf1" stroke="#765d78" stroke-width="1.3" />
+<text x="1377.4" y="650" font-family="'Avenir Next', Avenir, sans-serif" font-size="11" font-weight="600" fill="#765d78" text-anchor="middle">soundhub</text>
+<rect x="1440" y="636" width="51.0" height="20" rx="10" fill="#eff3f4" stroke="#2f4a55" stroke-width="1.3" />
+<text x="1465.5" y="650" font-family="'Avenir Next', Avenir, sans-serif" font-size="11" font-weight="600" fill="#2f4a55" text-anchor="middle">robin</text>
+<path d="M1042,514 L1042,596" fill="none" stroke="#765d78" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ar765d78)"/>
+<path d="M1342,570 L1342,596" fill="none" stroke="#2f4a55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ar2f4a55)"/>
+<rect x="896" y="752" width="704" height="80" rx="14" fill="#eef7f8" stroke="none" stroke-width="2" />
+<text x="916" y="797" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="600" fill="#2f8592" text-anchor="start" letter-spacing="1.6">AWS</text>
+<rect x="1296" y="768" width="144" height="48" rx="9" fill="#ffffff" stroke="#2f8592" stroke-width="2" />
+<path d="M1310,786.4 L1322.6,781.0 L1335.2,786.4 L1322.6,791.8 Z" fill="#2f8592" fill-opacity="1.0"/>
+<path d="M1310,792.6999999999999 L1322.6,787.3 L1335.2,792.6999999999999 L1322.6,798.0999999999999 Z" fill="#2f8592" fill-opacity="0.75"/>
+<path d="M1310,799.0 L1322.6,793.6 L1335.2,799.0 L1322.6,804.4 Z" fill="#2f8592" fill-opacity="0.5"/>
+<text x="1348" y="797" font-family="'Avenir Next', Avenir, sans-serif" font-size="14" font-weight="600" fill="#22313a" text-anchor="start">SageMaker</text>
+<rect x="1452" y="768" width="140" height="48" rx="9" fill="#ffffff" stroke="#3f7466" stroke-width="2" />
+<path d="M1466,779 L1479,779 L1486,786 L1486,805 L1466,805 Z" fill="#ffffff" stroke="#3f7466" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="1471" y1="791" x2="1481" y2="791" stroke="#3f7466" stroke-width="1.2"/>
+<line x1="1471" y1="796" x2="1481" y2="796" stroke="#3f7466" stroke-width="1.2"/>
+<line x1="1471" y1="801" x2="1481" y2="801" stroke="#3f7466" stroke-width="1.2"/>
+<text x="1504" y="797" font-family="'Avenir Next', Avenir, sans-serif" font-size="14" font-weight="600" fill="#22313a" text-anchor="start">Amazon S3</text>
+<path d="M1546,522 L1588.0,522.0 Q1596,522 1596.0,530.0 L1596.0,732.0 Q1596,740 1588.0,740.0 L1376.0,740.0 Q1368,740 1368.0,748.0 L1368,764" fill="none" stroke="#c2603a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arc2603a)"/>
+<text x="1384" y="734" font-family="'Avenir Next', Avenir, sans-serif" font-size="12" font-weight="600" fill="#c2603a" text-anchor="start">SoundHub's AWS role</text></svg>

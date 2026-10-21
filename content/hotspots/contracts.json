@@ -1,0 +1,90 @@
+{
+  "hint": "Hover or tap a class.",
+  "parts": [
+    {
+      "title": "InferenceTask · work.json",
+      "body": "The top of the work file the run manager writes: the task's ID, where to write outputs, which output versions are current, and the work itself.",
+      "boxes": [[96, 171, 328, 191]]
+    },
+    {
+      "title": "ModelOutputVersion",
+      "body": "Which version of a model's outputs this task writes, so a result can be matched to the settings that made it.",
+      "boxes": [[96, 391, 328, 116]]
+    },
+    {
+      "title": "InferenceWork",
+      "body": "The work itself: the recordings, the model, whether the input is audio or stored embeddings, settings, resources and requested outputs. Its digest is computed, never stored.",
+      "boxes": [[506, 171, 358, 266]]
+    },
+    {
+      "title": "RecordingRef",
+      "body": "One recording: a namespace and ID that identify it, where its audio is, its duration, and its stored embeddings if a head will read them.",
+      "boxes": [[946, 171, 328, 191]]
+    },
+    {
+      "title": "InputArtifact",
+      "body": "A stored input such as an embeddings file, given by URI and checksum.",
+      "boxes": [[1326, 171, 298, 116]]
+    },
+    {
+      "title": "OutputRequest",
+      "body": "One requested output (scores, detections or embeddings), the contract it must follow, and how long to keep it.",
+      "boxes": [[946, 391, 328, 141]]
+    },
+    {
+      "title": "PinnedModel · used by both files",
+      "body": "The exact model: its model or head card and its files. The work file asks for it and the result repeats it, so a result always names what made it.",
+      "boxes": [[506, 601, 358, 116]]
+    },
+    {
+      "title": "PinnedFile",
+      "body": "One model file, by URI, SHA-256 digest and size, so a worker can prove it loaded the right weights.",
+      "boxes": [[946, 601, 328, 141]]
+    },
+    {
+      "title": "InferenceTaskResult · result.json",
+      "body": "The top of the result file the worker writes: the task, the digest of the work file it read, the ROBIN release, timings, and one of four outcomes.",
+      "boxes": [[96, 821, 328, 241]]
+    },
+    {
+      "title": "TaskRefusal",
+      "body": "The worker would not start, because the work file was misspecified or asked for something its image does not hold.",
+      "boxes": [[96, 1101, 328, 141]]
+    },
+    {
+      "title": "WorkerError",
+      "body": "An umbrella for any other unexpected failure.",
+      "boxes": [[96, 1271, 328, 116]]
+    },
+    {
+      "title": "InferenceCompleted",
+      "body": "The task ran: the pinned model, the window geometry, the output artifacts, and an outcome for every recording, covered or failed.",
+      "boxes": [[506, 821, 358, 291]]
+    },
+    {
+      "title": "InferenceFailure",
+      "body": "A problem that affected the whole task, such as corrupted model weights.",
+      "boxes": [[506, 1161, 358, 166]]
+    },
+    {
+      "title": "ArtifactRecord",
+      "body": "One output file: its kind, contract, the recording it covers, where it is, its checksum, size and row count.",
+      "boxes": [[946, 821, 328, 266]]
+    },
+    {
+      "title": "RecordingCoverage",
+      "body": "A recording that was covered: how many windows completed and how many rows each output got, or why it had zero windows.",
+      "boxes": [[946, 1121, 328, 191]]
+    },
+    {
+      "title": "RecordingFailed",
+      "body": "A recording that failed, with the failure. One damaged recording never fails the whole task.",
+      "boxes": [[946, 1351, 328, 141]]
+    },
+    {
+      "title": "FailureReport",
+      "body": "What went wrong: a code, the stage it happened in, the window if there was one, and detail.",
+      "boxes": [[946, 1531, 328, 166]]
+    }
+  ]
+}

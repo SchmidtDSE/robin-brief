@@ -1,0 +1,60 @@
+{
+  "hint": "Hover or tap a part of either option.",
+  "parts": [
+    {
+      "title": "Option 1 · SoundHub",
+      "body": "SoundHub's backend checks the user's access and builds the explicit list of recordings. It installs no ROBIN code.",
+      "boxes": [[92, 324, 288, 312]]
+    },
+    {
+      "title": "Option 1 · ROBIN as a service",
+      "body": "Our team runs ROBIN's API server, run manager, controller and database as a separate service that other programs could share.",
+      "boxes": [[484, 324, 288, 312]]
+    },
+    {
+      "title": "Option 1 · POST /v1/runs",
+      "body": "SoundHub's backend calls ROBIN's API over HTTP with the work request as JSON. Open question: how the API trusts SoundHub's backend and names the user.",
+      "boxes": [[355, 340, 150, 145]]
+    },
+    {
+      "title": "Option 1 · Detections via api-dock",
+      "body": "api-dock, run by our team, reads ROBIN's published views and serves detections back to SoundHub.",
+      "boxes": [[76, 630, 345, 80]]
+    },
+    {
+      "title": "Option 1 · AWS",
+      "body": "The controller launches SageMaker jobs that read audio from S3. Jobs still need their own access to SoundHub's audio.",
+      "boxes": [[76, 748, 712, 88], [560, 670, 90, 30]]
+    },
+    {
+      "title": "Option 1 · Trade-offs",
+      "body": "Clean separation and independent releases, at the cost of one more service and one more database for our team to run.",
+      "boxes": [[90, 875, 700, 210]]
+    },
+    {
+      "title": "Option 2 · SoundHub's web app and backend",
+      "body": "The backend checks its own users and calls ROBIN directly. There is no API to secure.",
+      "boxes": [[928, 380, 228, 136]]
+    },
+    {
+      "title": "Option 2 · ROBIN as a library",
+      "body": "SoundHub installs ROBIN unchanged. The run manager is called in the same process, and the controller runs as a background worker.",
+      "boxes": [[1188, 380, 380, 192], [1085, 520, 75, 30]]
+    },
+    {
+      "title": "Option 2 · One PostgreSQL",
+      "body": "ROBIN's tables live in their own schema inside SoundHub's database, so there is only one database to run.",
+      "boxes": [[928, 596, 640, 104]]
+    },
+    {
+      "title": "Option 2 · AWS",
+      "body": "The controller launches SageMaker jobs with SoundHub's own AWS role.",
+      "boxes": [[892, 748, 712, 88], [1378, 712, 135, 30]]
+    },
+    {
+      "title": "Option 2 · Trade-offs",
+      "body": "One deployment and no API to secure, but SoundHub takes on ROBIN's dependencies and migrations, and its releases are tied to ROBIN's.",
+      "boxes": [[906, 875, 700, 210]]
+    }
+  ]
+}

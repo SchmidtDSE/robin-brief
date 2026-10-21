@@ -1,0 +1,6 @@
+.DS_Store
+build/
+tmp/
+backups/
+/robin-brief.pdf
+full_brief.pdf

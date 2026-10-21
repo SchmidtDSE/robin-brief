@@ -1,0 +1,2300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1940"
+   height="1018.6899"
+   viewBox="0 0 1940 1018.6899"
+   role="img"
+   version="1.1"
+   id="svg182"
+   sodipodi:docname="04_resolver_types.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   inkscape:export-filename="04_resolver_types.png"
+   inkscape:export-xdpi="144"
+   inkscape:export-ydpi="144"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview182"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.72347826"
+     inkscape:cx="802.3738"
+     inkscape:cy="375.27043"
+     inkscape:window-width="3008"
+     inkscape:window-height="1634"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg182" />
+  <title
+     id="title1">Many kinds of source, one kind of list</title>
+  <rect
+     width="1940"
+     height="1018.6899"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.941179" />
+  <defs
+     id="defs7">
+    <marker
+       id="k0"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#5d6b73"
+         id="path1" />
+    </marker>
+    <marker
+       id="k1"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#765d78"
+         id="path2" />
+    </marker>
+    <marker
+       id="k2"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#3f7466"
+         id="path3" />
+    </marker>
+    <marker
+       id="k3"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f8592"
+         id="path4" />
+    </marker>
+    <marker
+       id="k4"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#4a5fa8"
+         id="path5" />
+    </marker>
+    <marker
+       id="k5"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f4a55"
+         id="path6" />
+    </marker>
+    <marker
+       id="k6"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#c2603a"
+         id="path7" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#rib"
+       id="linearGradient182"
+       x1="3909.4429"
+       x2="4098.6095"
+       gradientTransform="matrix(0.38061689,0,0,2.6273138,0,-123.01683)"
+       y1="105.81149"
+       y2="105.81149"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#rib"
+       id="linearGradient183"
+       x1="2960.4594"
+       x2="3103.7075"
+       gradientTransform="matrix(0.50262469,0,0,1.9895561,0,-123.01683)"
+       y1="253.32284"
+       y2="253.32284"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#rib"
+       id="linearGradient184"
+       x1="1568.4897"
+       x2="1644.3844"
+       gradientTransform="matrix(0.9486833,0,0,1.0540926,0,-123.01683)"
+       y1="692.53881"
+       y2="692.53881"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#rib"
+       id="linearGradient185"
+       x1="2665.279"
+       x2="2794.2441"
+       gradientTransform="matrix(0.55829053,0,0,1.7911821,0,-123.01683)"
+       y1="449.42387"
+       y2="449.42387"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <defs
+     id="defs9">
+    <filter
+       id="sh"
+       x="-0.014824983"
+       y="-0.10384615"
+       width="1.02965"
+       height="1.2365385">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="9"
+         id="feGaussianBlur7" />
+      <feOffset
+         dy="6"
+         result="b"
+         id="feOffset7" />
+      <feFlood
+         flood-color="#22313A"
+         flood-opacity="0.13"
+         id="feFlood7" />
+      <feComposite
+         in2="b"
+         operator="in"
+         id="feComposite7" />
+      <feMerge
+         id="feMerge8">
+        <feMergeNode
+           id="feMergeNode7" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode8" />
+      </feMerge>
+    </filter>
+    <linearGradient
+       id="rib"
+       x1="0"
+       x2="1">
+      <stop
+         offset="0"
+         stop-color="#765D78"
+         stop-opacity="0.22"
+         id="stop8" />
+      <stop
+         offset="1"
+         stop-color="#2F4A55"
+         stop-opacity="0.35"
+         id="stop9" />
+    </linearGradient>
+  </defs>
+  <rect
+     x="20"
+     y="22.98317"
+     width="1492"
+     height="966"
+     rx="18"
+     fill="#faf7fa"
+     id="rect10" />
+  <text
+     x="44"
+     y="52.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text11">CATALOG ADAPTERS · RUN BY THE CLI OR THE API, AT SUBMIT</text>
+  <text
+     x="55"
+     y="78.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text12">THE USER ASKS</text>
+  <text
+     x="330"
+     y="78.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text13">WHERE THE RECORDINGS LIVE</text>
+  <text
+     x="776"
+     y="78.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text14">THE CATALOG ADAPTER</text>
+  <text
+     x="1156"
+     y="78.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text15">WHAT ROBIN RECEIVES</text>
+  <rect
+     x="31"
+     y="90.98317"
+     width="1457"
+     height="208"
+     rx="14"
+     fill="#ffffff"
+     filter="url(#sh)"
+     id="rect15" />
+  <rect
+     x="55"
+     y="118.98317"
+     width="38"
+     height="38"
+     rx="9.5"
+     fill="#765d78"
+     id="rect16" />
+  <text
+     x="74"
+     y="144.78316"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="19px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text16">{ }</text>
+  <text
+     x="106"
+     y="146.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="24px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="start"
+     id="text17">Platform API</text>
+  <path
+     d="m 65,164.98317 h 235 a 10,10 0 0 1 10,10 v 30 a 10,10 0 0 1 -10,10 H 92 l -14,13 v -13 H 65 a 10,10 0 0 1 -10,-10 v -30 a 10,10 0 0 1 10,-10 z"
+     fill="#f3f6f7"
+     id="path17" />
+  <text
+     x="72"
+     y="195.98317"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="19px"
+     font-style="italic"
+     fill="#22313a"
+     text-anchor="start"
+     id="text18">“All of project 123”</text>
+  <rect
+     x="55"
+     y="242.98317"
+     width="152"
+     height="23"
+     rx="11.5"
+     fill="#ffffff"
+     stroke="#2f4a55"
+     stroke-width="1.5"
+     id="rect18" />
+  <text
+     x="130.8"
+     y="258.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12px"
+     font-weight="600"
+     fill="#2f4a55"
+     text-anchor="middle"
+     id="text19">CDFW with SoundHub</text>
+  <rect
+     x="330"
+     y="108.98317"
+     width="410"
+     height="172"
+     rx="10"
+     fill="#ffffff"
+     stroke="#d5dde0"
+     stroke-width="1.5"
+     id="rect19" />
+  <path
+     d="m 330,118.98317 a 10,10 0 0 1 10,-10 h 390 a 10,10 0 0 1 10,10 v 20 H 330 Z"
+     fill="#f3f6f7"
+     id="path19" />
+  <circle
+     cx="346"
+     cy="123.98317"
+     r="4"
+     fill="#b8c2c7"
+     id="circle19" />
+  <circle
+     cx="360"
+     cy="123.98317"
+     r="4"
+     fill="#b8c2c7"
+     id="circle20" />
+  <circle
+     cx="374"
+     cy="123.98317"
+     r="4"
+     fill="#b8c2c7"
+     id="circle21" />
+  <text
+     x="392"
+     y="128.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text21">GET /projects/123/recordings/</text>
+  <text
+     x="346"
+     y="160.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     xml:space="preserve"
+     id="text23"><tspan
+       fill="#5d6b73"
+       font-weight="400"
+       id="tspan21">[{</tspan><tspan
+       fill="#5e4a60"
+       font-weight="600"
+       id="tspan22">&quot;id&quot;</tspan><tspan
+       fill="#22313a"
+       font-weight="400"
+       id="tspan23">: 48213,</tspan></text>
+  <text
+     x="346"
+     y="182.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     xml:space="preserve"
+     id="text25"><tspan
+       fill="#5e4a60"
+       font-weight="600"
+       id="tspan24">  &quot;path&quot;</tspan><tspan
+       fill="#22313a"
+       font-weight="400"
+       id="tspan25">: &quot;s3://…/48213.flac&quot;},</tspan></text>
+  <text
+     x="346"
+     y="204.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     xml:space="preserve"
+     id="text28"><tspan
+       fill="#5d6b73"
+       font-weight="400"
+       id="tspan26"> {</tspan><tspan
+       fill="#5e4a60"
+       font-weight="600"
+       id="tspan27">&quot;id&quot;</tspan><tspan
+       fill="#22313a"
+       font-weight="400"
+       id="tspan28">: 48214,</tspan></text>
+  <text
+     x="346"
+     y="226.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     xml:space="preserve"
+     id="text30"><tspan
+       fill="#5e4a60"
+       font-weight="600"
+       id="tspan29">  &quot;path&quot;</tspan><tspan
+       fill="#22313a"
+       font-weight="400"
+       id="tspan30">: &quot;s3://…/48214.flac&quot;},</tspan></text>
+  <text
+     x="346"
+     y="248.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     xml:space="preserve"
+     id="text31"><tspan
+       fill="#9aa6ac"
+       font-weight="400"
+       id="tspan31">  … 14,203 records, page 1 of 29</tspan></text>
+  <path
+     d="m 748,194.98317 h 20"
+     fill="none"
+     stroke="#765d78"
+     stroke-width="2"
+     marker-end="url(#k1)"
+     id="path31" />
+  <path
+     d="m 772,108.98317 h 356 v 78 h -9 v -10 h -11 v 36 h 11 v -10 h 9 v 78 H 772 Z"
+     fill="#f1ecf1"
+     stroke="#765d78"
+     stroke-width="2"
+     stroke-linejoin="round"
+     id="path32" />
+  <text
+     x="796"
+     y="148.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="18px"
+     font-weight="600"
+     fill="#5e4a60"
+     text-anchor="start"
+     id="text32">soundhub-robin</text>
+  <rect
+     x="1025"
+     y="130.98317"
+     width="59"
+     height="22"
+     rx="11"
+     fill="#765d78"
+     stroke="#765d78"
+     stroke-width="1.5"
+     id="rect32" />
+  <text
+     x="1054.5"
+     y="145.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="middle"
+     letter-spacing="1"
+     id="text33">CUSTOM</text>
+  <text
+     x="796"
+     y="172.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text34">SELECTION</text>
+  <text
+     x="796"
+     y="194.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text35">{&quot;project&quot;: 123}</text>
+  <path
+     d="m 796,210.98317 h 292"
+     stroke="#dccfdd"
+     id="path35" />
+  <text
+     x="796"
+     y="230.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text36">NEEDS</text>
+  <text
+     x="892"
+     y="230.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text37">the user's SoundHub credentials</text>
+  <text
+     x="796"
+     y="248.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text38">IDENTITY</text>
+  <text
+     x="892"
+     y="248.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text39">SoundHub's recording ID</text>
+  <text
+     x="796"
+     y="266.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text40">COMES FROM</text>
+  <text
+     x="892"
+     y="266.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#5e4a60"
+     text-anchor="start"
+     id="text41">written by SoundHub</text>
+  <path
+     d="m 1136,194.98317 h 12"
+     fill="none"
+     stroke="#765d78"
+     stroke-width="2"
+     marker-end="url(#k1)"
+     id="path41" />
+  <rect
+     x="1156"
+     y="190.48317"
+     width="2.4000001"
+     height="7.0999999"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect41" />
+  <rect
+     x="1160.4"
+     y="187.98317"
+     width="2.4000001"
+     height="11.9"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect42" />
+  <rect
+     x="1164.9"
+     y="184.68318"
+     width="2.4000001"
+     height="18.6"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect43" />
+  <rect
+     x="1169.3"
+     y="186.68318"
+     width="2.4000001"
+     height="14.6"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect44" />
+  <rect
+     x="1173.8"
+     y="182.68318"
+     width="2.4000001"
+     height="22.700001"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect45" />
+  <rect
+     x="1178.2"
+     y="183.88316"
+     width="2.4000001"
+     height="20.1"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect46" />
+  <rect
+     x="1182.7"
+     y="186.28316"
+     width="2.4000001"
+     height="15.5"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect47" />
+  <rect
+     x="1187.1"
+     y="190.58318"
+     width="2.4000001"
+     height="6.8000002"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect48" />
+  <rect
+     x="1191.6"
+     y="191.78316"
+     width="2.4000001"
+     height="4.5"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect49" />
+  <rect
+     x="1208"
+     y="180.98317"
+     width="78"
+     height="24"
+     rx="5"
+     fill="#2f4a55"
+     id="rect50" />
+  <text
+     x="1247.2"
+     y="197.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text50">soundhub</text>
+  <text
+     x="1294.4"
+     y="198.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text51">48213</text>
+  <text
+     x="1208"
+     y="222.98317"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="11px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text52">s3://sh-audio/p123/48213.flac</text>
+  <text
+     x="1247.2"
+     y="164.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="middle"
+     id="text53">namespace</text>
+  <path
+     d="m 1247.2,168.98317 v 9"
+     stroke="#b8c2c7"
+     id="path53" />
+  <text
+     x="1313.9"
+     y="164.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="middle"
+     id="text54">ID</text>
+  <path
+     d="m 1313.9,168.98317 v 9"
+     stroke="#b8c2c7"
+     id="path54" />
+  <text
+     x="1208"
+     y="242.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text55">↑ audio location</text>
+  <path
+     d="m 1488,154.98317 c 36,0 42,485 72,485 v 12 c -30,0 -36,-417 -72,-417 z"
+     fill="url(#rib)"
+     id="path55"
+     style="fill:url(#linearGradient182)" />
+  <rect
+     x="31"
+     y="316.98315"
+     width="1457"
+     height="208"
+     rx="14"
+     fill="#ffffff"
+     filter="url(#sh)"
+     id="rect55" />
+  <path
+     d="m 55,352.58317 h 14.44 l 3.8,4.56 H 93 v 25.84 H 55 Z"
+     fill="#765d78"
+     id="path56" />
+  <path
+     d="M 61.84,365.88317 H 86.16"
+     stroke="#ffffff"
+     stroke-width="2"
+     id="path57" />
+  <text
+     x="106"
+     y="372.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="24px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="start"
+     id="text57">Nested folders</text>
+  <path
+     d="m 65,390.98317 h 235 a 10,10 0 0 1 10,10 v 30 a 10,10 0 0 1 -10,10 H 92 l -14,13 v -13 H 65 a 10,10 0 0 1 -10,-10 v -30 a 10,10 0 0 1 10,-10 z"
+     fill="#f3f6f7"
+     id="path58" />
+  <text
+     x="72"
+     y="421.98315"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="19px"
+     font-style="italic"
+     fill="#22313a"
+     text-anchor="start"
+     id="text58">“Site 4, this season”</text>
+  <rect
+     x="55"
+     y="468.98315"
+     width="152"
+     height="23"
+     rx="11.5"
+     fill="#ffffff"
+     stroke="#2f4a55"
+     stroke-width="1.5"
+     id="rect58" />
+  <text
+     x="130.8"
+     y="484.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12px"
+     font-weight="600"
+     fill="#2f4a55"
+     text-anchor="middle"
+     id="text59">Indigenous partner</text>
+  <rect
+     x="330"
+     y="334.98315"
+     width="410"
+     height="172"
+     rx="10"
+     fill="#ffffff"
+     stroke="#d5dde0"
+     stroke-width="1.5"
+     id="rect59" />
+  <path
+     d="m 330,344.98317 a 10,10 0 0 1 10,-10 h 390 a 10,10 0 0 1 10,10 v 20 H 330 Z"
+     fill="#f3f6f7"
+     id="path59" />
+  <circle
+     cx="346"
+     cy="349.98315"
+     r="4"
+     fill="#b8c2c7"
+     id="circle59" />
+  <circle
+     cx="360"
+     cy="349.98315"
+     r="4"
+     fill="#b8c2c7"
+     id="circle60" />
+  <circle
+     cx="374"
+     cy="349.98315"
+     r="4"
+     fill="#b8c2c7"
+     id="circle61" />
+  <text
+     x="392"
+     y="354.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text61">/media/cards</text>
+  <rect
+     x="338"
+     y="371.98315"
+     width="394"
+     height="110"
+     rx="6"
+     fill="#f1ecf1"
+     id="rect61" />
+  <path
+     d="m 346,376.98317 h 5 l 2,2 h 7 v 9 h -14 z"
+     fill="#5e4a60"
+     id="path61" />
+  <text
+     x="368"
+     y="386.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text62">site04/</text>
+  <path
+     d="m 364,398.98317 h 5 l 2,2 h 7 v 9 h -14 z"
+     fill="#5e4a60"
+     id="path62" />
+  <text
+     x="386"
+     y="408.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text63">2026-05-01/</text>
+  <path
+     d="m 384,418.98317 h 7 l 4,4 v 10 h -11 z"
+     fill="none"
+     stroke="#5e4a60"
+     stroke-width="1.4"
+     id="path63" />
+  <text
+     x="404"
+     y="430.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text64">S4A07_20260501_053000.wav</text>
+  <path
+     d="m 384,440.98317 h 7 l 4,4 v 10 h -11 z"
+     fill="none"
+     stroke="#5e4a60"
+     stroke-width="1.4"
+     id="path64" />
+  <text
+     x="404"
+     y="452.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text65">S4A07_20260501_060000.wav</text>
+  <path
+     d="m 364,464.98317 h 5 l 2,2 h 7 v 9 h -14 z"
+     fill="#5e4a60"
+     id="path65" />
+  <text
+     x="386"
+     y="474.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text66">2026-05-02/ …</text>
+  <path
+     d="m 346,486.98317 h 5 l 2,2 h 7 v 9 h -14 z"
+     fill="#b8c2c7"
+     id="path66" />
+  <text
+     x="368"
+     y="496.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#b8c2c7"
+     text-anchor="start"
+     id="text67">site05/</text>
+  <path
+     d="m 748,420.98317 h 20"
+     fill="none"
+     stroke="#765d78"
+     stroke-width="2"
+     marker-end="url(#k1)"
+     id="path67" />
+  <path
+     d="m 772,334.98317 h 356 v 78 h -9 v -10 h -11 v 36 h 11 v -10 h 9 v 78 H 772 Z"
+     fill="#f1ecf1"
+     stroke="#765d78"
+     stroke-width="2"
+     stroke-linejoin="round"
+     id="path68" />
+  <text
+     x="796"
+     y="374.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="18px"
+     font-weight="600"
+     fill="#5e4a60"
+     text-anchor="start"
+     id="text68">folder-layout</text>
+  <rect
+     x="1011"
+     y="356.98315"
+     width="73"
+     height="22"
+     rx="11"
+     fill="#ffffff"
+     stroke="#765d78"
+     stroke-width="1.5"
+     id="rect68" />
+  <text
+     x="1047.7"
+     y="371.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="middle"
+     letter-spacing="1"
+     id="text69">BUILT IN</text>
+  <text
+     x="796"
+     y="398.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text70">SELECTION</text>
+  <text
+     x="796"
+     y="420.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text71">{&quot;site&quot;: 4, &quot;season&quot;: 2026}</text>
+  <path
+     d="m 796,436.98317 h 292"
+     stroke="#dccfdd"
+     id="path71" />
+  <text
+     x="796"
+     y="456.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text72">NEEDS</text>
+  <text
+     x="892"
+     y="456.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text73">read access to the disk</text>
+  <text
+     x="796"
+     y="474.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text74">IDENTITY</text>
+  <text
+     x="892"
+     y="474.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text75">recorder + start time in the name</text>
+  <text
+     x="796"
+     y="492.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text76">COMES FROM</text>
+  <text
+     x="892"
+     y="492.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#5e4a60"
+     text-anchor="start"
+     id="text77">layout set in YAML</text>
+  <path
+     d="m 1136,420.98317 h 12"
+     fill="none"
+     stroke="#765d78"
+     stroke-width="2"
+     marker-end="url(#k1)"
+     id="path77" />
+  <rect
+     x="1156"
+     y="417.38318"
+     width="2.4000001"
+     height="5.1999998"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect77" />
+  <rect
+     x="1160.4"
+     y="414.48315"
+     width="2.4000001"
+     height="11.1"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect78" />
+  <rect
+     x="1164.9"
+     y="412.38318"
+     width="2.4000001"
+     height="15.2"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect79" />
+  <rect
+     x="1169.3"
+     y="411.38318"
+     width="2.4000001"
+     height="17.1"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect80" />
+  <rect
+     x="1173.8"
+     y="412.58313"
+     width="2.4000001"
+     height="14.8"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect81" />
+  <rect
+     x="1178.2"
+     y="409.38318"
+     width="2.4000001"
+     height="21.299999"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect82" />
+  <rect
+     x="1182.7"
+     y="411.48315"
+     width="2.4000001"
+     height="17"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect83" />
+  <rect
+     x="1187.1"
+     y="415.08313"
+     width="2.4000001"
+     height="9.8000002"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect84" />
+  <rect
+     x="1191.6"
+     y="416.48315"
+     width="2.4000001"
+     height="7"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect85" />
+  <rect
+     x="1208"
+     y="406.98315"
+     width="55"
+     height="24"
+     rx="5"
+     fill="#2f4a55"
+     id="rect86" />
+  <text
+     x="1235.5"
+     y="423.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text86">cards</text>
+  <text
+     x="1271"
+     y="424.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text87">S4A07_20260501_053000</text>
+  <text
+     x="1208"
+     y="448.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="11px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text88">file:///media/cards/site04/2026-05-01/…</text>
+  <path
+     d="m 1488,380.98317 c 36,0 42,273 72,273 v 12 c -30,0 -36,-205 -72,-205 z"
+     fill="url(#rib)"
+     id="path88"
+     style="fill:url(#linearGradient183)" />
+  <rect
+     x="31"
+     y="542.98315"
+     width="1457"
+     height="208"
+     rx="14"
+     fill="#ffffff"
+     filter="url(#sh)"
+     id="rect88" />
+  <path
+     d="m 58.04,578.58317 h 31.92 l -4.56,27.36 H 62.6 Z"
+     fill="#765d78"
+     id="path89" />
+  <ellipse
+     cx="74"
+     cy="578.58313"
+     rx="15.96"
+     ry="3.8"
+     fill="#ffffff"
+     stroke="#765d78"
+     stroke-width="2"
+     id="ellipse89" />
+  <text
+     x="106"
+     y="598.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="24px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="start"
+     id="text89">Bucket prefix</text>
+  <path
+     d="m 65,616.98317 h 235 a 10,10 0 0 1 10,10 v 30 a 10,10 0 0 1 -10,10 H 92 l -14,13 v -13 H 65 a 10,10 0 0 1 -10,-10 v -30 a 10,10 0 0 1 10,-10 z"
+     fill="#f3f6f7"
+     id="path90" />
+  <text
+     x="72"
+     y="647.98315"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="19px"
+     font-style="italic"
+     fill="#22313a"
+     text-anchor="start"
+     id="text90">“Everything under ARU-12”</text>
+  <rect
+     x="55"
+     y="694.98315"
+     width="166"
+     height="23"
+     rx="11.5"
+     fill="#ffffff"
+     stroke="#2f4a55"
+     stroke-width="1.5"
+     id="rect90" />
+  <text
+     x="138"
+     y="710.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12px"
+     font-weight="600"
+     fill="#2f4a55"
+     text-anchor="middle"
+     id="text91">Any deployment on S3</text>
+  <rect
+     x="330"
+     y="560.98315"
+     width="410"
+     height="172"
+     rx="10"
+     fill="#ffffff"
+     stroke="#d5dde0"
+     stroke-width="1.5"
+     id="rect91" />
+  <path
+     d="m 330,570.98317 a 10,10 0 0 1 10,-10 h 390 a 10,10 0 0 1 10,10 v 20 H 330 Z"
+     fill="#f3f6f7"
+     id="path91" />
+  <circle
+     cx="346"
+     cy="575.98315"
+     r="4"
+     fill="#b8c2c7"
+     id="circle91" />
+  <circle
+     cx="360"
+     cy="575.98315"
+     r="4"
+     fill="#b8c2c7"
+     id="circle92" />
+  <circle
+     cx="374"
+     cy="575.98315"
+     r="4"
+     fill="#b8c2c7"
+     id="circle93" />
+  <text
+     x="392"
+     y="580.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text93">s3://lab-audio/</text>
+  <text
+     x="346"
+     y="612.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     xml:space="preserve"
+     id="text94"><tspan
+       fill="#b8c2c7"
+       font-weight="400"
+       id="tspan93">2025/ARU-03/</tspan><tspan
+       fill="#b8c2c7"
+       font-weight="400"
+       id="tspan94">0001.flac</tspan></text>
+  <rect
+     x="338"
+     y="618.98315"
+     width="394"
+     height="22"
+     fill="#f1ecf1"
+     id="rect94" />
+  <text
+     x="346"
+     y="634.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     xml:space="preserve"
+     id="text96"><tspan
+       fill="#5e4a60"
+       font-weight="600"
+       id="tspan95">2026/ARU-12/</tspan><tspan
+       fill="#22313a"
+       font-weight="400"
+       id="tspan96">0001.flac</tspan></text>
+  <rect
+     x="338"
+     y="640.98315"
+     width="394"
+     height="22"
+     fill="#f1ecf1"
+     id="rect96" />
+  <text
+     x="346"
+     y="656.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     xml:space="preserve"
+     id="text98"><tspan
+       fill="#5e4a60"
+       font-weight="600"
+       id="tspan97">2026/ARU-12/</tspan><tspan
+       fill="#22313a"
+       font-weight="400"
+       id="tspan98">0002.flac</tspan></text>
+  <rect
+     x="338"
+     y="662.98315"
+     width="394"
+     height="22"
+     fill="#f1ecf1"
+     id="rect98" />
+  <text
+     x="346"
+     y="678.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     xml:space="preserve"
+     id="text100"><tspan
+       fill="#5e4a60"
+       font-weight="600"
+       id="tspan99">2026/ARU-12/</tspan><tspan
+       fill="#22313a"
+       font-weight="400"
+       id="tspan100">0003.flac</tspan></text>
+  <text
+     x="346"
+     y="700.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     xml:space="preserve"
+     id="text102"><tspan
+       fill="#b8c2c7"
+       font-weight="400"
+       id="tspan101">2026/ARU-14/</tspan><tspan
+       fill="#b8c2c7"
+       font-weight="400"
+       id="tspan102">0001.flac</tspan></text>
+  <path
+     d="m 748,646.98317 h 20"
+     fill="none"
+     stroke="#765d78"
+     stroke-width="2"
+     marker-end="url(#k1)"
+     id="path102" />
+  <path
+     d="m 772,560.98317 h 356 v 78 h -9 v -10 h -11 v 36 h 11 v -10 h 9 v 78 H 772 Z"
+     fill="#f1ecf1"
+     stroke="#765d78"
+     stroke-width="2"
+     stroke-linejoin="round"
+     id="path103" />
+  <text
+     x="796"
+     y="600.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="18px"
+     font-weight="600"
+     fill="#5e4a60"
+     text-anchor="start"
+     id="text103">bucket-prefix</text>
+  <rect
+     x="1011"
+     y="582.98315"
+     width="73"
+     height="22"
+     rx="11"
+     fill="#ffffff"
+     stroke="#765d78"
+     stroke-width="1.5"
+     id="rect103" />
+  <text
+     x="1047.7"
+     y="597.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="middle"
+     letter-spacing="1"
+     id="text104">BUILT IN</text>
+  <text
+     x="796"
+     y="624.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text105">SELECTION</text>
+  <text
+     x="796"
+     y="646.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text106">{&quot;prefix&quot;: &quot;2026/ARU-12/&quot;}</text>
+  <path
+     d="m 796,662.98317 h 292"
+     stroke="#dccfdd"
+     id="path106" />
+  <text
+     x="796"
+     y="682.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text107">NEEDS</text>
+  <text
+     x="892"
+     y="682.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text108">permission to list the bucket</text>
+  <text
+     x="796"
+     y="700.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text109">IDENTITY</text>
+  <text
+     x="892"
+     y="700.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text110">the object key: never rename</text>
+  <text
+     x="796"
+     y="718.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text111">COMES FROM</text>
+  <text
+     x="892"
+     y="718.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#5e4a60"
+     text-anchor="start"
+     id="text112">bucket set in YAML</text>
+  <path
+     d="m 1136,646.98317 h 12"
+     fill="none"
+     stroke="#765d78"
+     stroke-width="2"
+     marker-end="url(#k1)"
+     id="path112" />
+  <rect
+     x="1156"
+     y="642.78314"
+     width="2.4000001"
+     height="6.3000002"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect112" />
+  <rect
+     x="1160.4"
+     y="639.58313"
+     width="2.4000001"
+     height="12.8"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect113" />
+  <rect
+     x="1164.9"
+     y="637.28314"
+     width="2.4000001"
+     height="17.4"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect114" />
+  <rect
+     x="1169.3"
+     y="639.18317"
+     width="2.4000001"
+     height="13.6"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect115" />
+  <rect
+     x="1173.8"
+     y="633.88318"
+     width="2.4000001"
+     height="24.200001"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect116" />
+  <rect
+     x="1178.2"
+     y="636.38318"
+     width="2.4000001"
+     height="19.200001"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect117" />
+  <rect
+     x="1182.7"
+     y="641.48315"
+     width="2.4000001"
+     height="9"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect118" />
+  <rect
+     x="1187.1"
+     y="639.48315"
+     width="2.4000001"
+     height="13"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect119" />
+  <rect
+     x="1191.6"
+     y="643.18317"
+     width="2.4000001"
+     height="5.6999998"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect120" />
+  <rect
+     x="1208"
+     y="632.98315"
+     width="86"
+     height="24"
+     rx="5"
+     fill="#2f4a55"
+     id="rect121" />
+  <text
+     x="1251.1"
+     y="649.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text121">lab-audio</text>
+  <text
+     x="1302.2"
+     y="650.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text122">2026/ARU-12/0001.flac</text>
+  <text
+     x="1208"
+     y="674.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="11px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text123">s3://lab-audio/2026/ARU-12/0001.flac</text>
+  <path
+     d="m 1488,606.98317 c 36,0 42,61 72,61 v 12 c -30,0 -36,7 -72,7 z"
+     fill="url(#rib)"
+     id="path123"
+     style="fill:url(#linearGradient184)" />
+  <rect
+     x="31"
+     y="768.98315"
+     width="1457"
+     height="208"
+     rx="14"
+     fill="#ffffff"
+     filter="url(#sh)"
+     id="rect123" />
+  <rect
+     x="55"
+     y="800.78314"
+     width="38"
+     height="30.4"
+     rx="4"
+     fill="#ffffff"
+     stroke="#765d78"
+     stroke-width="2.5"
+     id="rect124" />
+  <rect
+     x="55"
+     y="800.78314"
+     width="38"
+     height="8.3599997"
+     rx="4"
+     fill="#765d78"
+     id="rect125" />
+  <path
+     d="m 67.666667,800.78317 v 30.4"
+     stroke="#765d78"
+     stroke-width="1.5"
+     id="path125" />
+  <path
+     d="m 80.333333,800.78317 v 30.4"
+     stroke="#765d78"
+     stroke-width="1.5"
+     id="path126" />
+  <path
+     d="M 55,819.78317 H 93"
+     stroke="#765d78"
+     stroke-width="1.5"
+     id="path127" />
+  <text
+     x="106"
+     y="824.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="24px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="start"
+     id="text127">Spreadsheet</text>
+  <path
+     d="m 65,842.98317 h 235 a 10,10 0 0 1 10,10 v 30 a 10,10 0 0 1 -10,10 H 92 l -14,13 v -13 H 65 a 10,10 0 0 1 -10,-10 v -30 a 10,10 0 0 1 10,-10 z"
+     fill="#f3f6f7"
+     id="path128" />
+  <text
+     x="72"
+     y="873.98315"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="19px"
+     font-style="italic"
+     fill="#22313a"
+     text-anchor="start"
+     id="text128">“The rows in my sheet”</text>
+  <rect
+     x="55"
+     y="920.98315"
+     width="123"
+     height="23"
+     rx="11.5"
+     fill="#ffffff"
+     stroke="#2f4a55"
+     stroke-width="1.5"
+     id="rect128" />
+  <text
+     x="116.4"
+     y="936.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12px"
+     font-weight="600"
+     fill="#2f4a55"
+     text-anchor="middle"
+     id="text129">University lab</text>
+  <rect
+     x="330"
+     y="786.98315"
+     width="410"
+     height="172"
+     rx="10"
+     fill="#ffffff"
+     stroke="#d5dde0"
+     stroke-width="1.5"
+     id="rect129" />
+  <path
+     d="m 330,796.98317 a 10,10 0 0 1 10,-10 h 390 a 10,10 0 0 1 10,10 v 20 H 330 Z"
+     fill="#f3f6f7"
+     id="path129" />
+  <circle
+     cx="346"
+     cy="801.98315"
+     r="4"
+     fill="#b8c2c7"
+     id="circle129" />
+  <circle
+     cx="360"
+     cy="801.98315"
+     r="4"
+     fill="#b8c2c7"
+     id="circle130" />
+  <circle
+     cx="374"
+     cy="801.98315"
+     r="4"
+     fill="#b8c2c7"
+     id="circle131" />
+  <text
+     x="392"
+     y="806.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text131">recordings.csv</text>
+  <rect
+     x="338"
+     y="820.98315"
+     width="394"
+     height="22"
+     fill="#f3f6f7"
+     id="rect131" />
+  <text
+     x="346"
+     y="838.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="600"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text132">id</text>
+  <text
+     x="519.40002"
+     y="838.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="600"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text133">audio</text>
+  <text
+     x="677"
+     y="838.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="600"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text134">site</text>
+  <path
+     d="M 338,842.98317 H 732"
+     stroke="#d5dde0"
+     id="path134" />
+  <text
+     x="346"
+     y="860.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text135">2026-05-01-a</text>
+  <text
+     x="519.40002"
+     y="860.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text136">…/a.wav</text>
+  <text
+     x="677"
+     y="860.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text137">4</text>
+  <path
+     d="M 338,864.98317 H 732"
+     stroke="#d5dde0"
+     id="path137" />
+  <text
+     x="346"
+     y="882.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text138">2026-05-01-b</text>
+  <text
+     x="519.40002"
+     y="882.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text139">…/b.wav</text>
+  <text
+     x="677"
+     y="882.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text140">4</text>
+  <path
+     d="M 338,886.98317 H 732"
+     stroke="#d5dde0"
+     id="path140" />
+  <text
+     x="346"
+     y="904.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text141">2026-05-02-a</text>
+  <text
+     x="519.40002"
+     y="904.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text142">…/a.wav</text>
+  <text
+     x="677"
+     y="904.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text143">5</text>
+  <path
+     d="M 338,908.98317 H 732"
+     stroke="#d5dde0"
+     id="path143" />
+  <text
+     x="346"
+     y="926.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text144">2026-05-02-b</text>
+  <text
+     x="519.40002"
+     y="926.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text145">…/b.wav</text>
+  <text
+     x="677"
+     y="926.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text146">5</text>
+  <path
+     d="m 511.36,820.98317 v 110"
+     stroke="#d5dde0"
+     id="path146" />
+  <path
+     d="m 668.96,820.98317 v 110"
+     stroke="#d5dde0"
+     id="path147" />
+  <path
+     d="m 748,872.98317 h 20"
+     fill="none"
+     stroke="#765d78"
+     stroke-width="2"
+     marker-end="url(#k1)"
+     id="path148" />
+  <path
+     d="m 772,786.98317 h 356 v 78 h -9 v -10 h -11 v 36 h 11 v -10 h 9 v 78 H 772 Z"
+     fill="#f1ecf1"
+     stroke="#765d78"
+     stroke-width="2"
+     stroke-linejoin="round"
+     id="path149" />
+  <text
+     x="796"
+     y="826.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="18px"
+     font-weight="600"
+     fill="#5e4a60"
+     text-anchor="start"
+     id="text149">csv-list</text>
+  <rect
+     x="1011"
+     y="808.98315"
+     width="73"
+     height="22"
+     rx="11"
+     fill="#ffffff"
+     stroke="#765d78"
+     stroke-width="1.5"
+     id="rect149" />
+  <text
+     x="1047.7"
+     y="823.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="middle"
+     letter-spacing="1"
+     id="text150">BUILT IN</text>
+  <text
+     x="796"
+     y="850.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#765d78"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text151">SELECTION</text>
+  <text
+     x="796"
+     y="872.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text152">{&quot;file&quot;: &quot;recordings.csv&quot;}</text>
+  <path
+     d="m 796,888.98317 h 292"
+     stroke="#dccfdd"
+     id="path152" />
+  <text
+     x="796"
+     y="908.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text153">NEEDS</text>
+  <text
+     x="892"
+     y="908.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text154">read access to the file</text>
+  <text
+     x="796"
+     y="926.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text155">IDENTITY</text>
+  <text
+     x="892"
+     y="926.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text156">the sheet's ID column</text>
+  <text
+     x="796"
+     y="944.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10px"
+     font-weight="600"
+     fill="#9aa6ac"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text157">COMES FROM</text>
+  <text
+     x="892"
+     y="944.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#5e4a60"
+     text-anchor="start"
+     id="text158">file and columns set in YAML</text>
+  <path
+     d="m 1136,872.98317 h 12"
+     fill="none"
+     stroke="#765d78"
+     stroke-width="2"
+     marker-end="url(#k1)"
+     id="path158" />
+  <rect
+     x="1156"
+     y="869.58313"
+     width="2.4000001"
+     height="4.8000002"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect158" />
+  <rect
+     x="1160.4"
+     y="865.48315"
+     width="2.4000001"
+     height="13"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect159" />
+  <rect
+     x="1164.9"
+     y="866.88318"
+     width="2.4000001"
+     height="10.1"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect160" />
+  <rect
+     x="1169.3"
+     y="861.68317"
+     width="2.4000001"
+     height="20.6"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect161" />
+  <rect
+     x="1173.8"
+     y="860.08313"
+     width="2.4000001"
+     height="23.700001"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect162" />
+  <rect
+     x="1178.2"
+     y="861.68317"
+     width="2.4000001"
+     height="20.700001"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect163" />
+  <rect
+     x="1182.7"
+     y="866.08313"
+     width="2.4000001"
+     height="11.7"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect164" />
+  <rect
+     x="1187.1"
+     y="867.68317"
+     width="2.4000001"
+     height="8.6000004"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect165" />
+  <rect
+     x="1191.6"
+     y="867.88318"
+     width="2.4000001"
+     height="8.1000004"
+     rx="1.2"
+     fill="#b8c2c7"
+     id="rect166" />
+  <rect
+     x="1208"
+     y="858.98315"
+     width="39"
+     height="24"
+     rx="5"
+     fill="#2f4a55"
+     id="rect167" />
+  <text
+     x="1227.7"
+     y="875.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text167">lab</text>
+  <text
+     x="1255.4"
+     y="876.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="13px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text168">2026-05-01-a</text>
+  <text
+     x="1208"
+     y="900.98315"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="11px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text169">file:///srv/audio/2026-05-01/a.wav</text>
+  <path
+     d="m 1488,832.98317 c 36,0 42,-151 72,-151 v 12 c -30,0 -36,219 -72,219 z"
+     fill="url(#rib)"
+     id="path169"
+     style="fill:url(#linearGradient185)" />
+  <rect
+     x="1560"
+     y="90.98317"
+     width="349"
+     height="886"
+     rx="14"
+     fill="#2f4a55"
+     id="rect169" />
+  <text
+     x="1588"
+     y="154.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="32px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text170">ROBIN core</text>
+  <text
+     x="1588"
+     y="198.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="18px"
+     font-weight="400"
+     fill="#d6e1e4"
+     text-anchor="start"
+     id="text171">One kind of list,</text>
+  <text
+     x="1588"
+     y="226.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="18px"
+     font-weight="400"
+     fill="#d6e1e4"
+     text-anchor="start"
+     id="text172">from every source.</text>
+  <text
+     x="1588"
+     y="254.98317"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="18px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text173" />
+  <text
+     x="1588"
+     y="282.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="18px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text174">Keeps each list.</text>
+  <text
+     x="1588"
+     y="310.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="18px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text175">A run never asks</text>
+  <text
+     x="1588"
+     y="338.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="18px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text176">the source again.</text>
+  <text
+     x="1588"
+     y="620.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11px"
+     font-weight="600"
+     fill="#9fb3ba"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text177">ITS FIVE PORTS</text>
+  <path
+     d="m 1588,640.98317 h 200 v 18 0 h 9 v -10 h 11 v 36 h -11 v -10 h -9 v 0 18 h -200 z"
+     fill="#765d78"
+     id="path177" />
+  <text
+     x="1606"
+     y="672.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text178">Catalog</text>
+  <path
+     d="m 1588,704.98317 h 200 v 2 0 h 17 v 15 h -17 v 18 h 17 v 15 h -17 v 0 2 h -200 z"
+     fill="#3f7466"
+     id="path178" />
+  <text
+     x="1606"
+     y="736.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text179">Storage</text>
+  <path
+     d="m 1588,768.98317 h 200 v 2.9 0 l 18,8.1 v 30 l -18,8.1 v 0 2.9 h -200 z"
+     fill="#2e8592"
+     id="path179" />
+  <text
+     x="1606"
+     y="800.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text180">Compute</text>
+  <path
+     d="m 1588,832.98317 h 200 v 3.9 0 l 21.1,22.1 -21.1,22.1 v 0 3.9 h -200 z"
+     fill="#4a5fa8"
+     id="path180" />
+  <text
+     x="1606"
+     y="864.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text181">Models</text>
+  <path
+     d="m 1588,896.98317 h 200 v 11 0 l 4.4,0.5 4.1,1.5 3.5,2.4 2.7,3.1 1.8,3.6 0.5,3.9 -0.5,3.9 -1.8,3.6 -2.7,3.1 -3.5,2.4 -4.1,1.5 -4.4,0.5 v 0 11 h -200 z"
+     fill="#c2603a"
+     id="path181" />
+  <text
+     x="1606"
+     y="928.98315"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text182">Governance</text>
+  <path
+     d="m 1560,666.98317 h 28"
+     stroke="#765d78"
+     stroke-width="3"
+     id="path182" />
+  <metadata
+     id="metadata182">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Many kinds of source, one kind of list</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

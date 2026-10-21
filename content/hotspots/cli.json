@@ -1,0 +1,50 @@
+{
+  "hint": "Hover or tap a command group.",
+  "parts": [
+    {
+      "title": "robin runs",
+      "body": "Everything about runs: submit a list of recordings, follow its progress down to each recording and task, and cancel, withdraw or retry it. Each command is safe to repeat.",
+      "boxes": [[170, 100, 870, 330]]
+    },
+    {
+      "title": "robin models",
+      "body": "Register a model card and its files, and look up what is registered.",
+      "boxes": [[360, 455, 680, 120]]
+    },
+    {
+      "title": "robin presets",
+      "body": "Give a configuration (a model plus settings) a fixed name people can reuse.",
+      "boxes": [[360, 600, 680, 120]]
+    },
+    {
+      "title": "robin reconcile",
+      "body": "One pass of the controller loop: stop cancelled work, record ended tasks, prepare waiting runs, launch queued tasks. With --loop it repeats until stopped.",
+      "boxes": [[360, 742, 680, 40]]
+    },
+    {
+      "title": "robin db migrate",
+      "body": "Create or update the run manager's tables.",
+      "boxes": [[360, 802, 680, 40]]
+    },
+    {
+      "title": "robin whoami",
+      "body": "Show the database login your commands will use.",
+      "boxes": [[360, 862, 680, 40]]
+    },
+    {
+      "title": "Global options",
+      "body": "--profile picks the deployment and --env its environment (there is no default, so you never hit production by accident). --json prints one JSON object for scripts.",
+      "boxes": [[1050, 90, 400, 185]]
+    },
+    {
+      "title": "Every list command",
+      "body": "Pages with --limit and --cursor, or --all for everything.",
+      "boxes": [[1050, 310, 300, 75]]
+    },
+    {
+      "title": "No API in between",
+      "body": "CLI commands call the run manager directly, with your own database login.",
+      "boxes": [[1050, 425, 310, 80]]
+    }
+  ]
+}

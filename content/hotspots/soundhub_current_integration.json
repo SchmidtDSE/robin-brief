@@ -1,0 +1,40 @@
+{
+  "hint": "Hover or tap a step.",
+  "parts": [
+    {
+      "title": "1 · Choose the recordings",
+      "body": "An operator on our team picks what to run, for example all of SoundHub project 123.",
+      "boxes": [[120, 232, 1030, 80]]
+    },
+    {
+      "title": "2 · Resolve the list",
+      "body": "The soundhub-robin catalog adapter asks the SoundHub API for the project's recordings, using the operator's own SoundHub token. ROBIN never stores it.",
+      "boxes": [[120, 336, 1030, 80], [425, 440, 215, 75]]
+    },
+    {
+      "title": "3 · Record the run",
+      "body": "robin runs submit freezes the list and records the run, the list and the claims in PostgreSQL, so nothing already done is run twice.",
+      "boxes": [[120, 440, 300, 80], [800, 410, 400, 110]]
+    },
+    {
+      "title": "4 · Launch the jobs",
+      "body": "The controller (robin reconcile --loop) starts one SageMaker worker job per task. Jobs read SoundHub's audio from S3 with their own role.",
+      "boxes": [[120, 544, 1400, 80], [1240, 762, 200, 52]]
+    },
+    {
+      "title": "5 · Write the outputs",
+      "body": "Each worker writes its result.json and Parquet outputs to Amazon S3.",
+      "boxes": [[120, 648, 1400, 80], [1140, 684, 110, 112]]
+    },
+    {
+      "title": "6 · Record the outcomes",
+      "body": "The controller checks each result file and records the outcomes in the database.",
+      "boxes": [[120, 752, 1030, 80]]
+    },
+    {
+      "title": "7 · Show the detections",
+      "body": "api-dock reads ROBIN's published views to find the right Parquet file, and SoundHub's web app shows the detections by recording ID. SoundHub's code is unchanged.",
+      "boxes": [[120, 856, 1030, 80]]
+    }
+  ]
+}

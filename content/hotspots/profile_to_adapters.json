@@ -1,0 +1,40 @@
+{
+  "hint": "Hover or tap a section of the profile.",
+  "parts": [
+    {
+      "title": "storage → S3 storage adapter",
+      "body": "Writes every work file, result file and output under s3://robin-outputs/prod.",
+      "boxes": [[33, 105, 640, 75], [1133, 98, 420, 52]]
+    },
+    {
+      "title": "compute → SageMaker compute adapter",
+      "body": "Starts each task in its model family's image, on that model's instance type, with at most 20 running at once. The role comes from an environment variable.",
+      "boxes": [[33, 175, 640, 255], [1133, 167, 420, 70]]
+    },
+    {
+      "title": "governance → none yet",
+      "body": "In the first pass SoundHub's IAM policies decide what the job role can read, and ROBIN keeps its own record.",
+      "boxes": [[33, 428, 640, 50], [1133, 420, 420, 70]]
+    },
+    {
+      "title": "tasks → controller settings",
+      "body": "Not an adapter: how many recordings go into each task when a run is split up.",
+      "boxes": [[33, 474, 640, 50], [1133, 504, 420, 52]]
+    },
+    {
+      "title": "resolver → soundhub-robin",
+      "body": "Names a module and function. At submit, the CLI imports it and calls build(settings) to get the SoundHub catalog adapter.",
+      "boxes": [[33, 520, 640, 100], [1133, 570, 420, 70]]
+    },
+    {
+      "title": "prod.yaml → database",
+      "body": "The production environment replaces whole sections of config.yaml. Here: PostgreSQL on RDS, connecting with an IAM token made from the person's AWS login, so no password is stored.",
+      "boxes": [[33, 669, 640, 233], [1133, 706, 420, 70]]
+    },
+    {
+      "title": "compose",
+      "body": "Runs once at startup. Merge prod.yaml over config.yaml, fill each ${NAME} from the environment (a missing one stops startup), check the combination makes sense, then build the adapters.",
+      "boxes": [[753, 61, 300, 841]]
+    }
+  ]
+}

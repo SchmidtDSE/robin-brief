@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1470.1711"
+   height="863.595"
+   viewBox="0 73.012 1470.17 863.595"
+   role="img"
+   version="1.1"
+   id="svg73"
+   sodipodi:docname="cli.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   inkscape:export-filename="cli.png"
+   inkscape:export-xdpi="144"
+   inkscape:export-ydpi="144"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview73"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0321278"
+     inkscape:cx="631.22029"
+     inkscape:cy="552.74163"
+     inkscape:window-width="3008"
+     inkscape:window-height="1634"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg73" />
+  <title
+     id="title1">The robin command.</title>
+  <rect
+     width="1470.1711"
+     height="936.60693"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.896259" />
+  <defs
+     id="defs14">
+    <marker
+       id="a0"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#22313a"
+         id="path1" />
+    </marker>
+    <marker
+       id="a1"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#5d6b73"
+         id="path2" />
+    </marker>
+    <marker
+       id="a2"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#86674a"
+         id="path3" />
+    </marker>
+    <marker
+       id="a3"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f8592"
+         id="path4" />
+    </marker>
+    <marker
+       id="a4"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#3f7466"
+         id="path5" />
+    </marker>
+    <marker
+       id="a5"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f4a55"
+         id="path6" />
+    </marker>
+    <marker
+       id="a6"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#ffffff"
+         id="path7" />
+    </marker>
+    <marker
+       id="a7"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#8a979e"
+         id="path8" />
+    </marker>
+    <marker
+       id="a8"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#a8742a"
+         id="path9" />
+    </marker>
+    <marker
+       id="a9"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#67557c"
+         id="path10" />
+    </marker>
+    <marker
+       id="a10"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#688d9b"
+         id="path11" />
+    </marker>
+    <marker
+       id="a11"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#b5473a"
+         id="path12" />
+    </marker>
+    <marker
+       id="a12"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#765d78"
+         id="path13" />
+    </marker>
+    <marker
+       id="a13"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#4a5fa8"
+         id="path14" />
+    </marker>
+  </defs>
+  <rect
+     x="47.058342"
+     y="477.64978"
+     width="120"
+     height="44"
+     rx="22"
+     fill="#eff3f4"
+     stroke="#2f4a55"
+     stroke-width="1.6"
+     id="rect15" />
+  <text
+     x="107.05834"
+     y="506.84979"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="20px"
+     font-weight="600"
+     fill="#2f4a55"
+     text-anchor="middle"
+     id="text16">robin</text>
+  <path
+     d="m 173.05834,499.64977 c 74,0 54,-234 138,-234"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path16" />
+  <rect
+     x="317.05835"
+     y="248.64978"
+     width="190"
+     height="34"
+     rx="17"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect16" />
+  <text
+     x="412.05835"
+     y="271.44977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text17">runs</text>
+  <path
+     d="m 513.05834,265.64977 c 44,0 64,-147 100,-147"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path17" />
+  <rect
+     x="617.05835"
+     y="103.64977"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect17" />
+  <text
+     x="697.05835"
+     y="124.04977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text18">submit</text>
+  <text
+     x="791.05835"
+     y="123.64977"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text19">start a run on a list of recordings</text>
+  <path
+     d="m 513.05834,265.64977 c 44,0 64,-105 100,-105"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path19" />
+  <rect
+     x="617.05835"
+     y="145.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect19" />
+  <text
+     x="697.05835"
+     y="166.04977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text20">list</text>
+  <text
+     x="791.05835"
+     y="165.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text21">list runs, newest first</text>
+  <path
+     d="m 513.05834,265.64977 c 44,0 64,-63 100,-63"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path21" />
+  <rect
+     x="617.05835"
+     y="187.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect21" />
+  <text
+     x="697.05835"
+     y="208.04977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text22">show</text>
+  <text
+     x="791.05835"
+     y="207.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text23">one run's status and counts</text>
+  <path
+     d="m 513.05834,265.64977 c 44,0 64,-21 100,-21"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path23" />
+  <rect
+     x="617.05835"
+     y="229.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect23" />
+  <text
+     x="697.05835"
+     y="250.04977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text24">recordings</text>
+  <text
+     x="791.05835"
+     y="249.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text25">each recording's outcome</text>
+  <path
+     d="m 513.05834,265.64977 c 44,0 64,21 100,21"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path25" />
+  <rect
+     x="617.05835"
+     y="271.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect25" />
+  <text
+     x="697.05835"
+     y="292.04977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text26">tasks</text>
+  <text
+     x="791.05835"
+     y="291.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text27">tasks and their failure detail</text>
+  <path
+     d="m 513.05834,265.64977 c 44,0 64,63 100,63"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path27" />
+  <rect
+     x="617.05835"
+     y="313.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect27" />
+  <text
+     x="697.05835"
+     y="334.04977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text28">cancel</text>
+  <text
+     x="791.05835"
+     y="333.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text29">stop work that has not finished</text>
+  <path
+     d="m 513.05834,265.64977 c 44,0 64,105 100,105"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path29" />
+  <rect
+     x="617.05835"
+     y="355.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect29" />
+  <text
+     x="697.05835"
+     y="376.04977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text30">withdraw</text>
+  <text
+     x="791.05835"
+     y="375.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text31">take its results out of current</text>
+  <path
+     d="m 513.05834,265.64977 c 44,0 64,147 100,147"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path31" />
+  <rect
+     x="617.05835"
+     y="397.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect31" />
+  <text
+     x="697.05835"
+     y="418.04977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text32">retry</text>
+  <text
+     x="791.05835"
+     y="417.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text33">run failed recordings again</text>
+  <path
+     d="m 173.05834,499.64977 c 74,0 54,15 138,15"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path33" />
+  <rect
+     x="317.05835"
+     y="497.64978"
+     width="190"
+     height="34"
+     rx="17"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect33" />
+  <text
+     x="412.05835"
+     y="520.44977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text34">models</text>
+  <path
+     d="m 513.05834,514.64977 c 44,0 64,-42 100,-42"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path34" />
+  <rect
+     x="617.05835"
+     y="457.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect34" />
+  <text
+     x="697.05835"
+     y="478.0498"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text35">register</text>
+  <text
+     x="791.05835"
+     y="477.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text36">add a model card and its files</text>
+  <path
+     d="m 513.05834,514.64977 c 44,0 64,0 100,0"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path36" />
+  <rect
+     x="617.05835"
+     y="499.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect36" />
+  <text
+     x="697.05835"
+     y="520.0498"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text37">list</text>
+  <text
+     x="791.05835"
+     y="519.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text38">list registered models</text>
+  <path
+     d="m 513.05834,514.64977 c 44,0 64,42 100,42"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path38" />
+  <rect
+     x="617.05835"
+     y="541.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect38" />
+  <text
+     x="697.05835"
+     y="562.0498"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text39">show</text>
+  <text
+     x="791.05835"
+     y="561.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text40">one model</text>
+  <path
+     d="m 173.05834,499.64977 c 74,0 54,159 138,159"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path40" />
+  <rect
+     x="317.05835"
+     y="641.64978"
+     width="190"
+     height="34"
+     rx="17"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect40" />
+  <text
+     x="412.05835"
+     y="664.44977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text41">presets</text>
+  <path
+     d="m 513.05834,658.64977 c 44,0 64,-42 100,-42"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path41" />
+  <rect
+     x="617.05835"
+     y="601.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect41" />
+  <text
+     x="697.05835"
+     y="622.0498"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text42">create</text>
+  <text
+     x="791.05835"
+     y="621.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text43">give a configuration a fixed name</text>
+  <path
+     d="m 513.05834,658.64977 c 44,0 64,0 100,0"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path43" />
+  <rect
+     x="617.05835"
+     y="643.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect43" />
+  <text
+     x="697.05835"
+     y="664.0498"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text44">list</text>
+  <text
+     x="791.05835"
+     y="663.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text45">list presets</text>
+  <path
+     d="m 513.05834,658.64977 c 44,0 64,42 100,42"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path45" />
+  <rect
+     x="617.05835"
+     y="685.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect45" />
+  <text
+     x="697.05835"
+     y="706.0498"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text46">show</text>
+  <text
+     x="791.05835"
+     y="705.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text47">one preset</text>
+  <path
+     d="m 173.05834,499.64977 c 74,0 54,261 138,261"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path50" />
+  <rect
+     x="317.05835"
+     y="743.64978"
+     width="190"
+     height="34"
+     rx="17"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect50" />
+  <text
+     x="412.05835"
+     y="766.44977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text51">reconcile</text>
+  <path
+     d="m 513.05834,760.64977 c 44,0 64,0 100,0"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path51" />
+  <rect
+     x="617.05835"
+     y="745.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     id="rect51" />
+  <text
+     x="697.05835"
+     y="766.04980"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text52">[--loop]</text>
+  <text
+     x="791.05835"
+     y="765.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text53">move all work forward; --loop repeats</text>
+  <path
+     d="m 173.05834,499.64977 c 74,0 54,321 138,321"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path53" />
+  <rect
+     x="317.05835"
+     y="803.64978"
+     width="190"
+     height="34"
+     rx="17"
+     fill="#E3F0EB"
+     stroke="#3F7466"
+     stroke-width="1.6"
+     id="rect53"
+     style="fill:#ffffff;stroke:#2f8592;stroke-opacity:1" />
+  <text
+     x="412.05835"
+     y="826.44977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#3F7466"
+     text-anchor="middle"
+     id="text54"
+     style="fill:#2f8592;fill-opacity:1">db</text>
+  <path
+     d="m 513.05834,820.64977 c 44,0 64,0 100,0"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path54" />
+  <rect
+     x="617.05835"
+     y="805.64978"
+     width="160"
+     height="30"
+     rx="15"
+     fill="#E3F0EB"
+     stroke="#3F7466"
+     stroke-width="1.6"
+     id="rect54"
+     style="fill:#ffffff;stroke:#2f8592;stroke-opacity:1" />
+  <text
+     x="697.05835"
+     y="826.04980"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="600"
+     fill="#3F7466"
+     text-anchor="middle"
+     id="text55"
+     style="fill:#2f8592;fill-opacity:1">migrate</text>
+  <text
+     x="791.05835"
+     y="825.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text56">create or update the tables</text>
+  <path
+     d="m 173.05834,499.64977 c 74,0 54,381 138,381"
+     fill="none"
+     stroke="#c9d2d6"
+     stroke-width="2"
+     id="path56" />
+  <rect
+     x="317.05835"
+     y="863.64978"
+     width="190"
+     height="34"
+     rx="17"
+     fill="#E3F0EB"
+     stroke="#3F7466"
+     stroke-width="1.6"
+     id="rect56"
+     style="fill:#ffffff;stroke:#2f8592;stroke-opacity:1" />
+  <text
+     x="412.05835"
+     y="886.44977"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#3F7466"
+     text-anchor="middle"
+     id="text57"
+     style="fill:#2f8592;fill-opacity:1">whoami</text>
+  <text
+     x="791.05835"
+     y="885.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#9aa6ac"
+     text-anchor="start"
+     id="text58">show your database login</text>
+  <text
+     x="1057.0583"
+     y="116.64977"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="20px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text59">Global options</text>
+  <text
+     x="1057.0583"
+     y="156.64978"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text60">--profile DIR</text>
+  <text
+     x="1237.0583"
+     y="156.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text61">which deployment</text>
+  <text
+     x="1057.0583"
+     y="190.64978"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text62">--env ENV</text>
+  <text
+     x="1237.0583"
+     y="190.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text63">which environment; no default</text>
+  <text
+     x="1057.0583"
+     y="224.64978"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text64">--json</text>
+  <text
+     x="1237.0583"
+     y="224.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text65">one JSON object on stdout</text>
+  <text
+     x="1057.0583"
+     y="258.64978"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text66">--help, --version</text>
+  <text
+     x="1237.0583"
+     y="258.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text67">need no profile</text>
+  <text
+     x="1057.0583"
+     y="336.64978"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="20px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text68">Every list command</text>
+  <text
+     x="1057.0583"
+     y="372.64978"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text69">--limit N --cursor C | --all</text>
+  <text
+     x="1057.0583"
+     y="446.64978"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text70">Commands call the run manager directly,</text>
+  <text
+     x="1057.0583"
+     y="470.64978"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text71">with your own database login. They do not</text>
+  <text
+     x="1057.0583"
+     y="494.64978"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text72">go through the API.</text>
+  <metadata
+     id="metadata73">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>The robin command.</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

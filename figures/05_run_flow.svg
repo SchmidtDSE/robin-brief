@@ -1,0 +1,1641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1425.8846"
+   height="1064.3574"
+   viewBox="0 0 1425.8846 1064.3574"
+   role="img"
+   version="1.1"
+   id="svg122"
+   sodipodi:docname="05_run_flow.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   inkscape:export-filename="05_run_flow.png"
+   inkscape:export-xdpi="144"
+   inkscape:export-ydpi="144"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview122"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.47752665"
+     inkscape:cx="576.93115"
+     inkscape:cy="185.32997"
+     inkscape:window-width="1810"
+     inkscape:window-height="1232"
+     inkscape:window-x="1170"
+     inkscape:window-y="103"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg122"
+     showguides="true">
+    <sodipodi:guide
+       position="712.00212,1517.6067"
+       orientation="0,-1"
+       id="guide9"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <title
+     id="title1">How a run moves through ROBIN</title>
+  <defs
+     id="defs7">
+    <marker
+       id="k0"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#5d6b73"
+         id="path1" />
+    </marker>
+    <marker
+       id="k1"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#765d78"
+         id="path2" />
+    </marker>
+    <marker
+       id="k2"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#3f7466"
+         id="path3" />
+    </marker>
+    <marker
+       id="k3"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f8592"
+         id="path4" />
+    </marker>
+    <marker
+       id="k4"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#4a5fa8"
+         id="path5" />
+    </marker>
+    <marker
+       id="k5"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f4a55"
+         id="path6" />
+    </marker>
+    <marker
+       id="k6"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#c2603a"
+         id="path7" />
+    </marker>
+  </defs>
+  <rect
+     width="1425.8846"
+     height="1064.3574"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.885507" />
+  <path
+     id="catalog-adapter"
+     d="m 396,132.69584 h 250 v 40 H 396 v -14.7 h 5.9 v 6.6 h 7.3 v -23.8 h -7.3 v 6.6 H 396 Z"
+     fill="#f1ecf1"
+     stroke="#765d78"
+     stroke-width="2" />
+  <text
+     x="37"
+     y="48.703529"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="33.4px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text7">How a run moves through ROBIN</text>
+  <rect
+     x="210"
+     y="67.879814"
+     width="182"
+     height="990.82373"
+     rx="12"
+     fill="#f1f5f6"
+     id="rect8"
+     style="stroke-width:1.0333" />
+  <path
+     d="m 273.38234,298.36825 120.71986,0.24797 c 0,0 -0.42256,8.41808 0.54411,8.50041 l 2.89632,0.20339 3.73971,1.75123 1.8,1.72895 1.2,1.89361 0.3,2.1406 -0.3,2.14061 -1.2,1.89361 -1.8,1.72895 -2.3,1.31728 -2.50368,0.63734 -2.44191,-0.063 v 8.31541 l -120.65441,0.49593 z"
+     fill="#c2603a"
+     id="path53"
+     style="stroke:none;stroke-width:0.907364"
+     sodipodi:nodetypes="ccccccccccccccccc" />
+  <text
+     x="271"
+     y="90.703529"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11.5px"
+     font-weight="600"
+     fill="#5d6b73"
+     text-anchor="middle"
+     letter-spacing="1.6"
+     id="text9">ROBIN CORE</text>
+  <text
+     x="561"
+     y="90.703529"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11.5px"
+     font-weight="600"
+     fill="#5d6b73"
+     text-anchor="middle"
+     letter-spacing="1.6"
+     id="text10">ADAPTERS</text>
+  <text
+     x="1095"
+     y="90.703529"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11.5px"
+     font-weight="600"
+     fill="#5d6b73"
+     text-anchor="middle"
+     letter-spacing="1.6"
+     id="text11">OUTSIDE ROBIN</text>
+  <line
+     x1="770"
+     y1="130.70352"
+     x2="770"
+     y2="1058.7036"
+     stroke="#e3e8ea"
+     stroke-width="1.5"
+     id="line11" />
+  <text
+     x="200"
+     y="158.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="end"
+     id="text12">Resolve the recordings</text>
+  <text
+     x="200"
+     y="244.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="end"
+     id="text13">Submit the list</text>
+  <text
+     x="200"
+     y="320.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="end"
+     id="text14">Check the terms</text>
+  <text
+     x="200"
+     y="396.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="end"
+     id="text15">Record the run</text>
+  <text
+     x="200"
+     y="472.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="end"
+     id="text16">Write the work files</text>
+  <text
+     x="200"
+     y="548.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="end"
+     id="text17">Launch the workers</text>
+  <text
+     x="200"
+     y="676.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="end"
+     id="text18">Each worker runs its task</text>
+  <text
+     x="200"
+     y="860.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="end"
+     id="text19">Read the result files</text>
+  <text
+     x="200"
+     y="936.70355"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="end"
+     id="text20">Record the outcomes</text>
+  <text
+     x="200"
+     y="1012.7036"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="end"
+     id="text21">Stamp outputs</text>
+  <path
+     d="m 273.64411,448.27412 h 120 v 3.84269 l -0.0982,1.1125 h 11.29816 l 0.0327,5.81843 h -11.2 l -0.0327,15.3443 11.2,0.0327 -0.0327,6.08019 -11.19042,-0.0318 c -0.002,1.28034 0.033,3.11721 0.0231,4.39798 h -120 z"
+     fill="#3f7466"
+     id="path59"
+     style="stroke:none;stroke-width:0.956518"
+     sodipodi:nodetypes="cccccccccccccc" />
+  <path
+     d="m 273.90588,524.40501 h 120 v 4.34453 0 l 11.9,4.79708 v 17.92118 l -11.9,4.79708 v 0 4.34453 h -120 z"
+     fill="#2e8592"
+     id="path63"
+     style="stroke:none;stroke-width:0.951373" />
+  <rect
+     x="222"
+     y="108.10778"
+     width="56"
+     height="938.5957"
+     rx="28"
+     fill="#2f4a55"
+     id="rect21"
+     style="stroke-width:1.04959" />
+  <path
+     d="m 250,257.70353 v 33"
+     stroke="#8fa6ae"
+     stroke-width="1.6"
+     id="path22" />
+  <path
+     d="m 245.5,288.70353 4.5,7 4.5,-7 z"
+     fill="#8fa6ae"
+     id="path23" />
+  <path
+     d="m 250,333.70353 v 33"
+     stroke="#8fa6ae"
+     stroke-width="1.6"
+     id="path24" />
+  <path
+     d="m 245.5,364.70353 4.5,7 4.5,-7 z"
+     fill="#8fa6ae"
+     id="path25" />
+  <path
+     d="m 250,409.70353 v 33"
+     stroke="#8fa6ae"
+     stroke-width="1.6"
+     id="path26" />
+  <path
+     d="m 245.5,440.70353 4.5,7 4.5,-7 z"
+     fill="#8fa6ae"
+     id="path27" />
+  <path
+     d="m 250,485.70353 v 33"
+     stroke="#8fa6ae"
+     stroke-width="1.6"
+     id="path28" />
+  <path
+     d="m 245.5,516.70353 4.5,7 4.5,-7 z"
+     fill="#8fa6ae"
+     id="path29" />
+  <path
+     d="m 250,561.70353 v 85"
+     stroke="#8fa6ae"
+     stroke-width="1.6"
+     id="path30" />
+  <path
+     d="m 245.5,644.70353 4.5,7 4.5,-7 z"
+     fill="#8fa6ae"
+     id="path31" />
+  <path
+     d="m 250,689.70353 v 141"
+     stroke="#8fa6ae"
+     stroke-width="1.6"
+     id="path32" />
+  <path
+     d="m 245.5,828.70353 4.5,7 4.5,-7 z"
+     fill="#8fa6ae"
+     id="path33" />
+  <path
+     d="m 250,873.70353 v 33.00001"
+     stroke="#8fa6ae"
+     stroke-width="1.6"
+     id="path34" />
+  <path
+     d="m 245.5,904.70353 4.5,7.00001 4.5,-7.00001 z"
+     fill="#8fa6ae"
+     id="path35" />
+  <path
+     d="m 250,949.70354 v 33"
+     stroke="#8fa6ae"
+     stroke-width="1.6"
+     id="path36" />
+  <path
+     d="m 245.5,980.70354 4.5,7 4.5,-7 z"
+     fill="#8fa6ae"
+     id="path37" />
+  <circle
+     cx="250"
+     cy="238.70352"
+     r="16"
+     fill="#ffffff"
+     id="circle37" />
+  <text
+     x="250"
+     y="244.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#22313a"
+     text-anchor="middle"
+     id="text37">2</text>
+  <circle
+     cx="250"
+     cy="314.70352"
+     r="16"
+     fill="#ffffff"
+     id="circle38" />
+  <text
+     x="250"
+     y="320.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#c2603a"
+     text-anchor="middle"
+     id="text38">3</text>
+  <circle
+     cx="250"
+     cy="390.70352"
+     r="16"
+     fill="#ffffff"
+     id="circle39" />
+  <text
+     x="250"
+     y="396.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#22313a"
+     text-anchor="middle"
+     id="text39">4</text>
+  <circle
+     cx="250"
+     cy="466.70352"
+     r="16"
+     fill="#ffffff"
+     id="circle40" />
+  <text
+     x="250"
+     y="472.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#3f7466"
+     text-anchor="middle"
+     id="text40">5</text>
+  <circle
+     cx="250"
+     cy="542.70349"
+     r="16"
+     fill="#ffffff"
+     id="circle41" />
+  <text
+     x="250"
+     y="548.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text41">6</text>
+  <circle
+     cx="250"
+     cy="670.70349"
+     r="16"
+     fill="#ffffff"
+     id="circle42" />
+  <text
+     x="250"
+     y="676.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="middle"
+     id="text42">7</text>
+  <circle
+     cx="250"
+     cy="854.70349"
+     r="16"
+     fill="#ffffff"
+     id="circle43" />
+  <text
+     x="250"
+     y="860.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#3f7466"
+     text-anchor="middle"
+     id="text43">8</text>
+  <circle
+     cx="250"
+     cy="930.70355"
+     r="16"
+     fill="#ffffff"
+     id="circle44" />
+  <text
+     x="250"
+     y="936.70355"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#22313a"
+     text-anchor="middle"
+     id="text44">9</text>
+  <circle
+     cx="250"
+     cy="1006.7036"
+     r="16"
+     fill="#ffffff"
+     id="circle45" />
+  <text
+     x="250"
+     y="1012.7036"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#c2603a"
+     text-anchor="middle"
+     id="text45">10</text>
+  <circle
+     cx="250"
+     cy="152.70352"
+     r="16"
+     fill="#765d78"
+     id="circle46"
+     style="fill:#ffffff;fill-opacity:1" />
+  <text
+     x="250"
+     y="158.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text47"
+     style="fill:#765d78;fill-opacity:1">1</text>
+  <path
+     id="catalog-port"
+     d="m 276,132.69584 h 118.311 l -0.0231,16.43528 9.39369,-0.11569 0.066,-6.62654 4.01794,0.003 v 20.65337 l -4.26905,-0.0231 0.0231,-6.53059 h -9.16232 l -0.0463,16.15764 L 276,172.69584 Z"
+     fill="#765d78"
+     sodipodi:nodetypes="ccccccccccccc" />
+  <text
+     id="catalog-port-label"
+     x="290"
+     y="157.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#ffffff">Catalog</text>
+  <text
+     id="catalog-adapter-label"
+     x="422"
+     y="157.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="400"
+     fill="#765d78">Catalog adapter</text>
+  <path
+     d="M 654,152.70353 H 790"
+     fill="none"
+     stroke="#765d78"
+     stroke-width="1.6"
+     marker-end="url(#k1)"
+     marker-start="url(#k1)"
+     id="path50" />
+  <text
+     x="800"
+     y="150.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="17px"
+     font-weight="400"
+     fill="#765d78"
+     text-anchor="start"
+     id="text50">Source system</text>
+  <text
+     x="800"
+     y="170.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text51">SoundHub, folders, a bucket, a sheet</text>
+  <text
+     x="283.19409"
+     y="237.79764"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text52">explicit list,</text>
+  <text
+     x="283.19409"
+     y="254.79764"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text53">frozen here</text>
+  <text
+     x="290"
+     y="319.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text54">Governance</text>
+  <path
+     d="m 396,294.70353 h 250 v 40 H 396 v -10.1 l 2.9,-0.3 2.7,-1 2.3,-1.6 1.8,-2.1 1.2,-2.3 0.3,-2.6 -0.3,-2.6 -1.2,-2.3 -1.8,-2.1 -2.3,-1.6 -2.7,-1 -2.9,-0.3 z"
+     fill="#fbeee7"
+     stroke="#c2603a"
+     stroke-width="2"
+     id="path54" />
+  <text
+     x="422"
+     y="319.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="400"
+     fill="#c2603a"
+     text-anchor="start"
+     id="text55">Governance adapter</text>
+  <path
+     d="M 654,314.70353 H 790"
+     fill="none"
+     stroke="#c2603a"
+     stroke-width="1.6"
+     marker-end="url(#k6)"
+     marker-start="url(#k6)"
+     id="path55" />
+  <text
+     x="800"
+     y="312.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="17px"
+     font-weight="400"
+     fill="#c2603a"
+     text-anchor="start"
+     id="text56">Authorization and Consent</text>
+  <text
+     x="800"
+     y="332.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text57">Is this use allowed?</text>
+  <path
+     d="m 290,379.70353 v 20 a 15,5 0 0 0 30,0 v -20"
+     fill="#ffffff"
+     stroke="#2f4a55"
+     stroke-width="1.5"
+     id="path57" />
+  <ellipse
+     cx="305"
+     cy="379.70352"
+     rx="15"
+     ry="5"
+     fill="#ffffff"
+     stroke="#2f4a55"
+     stroke-width="1.5"
+     id="ellipse57" />
+  <text
+     x="330"
+     y="389.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14px"
+     font-weight="600"
+     fill="#2f4a55"
+     text-anchor="start"
+     id="text58">PostgreSQL</text>
+  <text
+     x="330"
+     y="406.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text59">run · list · tasks</text>
+  <text
+     x="290"
+     y="471.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text60">Storage</text>
+  <path
+     d="m 396,446.70353 h 250 v 40 H 396 v -4.2 h 11.2 v -9.9 H 396 v -11.8 h 11.2 v -9.9 H 396 Z"
+     fill="#eaf2ef"
+     stroke="#3f7466"
+     stroke-width="2"
+     id="path60" />
+  <text
+     x="422"
+     y="471.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="400"
+     fill="#3f7466"
+     text-anchor="start"
+     id="text61">Storage adapter</text>
+  <path
+     d="M 654,466.70353 H 790"
+     fill="none"
+     stroke="#3f7466"
+     stroke-width="1.6"
+     marker-end="url(#k2)"
+     id="path61" />
+  <text
+     x="800"
+     y="464.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="17px"
+     font-weight="400"
+     fill="#3f7466"
+     text-anchor="start"
+     id="text62">Storage</text>
+  <text
+     x="800"
+     y="484.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text63">one work.json per task</text>
+  <text
+     x="290"
+     y="547.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text64">Compute</text>
+  <path
+     d="m 396,522.70353 h 250 v 40 H 396 v -4.8 l 11.9,-5.3 v -19.8 l -11.9,-5.3 z"
+     fill="#e5f3f5"
+     stroke="#2f8592"
+     stroke-width="2"
+     id="path64" />
+  <text
+     x="422"
+     y="547.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="400"
+     fill="#2f8592"
+     text-anchor="start"
+     id="text65">Compute adapter</text>
+  <rect
+     x="784"
+     y="516.70349"
+     width="618.28845"
+     height="310.57693"
+     rx="8.1784191"
+     fill="#e5f3f5"
+     id="rect65"
+     style="stroke-width:0.955867" />
+  <text
+     x="804"
+     y="547.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="17px"
+     font-weight="400"
+     fill="#2f8592"
+     text-anchor="start"
+     id="text66">Compute platform</text>
+  <rect
+     x="1032"
+     y="529.70349"
+     width="95.400002"
+     height="28"
+     rx="14"
+     fill="#2f8592"
+     stroke="#2f8592"
+     stroke-width="1.5"
+     id="rect66" />
+  <text
+     x="1079.7"
+     y="548.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text67">SageMaker</text>
+  <rect
+     x="1135.4"
+     y="529.70349"
+     width="61"
+     height="28"
+     rx="14"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.5"
+     id="rect67" />
+  <text
+     x="1165.9"
+     y="548.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text68">Slurm</text>
+  <rect
+     x="1204.4"
+     y="529.70349"
+     width="104"
+     height="28"
+     rx="14"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.5"
+     id="rect68" />
+  <text
+     x="1256.4"
+     y="548.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text69">Kubernetes</text>
+  <rect
+     x="1316.4"
+     y="529.70349"
+     width="61"
+     height="28"
+     rx="14"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.5"
+     id="rect69" />
+  <text
+     x="1346.9"
+     y="548.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text70">Local</text>
+  <path
+     d="M 654,542.70353 H 776"
+     fill="none"
+     stroke="#2f8592"
+     stroke-width="1.6"
+     marker-end="url(#k3)"
+     id="path70" />
+  <text
+     x="715"
+     y="516.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12.5px"
+     font-weight="600"
+     fill="#2f8592"
+     text-anchor="middle"
+     id="text71">launch a job</text>
+  <rect
+     x="697"
+     y="524.70349"
+     width="36"
+     height="36"
+     rx="8"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.5"
+     id="rect71" />
+  <path
+     d="m 715,541.30353 12,6 -12,6 -12,-6 z"
+     fill="#9db3ba"
+     stroke="#ffffff"
+     stroke-width="1.1"
+     stroke-linejoin="round"
+     id="path71" />
+  <path
+     d="m 715,536.00353 12,6 -12,6 -12,-6 z"
+     fill="#5e7c87"
+     stroke="#ffffff"
+     stroke-width="1.1"
+     stroke-linejoin="round"
+     id="path72" />
+  <path
+     d="m 715,530.70353 12,6 -12,6 -12,-6 z"
+     fill="#2f4a55"
+     stroke="#ffffff"
+     stroke-width="1.1"
+     stroke-linejoin="round"
+     id="path73" />
+  <text
+     x="715"
+     y="576.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="middle"
+     id="text73">image digest</text>
+  <text
+     x="715"
+     y="591.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="middle"
+     id="text74">+ work file path</text>
+  <rect
+     x="1080"
+     y="438.70352"
+     width="300"
+     height="50"
+     rx="8"
+     fill="#ffffff"
+     stroke="#c3d0d4"
+     stroke-width="1.5"
+     id="rect74" />
+  <path
+     d="m 1106,462.00353 14,7 -14,7 -14,-7 z"
+     fill="#9db3ba"
+     stroke="#ffffff"
+     stroke-width="1.3"
+     stroke-linejoin="round"
+     id="path74" />
+  <path
+     d="m 1106,455.90353 14,7 -14,7 -14,-7 z"
+     fill="#5e7c87"
+     stroke="#ffffff"
+     stroke-width="1.3"
+     stroke-linejoin="round"
+     id="path75" />
+  <path
+     d="m 1106,449.70353 14,7 -14,7 -14,-7 z"
+     fill="#2f4a55"
+     stroke="#ffffff"
+     stroke-width="1.3"
+     stroke-linejoin="round"
+     id="path76" />
+  <text
+     x="1130"
+     y="459.70352"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text76">Image registry</text>
+  <text
+     x="1130"
+     y="477.70352"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="11.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text77">robin-worker@sha256:9f3c…</text>
+  <path
+     d="m 1230,492.70353 v 16"
+     fill="none"
+     stroke="#2f4a55"
+     stroke-width="1.5"
+     marker-end="url(#k5)"
+     stroke-dasharray="5, 4"
+     id="path77" />
+  <text
+     x="1240"
+     y="502.70352"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="12px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text78">pulled by digest</text>
+  <rect
+     x="804"
+     y="572.70349"
+     width="516"
+     height="196"
+     rx="8"
+     fill="#ffffff"
+     stroke="#4a5fa8"
+     stroke-width="1.5"
+     id="rect78" />
+  <path
+     d="m 837,598.10353 13,6.5 -13,6.5 -13,-6.5 z"
+     fill="#9db3ba"
+     stroke="#ffffff"
+     stroke-width="1.2"
+     stroke-linejoin="round"
+     id="path78" />
+  <path
+     d="m 837,592.40353 13,6.5 -13,6.5 -13,-6.5 z"
+     fill="#5e7c87"
+     stroke="#ffffff"
+     stroke-width="1.2"
+     stroke-linejoin="round"
+     id="path79" />
+  <path
+     d="m 837,586.70353 13,6.5 -13,6.5 -13,-6.5 z"
+     fill="#2f4a55"
+     stroke="#ffffff"
+     stroke-width="1.2"
+     stroke-linejoin="round"
+     id="path80" />
+  <text
+     x="860"
+     y="605.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="17px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text80">Worker</text>
+  <text
+     x="924"
+     y="605.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text81">task 0007 · a copy of the image</text>
+  <path
+     d="m 844,643.70353 h 16.8 l 7.2,7.2 v 23.2 h -24 z"
+     fill="#ffffff"
+     stroke="#3f7466"
+     stroke-width="1.8"
+     id="path81" />
+  <line
+     x1="848.79999"
+     y1="656.50348"
+     x2="863.20001"
+     y2="656.50348"
+     stroke="#3f7466"
+     stroke-width="1.2"
+     id="line81" />
+  <line
+     x1="848.79999"
+     y1="662.10352"
+     x2="863.20001"
+     y2="662.10352"
+     stroke="#3f7466"
+     stroke-width="1.2"
+     id="line82" />
+  <line
+     x1="848.79999"
+     y1="667.70349"
+     x2="863.20001"
+     y2="667.70349"
+     stroke="#3f7466"
+     stroke-width="1.2"
+     id="line83" />
+  <text
+     x="856"
+     y="631.70349"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="11.5px"
+     font-weight="600"
+     fill="#3f7466"
+     text-anchor="middle"
+     id="text83">work.json</text>
+  <path
+     d="m 874,658.70353 h 32"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.4"
+     marker-end="url(#k0)"
+     id="path83" />
+  <path
+     d="m 912,638.70353 h 300 v 40 h -136.74 l -13.26,-12.66 -13.26,12.66 H 912 Z"
+     fill="#2f4a55"
+     id="path84" />
+  <text
+     x="912"
+     y="631.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10.5px"
+     font-weight="700"
+     fill="#2f4a55"
+     text-anchor="start"
+     letter-spacing="1.4"
+     id="text84">INFERENCE ENGINE</text>
+  <text
+     x="962"
+     y="659.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text85">windows</text>
+  <text
+     x="1012"
+     y="659.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="400"
+     fill="#9fb4bc"
+     text-anchor="middle"
+     id="text86">›</text>
+  <text
+     x="1062"
+     y="659.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#9fb4bc"
+     text-anchor="middle"
+     id="text87">model</text>
+  <text
+     x="1112"
+     y="659.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="400"
+     fill="#9fb4bc"
+     text-anchor="middle"
+     id="text88">›</text>
+  <text
+     x="1162"
+     y="659.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text89">checks</text>
+  <path
+     d="m 1218,658.70353 h 32"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="1.4"
+     marker-end="url(#k0)"
+     id="path89" />
+  <path
+     d="m 1256,643.70353 h 16.8 l 7.2,7.2 v 23.2 h -24 z"
+     fill="#ffffff"
+     stroke="#3f7466"
+     stroke-width="1.8"
+     id="path90" />
+  <line
+     x1="1260.8"
+     y1="656.50348"
+     x2="1275.2"
+     y2="656.50348"
+     stroke="#3f7466"
+     stroke-width="1.2"
+     id="line90" />
+  <line
+     x1="1260.8"
+     y1="662.10352"
+     x2="1275.2"
+     y2="662.10352"
+     stroke="#3f7466"
+     stroke-width="1.2"
+     id="line91" />
+  <line
+     x1="1260.8"
+     y1="667.70349"
+     x2="1275.2"
+     y2="667.70349"
+     stroke="#3f7466"
+     stroke-width="1.2"
+     id="line92" />
+  <text
+     x="1268"
+     y="631.70349"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="11.5px"
+     font-weight="600"
+     fill="#3f7466"
+     text-anchor="middle"
+     id="text92">result.json</text>
+  <path
+     d="m 946,696.70353 h 22.74 l 13.26,-12.66 13.26,12.66 H 1018 v 28 h -72 z"
+     fill="#ffffff"
+     stroke="#c9d2d6"
+     stroke-width="1.5"
+     stroke-linejoin="round"
+     id="path92" />
+  <text
+     x="982"
+     y="715.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="middle"
+     id="text93">Perch</text>
+  <path
+     d="m 1026,682.70353 h 22.74 l 13.26,-12.66 13.26,12.66 H 1098 v 28 h -72 z"
+     fill="#eceff8"
+     stroke="#4a5fa8"
+     stroke-width="1.5"
+     stroke-linejoin="round"
+     id="path93" />
+  <text
+     x="1062"
+     y="701.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12.5px"
+     font-weight="600"
+     fill="#4a5fa8"
+     text-anchor="middle"
+     id="text94">BirdNET</text>
+  <path
+     d="m 1106,696.70353 h 22.74 l 13.26,-12.66 13.26,12.66 H 1178 v 28 h -72 z"
+     fill="#ffffff"
+     stroke="#c9d2d6"
+     stroke-width="1.5"
+     stroke-linejoin="round"
+     id="path94" />
+  <text
+     x="1142"
+     y="715.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="middle"
+     id="text95">OWL</text>
+  <path
+     d="m 1186,696.70353 h 22.74 l 13.26,-12.66 13.26,12.66 H 1258 v 28 h -72 z"
+     fill="#ffffff"
+     stroke="#c9d2d6"
+     stroke-width="1.5"
+     stroke-linejoin="round"
+     id="path95" />
+  <text
+     x="1222"
+     y="715.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="middle"
+     id="text96">Head</text>
+  <rect
+     x="806.29187"
+     y="782.4184"
+     width="151.2825"
+     height="37.413952"
+     rx="4.8800807"
+     fill="#ffffff"
+     fill-opacity="1"
+     stroke="#bfd9dd"
+     stroke-width="0.976016"
+     id="rect98" />
+  <text
+     x="936"
+     y="715.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="11.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="end"
+     id="text97">model adapters</text>
+  <path
+     d="m 826.62553,799.82408 10.57351,5.28675 -10.57351,5.28676 -10.57351,-5.28676 z"
+     fill="#9db3ba"
+     stroke="#ffffff"
+     stroke-width="0.976016"
+     stroke-linejoin="round"
+     id="path98" />
+  <text
+     x="824"
+     y="752.70349"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text98">One outcome for every recording, written beside the work file.</text>
+  <path
+     d="m 826.62553,795.188 10.57351,5.28676 -10.57351,5.28675 -10.57351,-5.28675 z"
+     fill="#5e7c87"
+     stroke="#ffffff"
+     stroke-width="0.976016"
+     stroke-linejoin="round"
+     id="path99" />
+  <path
+     d="m 826.62553,790.55193 10.57351,5.28675 -10.57351,5.28675 -10.57351,-5.28675 z"
+     fill="#2f4a55"
+     stroke="#ffffff"
+     stroke-width="0.976016"
+     stroke-linejoin="round"
+     id="path100" />
+  <text
+     x="846.95923"
+     y="799.49866"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10.9802px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text100"
+     style="stroke-width:0.813347">Worker</text>
+  <text
+     x="846.95923"
+     y="812.51221"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="9.76016px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text101"
+     style="stroke-width:0.813347">task 0008</text>
+  <rect
+     x="963.46332"
+     y="782.98151"
+     width="151.2825"
+     height="37.413952"
+     rx="4.8800807"
+     fill="#ffffff"
+     fill-opacity="0.75"
+     stroke="#bfd9dd"
+     stroke-width="0.976016"
+     id="rect101" />
+  <path
+     d="m 983.797,800.38717 10.57351,5.28675 -10.57351,5.28675 -10.57351,-5.28675 z"
+     fill="#9db3ba"
+     stroke="#ffffff"
+     stroke-width="0.976016"
+     stroke-linejoin="round"
+     id="path101" />
+  <path
+     d="m 983.797,795.75109 10.57351,5.28675 -10.57351,5.28676 -10.57351,-5.28676 z"
+     fill="#5e7c87"
+     stroke="#ffffff"
+     stroke-width="0.976016"
+     stroke-linejoin="round"
+     id="path102" />
+  <path
+     d="m 983.797,791.11501 10.57351,5.28676 -10.57351,5.28675 -10.57351,-5.28675 z"
+     fill="#2f4a55"
+     stroke="#ffffff"
+     stroke-width="0.976016"
+     stroke-linejoin="round"
+     id="path103" />
+  <text
+     x="1004.1306"
+     y="800.06177"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10.9802px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text103"
+     style="stroke-width:0.813347">Worker</text>
+  <text
+     x="1004.1306"
+     y="813.07532"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="9.76016px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text104"
+     style="stroke-width:0.813347">task 0009</text>
+  <rect
+     x="1121.8391"
+     y="782.94238"
+     width="151.2825"
+     height="37.413952"
+     rx="4.8800807"
+     fill="#ffffff"
+     fill-opacity="0.5"
+     stroke="#bfd9dd"
+     stroke-width="0.976016"
+     id="rect104" />
+  <path
+     d="m 1142.1729,800.3481 10.5735,5.28676 -10.5735,5.28675 -10.5735,-5.28675 z"
+     fill="#9db3ba"
+     stroke="#ffffff"
+     stroke-width="0.976016"
+     stroke-linejoin="round"
+     id="path104" />
+  <path
+     d="m 1142.1729,795.71202 10.5735,5.28676 -10.5735,5.28675 -10.5735,-5.28675 z"
+     fill="#5e7c87"
+     stroke="#ffffff"
+     stroke-width="0.976016"
+     stroke-linejoin="round"
+     id="path105" />
+  <path
+     d="m 1142.1729,791.07595 10.5735,5.28675 -10.5735,5.28676 -10.5735,-5.28676 z"
+     fill="#2f4a55"
+     stroke="#ffffff"
+     stroke-width="0.976016"
+     stroke-linejoin="round"
+     id="path106" />
+  <text
+     x="1334.0096"
+     y="815.04962"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="middle"
+     id="text108">… one copy per task</text>
+  <text
+     x="1162.5066"
+     y="800.02271"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="10.9802px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text106"
+     style="stroke-width:0.813347">Worker</text>
+  <path
+     d="M 268,670.70353 H 774"
+     stroke="#4a5fa8"
+     stroke-width="1.5"
+     stroke-dasharray="3, 5"
+     id="path108" />
+  <text
+     x="1162.5066"
+     y="813.03625"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="9.76016px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text107"
+     style="stroke-width:0.813347">task 0010</text>
+  <circle
+     cx="250"
+     cy="670.70349"
+     r="16"
+     fill="#ffffff"
+     id="circle108" />
+  <text
+     x="250"
+     y="676.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     fill="#4a5fa8"
+     text-anchor="middle"
+     id="text109">7</text>
+  <text
+     x="290"
+     y="640.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text110">runs outside the core:</text>
+  <text
+     x="290"
+     y="658.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text111">files only, no database</text>
+  <path
+     d="m 276,834.70353 h 120 v 4.2 0 h 11.2 v 9.9 H 396 v 11.8 h 11.2 v 9.9 H 396 v 0 4.2 H 276 Z"
+     fill="#3f7466"
+     id="path111" />
+  <text
+     x="290"
+     y="859.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text112">Storage</text>
+  <path
+     d="m 396,834.70353 h 250 v 40 H 396 v -4.2 h 11.2 v -9.9 H 396 v -11.8 h 11.2 v -9.9 H 396 Z"
+     fill="#eaf2ef"
+     stroke="#3f7466"
+     stroke-width="2"
+     id="path112" />
+  <text
+     x="422"
+     y="859.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="400"
+     fill="#3f7466"
+     text-anchor="start"
+     id="text113">Storage adapter</text>
+  <path
+     d="M 790,854.70353 H 654"
+     fill="none"
+     stroke="#3f7466"
+     stroke-width="1.6"
+     marker-end="url(#k2)"
+     id="path113" />
+  <text
+     x="800"
+     y="852.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="17px"
+     font-weight="400"
+     fill="#3f7466"
+     text-anchor="start"
+     id="text114">Storage</text>
+  <text
+     x="800"
+     y="872.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text115">result.json for each task</text>
+  <path
+     d="m 290,919.70354 v 20 a 15,5 0 0 0 30,0 v -20"
+     fill="#ffffff"
+     stroke="#2f4a55"
+     stroke-width="1.5"
+     id="path115" />
+  <ellipse
+     cx="305"
+     cy="919.70349"
+     rx="15"
+     ry="5"
+     fill="#ffffff"
+     stroke="#2f4a55"
+     stroke-width="1.5"
+     id="ellipse115" />
+  <text
+     x="330"
+     y="929.70349"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14px"
+     font-weight="600"
+     fill="#2f4a55"
+     text-anchor="start"
+     id="text116">PostgreSQL</text>
+  <text
+     x="330"
+     y="946.70355"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="12.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text117">each outcome</text>
+  <path
+     d="m 276,986.70354 h 120 v 10.1 0 l 2.9,0.3 2.7,1 2.3,1.6 1.8,1.99996 1.2,2.4 0.3,2.6 -0.3,2.6 -1.2,2.4 -1.8,2 -2.3,1.6 -2.7,1 -2.9,0.3 v 0 10.1 H 276 Z"
+     fill="#c2603a"
+     id="path117" />
+  <text
+     x="290"
+     y="1011.7036"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text118">Governance</text>
+  <path
+     d="m 396,986.70354 h 250 v 39.99996 H 396 v -10.1 l 2.9,-0.3 2.7,-1 2.3,-1.6 1.8,-2 1.2,-2.4 0.3,-2.6 -0.3,-2.6 -1.2,-2.4 -1.8,-1.99996 -2.3,-1.6 -2.7,-1 -2.9,-0.3 z"
+     fill="#fbeee7"
+     stroke="#c2603a"
+     stroke-width="2"
+     id="path118" />
+  <text
+     x="422"
+     y="1011.7036"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="15px"
+     font-weight="400"
+     fill="#c2603a"
+     text-anchor="start"
+     id="text119">Governance adapter</text>
+  <path
+     d="M 654,1006.7035 H 790"
+     fill="none"
+     stroke="#c2603a"
+     stroke-width="1.6"
+     marker-end="url(#k6)"
+     id="path119" />
+  <text
+     x="800"
+     y="1004.7036"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="17px"
+     font-weight="400"
+     fill="#c2603a"
+     text-anchor="start"
+     id="text120">Provenance tracking</text>
+  <text
+     x="800"
+     y="1024.7036"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text121">a stamp on every result</text>
+  <metadata
+     id="metadata122">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>How a run moves through ROBIN</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 250,175.70353 v 33"
+     stroke="#8fa6ae"
+     stroke-width="1.6"
+     id="path8" />
+  <path
+     d="m 245.5,206.70353 4.5,7 4.5,-7 z"
+     fill="#8fa6ae"
+     id="path9" />
+</svg>

@@ -1,0 +1,61 @@
+{
+  "hint": "Hover or tap a part of the diagram.",
+  "parts": [
+    {
+      "title": "Without shared infrastructure",
+      "body": "Every program maintains its own scripts: one for BirdNET, one for Perch, one to copy audio, one to submit jobs, spreadsheets of labels, and folders like results_v2_final. They depend on each other in ways nobody wrote down.",
+      "boxes": [[15, 185, 465, 630]]
+    },
+    {
+      "title": "Inference",
+      "body": "Runs any model the same way and writes scores, detections and embeddings in one standard format. Adding a model means one small adapter, not a new pipeline.",
+      "boxes": [[601, 263, 632, 104]]
+    },
+    {
+      "title": "Comparison",
+      "body": "Tests models against expert labels and picks the clips experts should label next, so labelling effort goes where it improves models most.",
+      "boxes": [[601, 407, 632, 104]]
+    },
+    {
+      "title": "Fine-tuning",
+      "color": null,
+      "body": "Trains a small classifier head on a backbone model using the program's own labels, to do better on local species.",
+      "boxes": [[601, 551, 609, 104]]
+    },
+    {
+      "title": "Catalog port",
+      "body": "Turns a selection into a list of recordings: from SoundHub, or simply a folder layout.",
+      "boxes": [[601, 691, 120, 150]]
+    },
+    {
+      "title": "Storage port",
+      "body": "Reads and writes audio and results, on Amazon S3 or a lab server.",
+      "boxes": [[729, 691, 120, 150]]
+    },
+    {
+      "title": "Compute port",
+      "body": "Runs the work on SageMaker, a Slurm cluster, or a laptop.",
+      "boxes": [[857, 691, 120, 150]]
+    },
+    {
+      "title": "Inference models port",
+      "body": "Connects the core to model-specific code: BirdNET, Perch, the Spotted Owl model, or a fine-tuned head.",
+      "boxes": [[985, 691, 120, 150]]
+    },
+    {
+      "title": "Governance port",
+      "body": "Checks whether a use is permitted and stamps results with their provenance.",
+      "boxes": [[1113, 691, 120, 150]]
+    },
+    {
+      "title": "Labeling tools",
+      "body": "Outside the core. Experts listen to the clips comparison picks, in SoundHub or JupyterBioacoustics, and their labels come back to fine-tuning.",
+      "boxes": [[1377, 287, 248, 470], [1236, 420, 140, 155], [1205, 562, 171, 36]]
+    },
+    {
+      "title": "The new head joins the models",
+      "body": "A fine-tuned head is registered as another model, so it runs through inference like BirdNET or Perch.",
+      "boxes": [[985, 850, 360, 90]]
+    }
+  ]
+}

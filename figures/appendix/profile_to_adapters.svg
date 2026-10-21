@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1588.756"
+   height="943.94818"
+   viewBox="0 0 1588.756 943.94818"
+   role="img"
+   version="1.1"
+   id="svg149"
+   sodipodi:docname="profile_to_adapters.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   inkscape:export-filename="profile_to_adapters.png"
+   inkscape:export-xdpi="144"
+   inkscape:export-ydpi="144"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview149"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.87677025"
+     inkscape:cx="675.77566"
+     inkscape:cy="451.08738"
+     inkscape:window-width="3008"
+     inkscape:window-height="1634"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg149" />
+  <title
+     id="title1">From profile to adapters.</title>
+  <rect
+     width="1588.756"
+     height="943.94818"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.815589" />
+  <defs
+     id="defs15">
+    <marker
+       id="a0"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#22313a"
+         id="path1" />
+    </marker>
+    <marker
+       id="a1"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#5d6b73"
+         id="path2" />
+    </marker>
+    <marker
+       id="a2"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#86674a"
+         id="path3" />
+    </marker>
+    <marker
+       id="a3"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f8592"
+         id="path4" />
+    </marker>
+    <marker
+       id="a4"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#3f7466"
+         id="path5" />
+    </marker>
+    <marker
+       id="a5"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f4a55"
+         id="path6" />
+    </marker>
+    <marker
+       id="a6"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#ffffff"
+         id="path7" />
+    </marker>
+    <marker
+       id="a7"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#8a979e"
+         id="path8" />
+    </marker>
+    <marker
+       id="a8"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#a8742a"
+         id="path9" />
+    </marker>
+    <marker
+       id="a9"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#67557c"
+         id="path10" />
+    </marker>
+    <marker
+       id="a10"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#688d9b"
+         id="path11" />
+    </marker>
+    <marker
+       id="a11"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#b5473a"
+         id="path12" />
+    </marker>
+    <marker
+       id="a12"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#765d78"
+         id="path13" />
+    </marker>
+    <marker
+       id="a13"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#4a5fa8"
+         id="path14" />
+    </marker>
+    <marker
+       id="a14"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#c2603a"
+         id="path15" />
+    </marker>
+  </defs>
+  <rect
+     x="33.237465"
+     y="61.166351"
+     width="640"
+     height="578"
+     rx="0"
+     fill="#fbfcfc"
+     stroke="#c9d2d6"
+     stroke-width="1.5"
+     id="rect16" />
+  <rect
+     x="33.237465"
+     y="61.166351"
+     width="640"
+     height="40"
+     rx="0"
+     fill="#eff3f4"
+     stroke="#c9d2d6"
+     stroke-width="1.5"
+     id="rect17" />
+  <text
+     x="49.237465"
+     y="87.166351"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text17">config/config.yaml</text>
+  <text
+     x="657.23749"
+     y="87.166351"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="end"
+     id="text18">shared by every environment</text>
+  <text
+     x="43.237465"
+     y="125.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text19">1</text>
+  <text
+     x="73.237465"
+     y="125.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="700"
+     fill="#3f7466"
+     text-anchor="start"
+     id="text20">storage:</text>
+  <text
+     x="43.237465"
+     y="148.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text21">2</text>
+  <text
+     x="91.337471"
+     y="148.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text22">kind:</text>
+  <text
+     x="145.63745"
+     y="148.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text23">s3</text>
+  <text
+     x="43.237465"
+     y="171.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text24">3</text>
+  <text
+     x="91.337471"
+     y="171.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text25">root:</text>
+  <text
+     x="145.63745"
+     y="171.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text26">s3://robin-outputs/prod</text>
+  <text
+     x="43.237465"
+     y="194.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text27">4</text>
+  <text
+     x="73.237465"
+     y="194.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="700"
+     fill="#2f8592"
+     text-anchor="start"
+     id="text28">compute:</text>
+  <text
+     x="43.237465"
+     y="217.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text29">5</text>
+  <text
+     x="91.337471"
+     y="217.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text30">kind:</text>
+  <text
+     x="145.63745"
+     y="217.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text31">sagemaker</text>
+  <text
+     x="43.237465"
+     y="240.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text32">6</text>
+  <text
+     x="91.337471"
+     y="240.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text33">role_arn:</text>
+  <text
+     x="181.83746"
+     y="240.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text34">${ROBIN_SAGEMAKER_ROLE}</text>
+  <text
+     x="43.237465"
+     y="263.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text36">7</text>
+  <text
+     x="91.337471"
+     y="263.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text37">max_in_flight:</text>
+  <text
+     x="227.13745"
+     y="263.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text38">20</text>
+  <text
+     x="43.237465"
+     y="286.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text39">8</text>
+  <text
+     x="91.337471"
+     y="286.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text40">instance_type:</text>
+  <text
+     x="227.13745"
+     y="286.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text41">ml.m5.xlarge</text>
+  <text
+     x="43.237465"
+     y="309.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text42">9</text>
+  <text
+     x="91.337471"
+     y="309.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text43">models:</text>
+  <text
+     x="43.237465"
+     y="332.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text44">10</text>
+  <text
+     x="109.43746"
+     y="332.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text45">perch/v8:</text>
+  <text
+     x="43.237465"
+     y="355.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text46">11</text>
+  <text
+     x="127.53747"
+     y="355.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text47">instance_type:</text>
+  <text
+     x="263.33746"
+     y="355.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text48">ml.m5.2xlarge</text>
+  <text
+     x="43.237465"
+     y="378.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text49">12</text>
+  <text
+     x="91.337471"
+     y="378.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text50">images:</text>
+  <text
+     x="172.73746"
+     y="378.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="start"
+     id="text51"># proposed</text>
+  <text
+     x="43.237465"
+     y="401.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text52">13</text>
+  <text
+     x="109.43746"
+     y="401.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text53">default:</text>
+  <text
+     x="190.83746"
+     y="401.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text54">…/robin-worker:tf</text>
+  <text
+     x="43.237465"
+     y="424.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text55">14</text>
+  <text
+     x="109.43746"
+     y="424.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text56">onnx:</text>
+  <text
+     x="163.73746"
+     y="424.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text57">…/robin-worker:onnx</text>
+  <text
+     x="43.237465"
+     y="447.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text58">15</text>
+  <text
+     x="73.237465"
+     y="447.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="700"
+     fill="#c2603a"
+     text-anchor="start"
+     id="text59">governance:</text>
+  <text
+     x="190.93747"
+     y="447.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="start"
+     id="text60"># first pass</text>
+  <text
+     x="43.237465"
+     y="470.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text61">16</text>
+  <text
+     x="91.337471"
+     y="470.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text62">kind:</text>
+  <text
+     x="145.63745"
+     y="470.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text63">none</text>
+  <text
+     x="43.237465"
+     y="493.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text64">17</text>
+  <text
+     x="73.237465"
+     y="493.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="700"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text65">tasks:</text>
+  <text
+     x="43.237465"
+     y="516.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text66">18</text>
+  <text
+     x="91.337471"
+     y="516.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text67">recordings_per_task:</text>
+  <text
+     x="281.33746"
+     y="516.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text68">200</text>
+  <text
+     x="326.63745"
+     y="516.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="start"
+     id="text69"># illustrative</text>
+  <text
+     x="43.237465"
+     y="539.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text70">19</text>
+  <text
+     x="73.237465"
+     y="539.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="700"
+     fill="#765d78"
+     text-anchor="start"
+     id="text71">resolver:</text>
+  <text
+     x="172.73746"
+     y="539.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="start"
+     id="text72"># read by the CLI</text>
+  <text
+     x="43.237465"
+     y="562.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text73">20</text>
+  <text
+     x="91.337471"
+     y="562.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text74">code:</text>
+  <text
+     x="145.63745"
+     y="562.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text75">soundhub_robin.resolver:build</text>
+  <text
+     x="43.237465"
+     y="585.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text76">21</text>
+  <text
+     x="91.337471"
+     y="585.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text77">api_url:</text>
+  <text
+     x="172.83746"
+     y="585.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text78">https://&lt;soundhub-api&gt;</text>
+  <text
+     x="43.237465"
+     y="608.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text79">22</text>
+  <text
+     x="91.337471"
+     y="608.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text80">session_token:</text>
+  <text
+     x="227.13745"
+     y="608.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text81">${SOUNDHUB_SESSION_TOKEN}</text>
+  <rect
+     x="33.237465"
+     y="669.16638"
+     width="640"
+     height="233"
+     rx="0"
+     fill="#fbfcfc"
+     stroke="#c9d2d6"
+     stroke-width="1.5"
+     id="rect81" />
+  <rect
+     x="33.237465"
+     y="669.16638"
+     width="640"
+     height="40"
+     rx="0"
+     fill="#eff3f4"
+     stroke="#c9d2d6"
+     stroke-width="1.5"
+     id="rect82" />
+  <text
+     x="49.237465"
+     y="695.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text82">config/prod.yaml</text>
+  <text
+     x="657.23749"
+     y="695.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="end"
+     id="text83">replaces whole sections</text>
+  <text
+     x="43.237465"
+     y="733.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text84">1</text>
+  <text
+     x="73.237465"
+     y="733.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="700"
+     fill="#2f4a55"
+     text-anchor="start"
+     id="text85">database:</text>
+  <text
+     x="43.237465"
+     y="756.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text86">2</text>
+  <text
+     x="91.337471"
+     y="756.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text87">host:</text>
+  <text
+     x="145.63745"
+     y="756.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text88">robin.….rds.amazonaws.com</text>
+  <text
+     x="43.237465"
+     y="779.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text89">3</text>
+  <text
+     x="91.337471"
+     y="779.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text90">dbname:</text>
+  <text
+     x="163.73746"
+     y="779.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text91">robin</text>
+  <text
+     x="43.237465"
+     y="802.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text92">4</text>
+  <text
+     x="91.337471"
+     y="802.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text93">user:</text>
+  <text
+     x="145.63745"
+     y="802.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text94">${USER}</text>
+  <text
+     x="43.237465"
+     y="825.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text95">5</text>
+  <text
+     x="91.337471"
+     y="825.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text96">auth:</text>
+  <text
+     x="145.63745"
+     y="825.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text97">rds_iam</text>
+  <text
+     x="227.13745"
+     y="825.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="14px"
+     font-weight="400"
+     fill="#8a979e"
+     text-anchor="start"
+     id="text98"># a token, no password</text>
+  <text
+     x="43.237465"
+     y="848.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text99">6</text>
+  <text
+     x="91.337471"
+     y="848.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text100">region:</text>
+  <text
+     x="163.73746"
+     y="848.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text101">us-west-2</text>
+  <text
+     x="43.237465"
+     y="871.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="12px"
+     font-weight="400"
+     fill="#c9d2d6"
+     text-anchor="start"
+     id="text102">7</text>
+  <text
+     x="91.337471"
+     y="871.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#22313a"
+     text-anchor="start"
+     id="text103">sslrootcert:</text>
+  <text
+     x="209.03748"
+     y="871.16638"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text104">/etc/robin/rds-ca.pem</text>
+  <text
+     x="33.237465"
+     y="39.166351"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="16px"
+     font-weight="600"
+     fill="#688d9b"
+     text-anchor="start"
+     id="text105">ROBIN_PROFILE=config ROBIN_ENV=prod</text>
+  <text
+     x="383.03745"
+     y="39.166351"
+     font-family="Charter, 'Iowan Old Style', Georgia, serif"
+     font-size="15px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text106">selects config.yaml, then prod.yaml</text>
+  <rect
+     x="753.23749"
+     y="61.166351"
+     width="300"
+     height="841"
+     rx="0"
+     fill="#2f4a55"
+     stroke="none"
+     stroke-width="2"
+     id="rect107" />
+  <text
+     x="903.23749"
+     y="105.16635"
+     font-family="Menlo, 'SF Mono', monospace"
+     font-size="22px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text108">compose</text>
+  <text
+     x="903.23749"
+     y="131.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="middle"
+     id="text109">runs once, at startup</text>
+  <text
+     x="777.23749"
+     y="191.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text110">Merge</text>
+  <text
+     x="777.23749"
+     y="215.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="start"
+     id="text111">prod.yaml replaces whole</text>
+  <text
+     x="777.23749"
+     y="236.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="start"
+     id="text112">sections of config.yaml.</text>
+  <text
+     x="777.23749"
+     y="295.46634"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text113">Fill</text>
+  <text
+     x="777.23749"
+     y="319.46634"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="start"
+     id="text114">Each ${NAME} comes from</text>
+  <text
+     x="777.23749"
+     y="340.46634"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="start"
+     id="text115">the environment. A missing</text>
+  <text
+     x="777.23749"
+     y="361.46634"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="start"
+     id="text116">one stops startup.</text>
+  <text
+     x="777.23749"
+     y="399.86636"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text117">Check</text>
+  <text
+     x="777.23749"
+     y="423.86636"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="start"
+     id="text118">SageMaker compute needs S3</text>
+  <text
+     x="777.23749"
+     y="444.86636"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="start"
+     id="text119">storage: a job cannot read</text>
+  <text
+     x="777.23749"
+     y="465.86636"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="start"
+     id="text120">local files.</text>
+  <text
+     x="777.23749"
+     y="604.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text121">Build</text>
+  <text
+     x="777.23749"
+     y="628.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="start"
+     id="text122">One adapter for each port.</text>
+  <text
+     x="777.23749"
+     y="649.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="14.5px"
+     font-weight="400"
+     fill="#c9d6db"
+     text-anchor="start"
+     id="text123">Only compose imports them.</text>
+  <path
+     d="m 679.23746,120.16635 h 74"
+     stroke="#3f7466"
+     stroke-width="1.8"
+     stroke-opacity="0.55"
+     id="path123" />
+  <path
+     d="m 1053.2375,120.16635 h 72"
+     fill="none"
+     stroke="#3f7466"
+     stroke-width="2"
+     marker-end="url(#a4)"
+     id="path124" />
+  <rect
+     x="1133.2374"
+     y="98.166351"
+     width="420"
+     height="52"
+     rx="0"
+     fill="#ffffff"
+     stroke="#3f7466"
+     stroke-width="1.8"
+     id="rect124" />
+  <text
+     x="1149.2374"
+     y="122.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text124">S3 storage adapter</text>
+  <text
+     x="1149.2374"
+     y="142.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text125">Writes every file under s3://robin-outputs/prod</text>
+  <path
+     d="m 679.23746,189.16635 h 74"
+     stroke="#2f8592"
+     stroke-width="1.8"
+     stroke-opacity="0.55"
+     id="path125" />
+  <path
+     d="m 1053.2375,189.16635 h 72"
+     fill="none"
+     stroke="#2f8592"
+     stroke-width="2"
+     marker-end="url(#a3)"
+     id="path126" />
+  <rect
+     x="1133.2374"
+     y="167.16635"
+     width="420"
+     height="70"
+     rx="0"
+     fill="#ffffff"
+     stroke="#2f8592"
+     stroke-width="1.8"
+     id="rect126" />
+  <text
+     x="1149.2374"
+     y="191.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text126">SageMaker compute adapter</text>
+  <text
+     x="1149.2374"
+     y="211.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text127">Starts each task in its family's image, on its</text>
+  <text
+     x="1149.2374"
+     y="229.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text128">model's instance type; at most 20 at once</text>
+  <path
+     d="m 679.23746,442.16635 h 74"
+     stroke="#c2603a"
+     stroke-width="1.8"
+     stroke-opacity="0.55"
+     stroke-dasharray="6, 4"
+     id="path128" />
+  <path
+     d="m 1053.2375,442.16635 h 72"
+     fill="none"
+     stroke="#c2603a"
+     stroke-width="2"
+     marker-end="url(#a14)"
+     stroke-dasharray="6, 4"
+     id="path129" />
+  <rect
+     x="1133.2374"
+     y="420.16635"
+     width="420"
+     height="70"
+     rx="0"
+     fill="#ffffff"
+     stroke="#c2603a"
+     stroke-width="1.8"
+     stroke-dasharray="6, 4"
+     id="rect129" />
+  <text
+     x="1149.2374"
+     y="444.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text129">No governance adapter yet</text>
+  <text
+     x="1149.2374"
+     y="464.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text130">First pass: SoundHub's IAM policies decide what the</text>
+  <text
+     x="1149.2374"
+     y="482.16635"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text131">job role (role_arn) can read. ROBIN keeps its own record.</text>
+  <path
+     d="m 679.23746,488.16635 h 74"
+     stroke="#5d6b73"
+     stroke-width="1.8"
+     stroke-opacity="0.55"
+     id="path131" />
+  <path
+     d="m 1053.2375,488.16635 h 44 v 38 h 28"
+     fill="none"
+     stroke="#5d6b73"
+     stroke-width="2"
+     marker-end="url(#a1)"
+     id="path132" />
+  <rect
+     x="1133.2374"
+     y="504.16635"
+     width="420"
+     height="52"
+     rx="0"
+     fill="#ffffff"
+     stroke="#5d6b73"
+     stroke-width="1.8"
+     id="rect132" />
+  <text
+     x="1149.2374"
+     y="528.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text132">Controller settings</text>
+  <text
+     x="1149.2374"
+     y="548.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text133">Not an adapter: how the work is split into tasks</text>
+  <path
+     d="m 679.23746,534.16635 h 74"
+     stroke="#765d78"
+     stroke-width="1.8"
+     stroke-opacity="0.55"
+     stroke-dasharray="6, 4"
+     id="path133" />
+  <path
+     d="M 753.23746,534.16635 H 1053.2375"
+     stroke="#f1ecf1"
+     stroke-width="1.8"
+     stroke-dasharray="6, 4"
+     id="path134" />
+  <text
+     x="903.23749"
+     y="524.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13px"
+     font-weight="600"
+     fill="#f1ecf1"
+     text-anchor="middle"
+     id="text134">passes by compose</text>
+  <path
+     d="m 1053.2375,534.16635 h 44 v 58 h 28"
+     fill="none"
+     stroke="#765d78"
+     stroke-width="2"
+     marker-end="url(#a12)"
+     stroke-dasharray="6, 4"
+     id="path135" />
+  <rect
+     x="1133.2374"
+     y="570.16638"
+     width="420"
+     height="70"
+     rx="0"
+     fill="#ffffff"
+     stroke="#765d78"
+     stroke-width="1.8"
+     stroke-dasharray="6, 4"
+     id="rect135" />
+  <text
+     x="1149.2374"
+     y="594.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text135">The SoundHub resolver (soundhub-robin)</text>
+  <text
+     x="1149.2374"
+     y="614.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text136">code names a module and function. At submit, the</text>
+  <text
+     x="1149.2374"
+     y="632.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text137">CLI imports it and calls build(settings)</text>
+  <path
+     d="m 679.23746,728.16635 h 74"
+     stroke="#2f4a55"
+     stroke-width="1.8"
+     stroke-opacity="0.55"
+     id="path137" />
+  <path
+     d="m 1053.2375,728.16635 h 72"
+     fill="none"
+     stroke="#2f4a55"
+     stroke-width="2"
+     marker-end="url(#a5)"
+     id="path138" />
+  <rect
+     x="1133.2374"
+     y="706.16638"
+     width="420"
+     height="70"
+     rx="0"
+     fill="#ffffff"
+     stroke="#2f4a55"
+     stroke-width="1.8"
+     id="rect138" />
+  <text
+     x="1149.2374"
+     y="730.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="16px"
+     font-weight="600"
+     fill="#22313a"
+     text-anchor="start"
+     id="text138">PostgreSQL, with an RDS IAM token</text>
+  <text
+     x="1149.2374"
+     y="750.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text139">Made from the person's AWS login for</text>
+  <text
+     x="1149.2374"
+     y="768.16638"
+     font-family="'Avenir Next', Avenir, sans-serif"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#5d6b73"
+     text-anchor="start"
+     id="text140">each connection; no password is stored</text>
+  <metadata
+     id="metadata149">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>From profile to adapters.</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
