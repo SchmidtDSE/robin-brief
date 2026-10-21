@@ -26,7 +26,7 @@ robin-brief.pdf: build/brief.typ typst/theme.typ $(FIGS) $(wildcard fonts/*)
 draft:
 	$(MAKE) -B pdf PANDOC_ARGS="-M draft=true"
 
-site: pdf
+site:
 	mkdir -p docs/figures build/web
 	for j in content/hotspots/*.json; do \
 		n=$$(basename $$j .json); \

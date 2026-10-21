@@ -2,5 +2,6 @@
 build/
 tmp/
 backups/
-/robin-brief.pdf
 full_brief.pdf
+# The site is built and deployed by .github/workflows/pages.yml.
+docs/

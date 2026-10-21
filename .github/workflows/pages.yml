@@ -1,0 +1,52 @@
+# Builds the site from content/brief.md and publishes it to GitHub Pages.
+#
+# The PDF is not built here: the figures use macOS fonts (Avenir Next, Menlo, Charter) that a
+# Linux runner does not have. Build it locally with `make` and commit robin-brief.pdf; the site
+# links to that copy. Figure PNGs are committed too, so nothing here renders SVG text.
+
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Ubuntu's pandoc is too old for --syntax-highlighting; use the version the Makefile is built with.
+      - name: Install pandoc
+        run: |
+          curl -fsSL -o pandoc.deb https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-1-amd64.deb
+          sudo dpkg -i pandoc.deb
+
+      - name: Build the site
+        run: make site
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
